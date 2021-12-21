@@ -1,0 +1,60 @@
+:root{
+    --jj-offset-1:50px;
+    --jj-offset-2:110vw;
+}
+
+.general_animator_container{
+    overflow: hidden;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; 
+    position: absolute;
+    top:0;
+}
+.general_animator{
+    height: 100vh;
+    width: 98vw;
+    position: relative;
+    top:0;
+    /* opacity: 0.5; */
+    background-color: transparent;
+    z-index: 2;
+}
+
+
+.ga_cont{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* opacity: 0.9; */
+    z-index: 5;
+    left:0;
+    top:0;
+
+}
+.ga_layer1{
+    /* background-color: orange; */
+    background-color: var(--jj-red);
+    /* transform: translateX(var(--jj-offset-2)); */
+    left:var(--jj-offset-2);
+
+}
+
+.ga_layer2{
+    background-color: var(--jj--gray);
+    /* transform: translateX(var(--jj-offset-2)); */
+    transform: translateX(100px);
+    left:var(--jj-offset-2);
+}   
+
+.ga_layer3{
+    /* background-color: green; */
+    background-color: black;
+    /* transform: translateX(var(--jj-offset-2)); */
+    left:var(--jj-offset-2);
+}   
+
+.ga_layer_black{
+    background-color: black;
+    left:var(--jj-offset-2);
+
+}

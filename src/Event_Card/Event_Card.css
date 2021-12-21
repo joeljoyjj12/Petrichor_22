@@ -1,0 +1,327 @@
+:root {
+    --jj-red: #ff4545;
+    --jj-red2: hsl(350, 100%, 51%);
+    --jj-white: white;
+    --jj-black: black;
+    --jj--gray: #B1B1B1;
+    --jj-font1 : roboto;
+    /* --jj-font2 : Gilroy; */
+    --jj-font2 : Khula;
+
+    --jj-const-org-pic-rad: 20vw;
+}
+
+.jj_clean_a{
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+.jj_card_pic{
+    width: 100%;
+    height: 100%;
+    /* object-fit: fill; */
+    object-fit: cover;
+}
+
+.jj_t1 {
+    color :red;
+}
+
+.jj_event_pic_container{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
+
+.jj_event_pic_container_title1{
+    position: absolute;
+    top : 20%;
+    left: 15%;
+    color: white;
+    font-size: 30px;
+    font-family: var(--jj-font1);
+    text-transform: uppercase;
+
+}
+
+.jj_event_pic_container_button{
+    position: absolute;
+    color: white;
+    bottom: 15%;
+    left: 15%;
+    border : 2px solid  var(--jj-red);
+    padding:  10px 35px;
+    font-size: 15px;
+    background-color: transparent;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+.jj_event_pic_container_button:hover{
+    background-color: var(--jj-red);
+    color: black;
+
+}
+
+
+
+.jj_event_block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: var(--jj-black);
+    color: var(--jj-white);
+    padding: 50px 100px;
+    padding-top: 70px;
+}
+
+.jj_event_block1_left{
+
+    flex: 4;
+    /* background-color: green; */
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: var(--jj-font2);
+    text-transform: uppercase;
+}
+
+.jj_event_block1_right{
+    flex: 6;
+    /* background-color: yellow; */
+}
+
+.jj_event_block1_des{
+    font-size: 16px;
+    font-family: var(--jj-font1);
+    line-height: 1.7;
+    letter-spacing: .1em;
+    color: var(--jj--gray);
+}
+
+.jj_event_block1_bold{
+    font-family: var(--jj-font2);
+    font-size: 27px;
+    /* line-height: 1.3em; */
+    font-weight: 300;
+    color: var(--jj-white);
+}
+
+/* block2 */
+
+.jj_event_block2{
+    background-color: var(--jj-white);
+    color: var(--jj-black);
+}
+
+.jj_event_block2_des{
+    color: var(--jj-black);
+    font-size: 19px;
+    text-transform: capitalize;
+    padding-bottom: 10px !important;
+    /* font-weight: 400; */
+    /* line-height: 1.2rem; */
+
+}
+
+/* block 3  */
+
+.jj_event_block3_des{
+    color: var(--jj-black);
+    line-height: 1.5rem;
+    text-transform: capitalize;
+
+}
+
+
+/* block 45 i.e. middle of 4 and 5 which is prizes */
+.jj_event_block45_gen_text{
+    padding-bottom: 30px;
+    /* font-size: 20px; */
+    font-size: 18px;
+    font-family: var(--jj-font1);
+    line-height: 1.5em;
+    letter-spacing:1px ;
+    color: var(--jj-black);
+}
+
+
+/* block 5 */
+
+.jj_event_block5{
+    position: relative;
+    background-color: var(--jj-black);
+    flex-direction: column;
+    color: var(--jj-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.jj_event_block5_red_line{
+    height: 70px;
+    border-left: 3px solid red;
+    margin-bottom: 30px;
+}
+
+.jj_event_block5_title{
+    font-size: 50px;
+    
+    color: #FFFFFF;
+    font-family: var(--jj-font1);
+    font-size: 40px;
+    font-weight: 450;
+    text-transform: capitalize;
+    /* line-height: 58px; */
+    letter-spacing: 0px;
+
+}
+
+.jj_event_block5_organiser_flex{
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+
+/* organiser */
+
+.jj_event_block5_organiser_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.jj_event_block5_pic_transiter{
+    transition: all 0.3s;
+    position: relative;
+}
+
+.jj_event_block5_rect{
+    width: var(--jj-const-org-pic-rad);
+    height: var(--jj-const-org-pic-rad);
+    opacity: 0;
+    
+    transition: all 0.2s ;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jj_event_block5_pic_transiter:hover .jj_event_block5_rect{
+    opacity: 1;
+}
+
+.jj_event_block5_figure{
+    background-color: var(--jj-red);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.7;
+    position: absolute;
+
+}
+
+.jj_event_block5_organiser_photo{
+    border-radius: 50%;
+    width: var(--jj-const-org-pic-rad);
+    height: var(--jj-const-org-pic-rad);
+    margin-bottom: 20px;
+}
+.jj_event_block5_email{
+    font-size: 20px;
+    z-index: 2;
+}
+.jj_event_block5_name{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.jj_event_block5_button{
+
+    /* margin-top: 20px; */
+    margin-bottom: 40px;
+
+    padding:  10px 35px;
+    color: white;
+    border : 2px solid  var(--jj-red);
+    transition: all 0.2s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.jj_event_block5_button:hover{
+    background-color: var(--jj-red);
+    color: black;
+
+}
+
+
+.jj_event_pic_container_back{
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width: 700px) {
+    .jj_event_block1{
+        flex-direction: column;
+    }
+    .jj_event_block1_left{
+        padding-left: 0 ;
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+    }
+    .jj_event_block2_left{
+        padding-left: 0;
+    }
+    .jj_event_block3_des{
+        /* font-size: 0.9rem; */
+    }
+
+    .jj_event_block1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .jj_event_block5_organiser_flex{
+        flex-direction: column;
+    }
+
+    :root {
+        --jj-const-org-pic-rad: 50vw;
+    }
+
+    .jj_event_block5_organiser_photo{
+        margin-bottom: 5px;
+    }
+
+    .jj_event_block5_organiser_container{
+        padding-bottom: 40px;
+    }
+    .jj_event_block1_bold{
+        font-size: 24px;
+    }
+    .jj_event_block1{
+        padding:50px 50px;
+    }
+}
+
