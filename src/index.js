@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./fonts/Linotte_Regular_400.otf" 
+import "./fonts/AGENCYR.TTF"
 
 ReactDOM.render(
   <React.StrictMode>
