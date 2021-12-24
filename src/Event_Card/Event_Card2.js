@@ -119,45 +119,15 @@ function Main_stuff({id,data}){
                      </div>
             </div>
 
+            {/* bblock 4 */}
 
-
-{/* this is extra stuff */}
-            {data.structure_show?
+           {data.judging_criteria_show?
             
             <div className="jj_event_block1 jj_event_block2">
 
-            <div className="jj_event_block1_left jj_event_block2_left"> 04    <strong> structure </strong> </div>
+            <div className="jj_event_block1_left jj_event_block2_left"> 04  <strong> Judging Criteria </strong> </div>
             <div className="jj_event_block1_right jj_event_block2_right">
                     
-            {
-                        data.structure.map((a,c)=>(
-                            <>
-                            <div className='je_structure_title'>{a[0]}</div>
-                            {a.map((f,g)=>(
-                                <>
-                                {g==0?null:
-                                <>
-                                <div className="jj_event_block1_des jj_event_block3_des"> {g}. {f}</div>
-                                <br />
-                                </>
-                                }
-                                </>
-                            ))}
-                            </>
-                        ))
-            }                   
-          </div>
-        </div>
-           :null}
-
-            {/* bblock 4  --> new 5*/}
-
-            {data.judging_criteria_show?
-            
-            <div className="jj_event_block1 jj_event_block2">
-
-            <div className="jj_event_block1_left jj_event_block2_left"> {data.structure_show?"05":"04"} <strong> Judging Criteria </strong> </div>
-            <div className="jj_event_block1_right jj_event_block2_right">
             {
                         data.judging_criteria.map((a,c)=>(
                             <>
@@ -170,11 +140,13 @@ function Main_stuff({id,data}){
         </div>
            :null}
 
+
+
 {/* prizes_general_text */}
 
                 {/* block 45  added later */}
                 <div className="jj_event_block1 jj_event_block2">
-                <div className="jj_event_block1_left jj_event_block2_left"> {data.judging_criteria_show&&data.structure_show?"06":data.judging_criteria_show||data.structure_show?"05":"04"}  <strong> Prizes </strong> </div>
+                <div className="jj_event_block1_left jj_event_block2_left"> {data.judging_criteria_show?"05":"04"}  <strong> Prizes </strong> </div>
                 <div className="jj_event_block1_right jj_event_block2_right">
                     
 
@@ -205,9 +177,7 @@ function Main_stuff({id,data}){
                         {data.organiser.map((a,c)=>{
                             return <div className="jj_event_block5_organiser_container">
                                 <div className="jj_event_block5_pic_transiter">
-                                    <div className="jj_event_block5_organiser_photo_extra_container">
-                                        <img src ={a.pic} className="jj_event_block5_organiser_photo" />
-                                    </div>
+                                    <img src ={a.pic} className="jj_event_block5_organiser_photo" />
                                     <div className="jj_event_block5_rect">
                                         <div className="jj_event_block5_figure" > </div>
                                             <div className="jj_event_block5_email"> {a.email} </div>
