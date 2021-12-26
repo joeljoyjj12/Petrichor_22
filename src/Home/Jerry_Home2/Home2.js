@@ -15,6 +15,7 @@ import Fb from "./facebook.png"
 import Insta from "./instagram.png"
 import Twit from "./twitter.png"
 import Yt from "./youtube.png"
+import Ln from "./linkedin.png"
 import Jj from "./video_data/cropped_logo_home.webm"
 
 function Home2() {
@@ -137,10 +138,11 @@ function Home2() {
 
             <div class="ayush_footer">
                 <div class="ayush_all_icons">
-                <a href="" target="_blank"><img  src={Fb}  class='ayush_icons' alt="" /></a>
-                <a href="" target="_blank"><img  src={Insta}  class='ayush_icons' alt="" /></a>
-                <a href="" target="_blank"><img  src={Twit}  class='ayush_icons' alt="" /></a>
-                <a href="" target="_blank"><img  src={Yt}  class='ayush_icons' alt="" /></a>
+                <a href="https://www.facebook.com/petrichor.iitpkd/" target="_blank"><img  src={Fb}  class='ayush_icons' alt="" /></a>
+                <a href="https://www.instagram.com/petrichor.iitpkd/?hl=en" target="_blank"><img  src={Insta}  class='ayush_icons' alt="" /></a>
+                <a href="https://twitter.com/petrichor_iit" target="_blank"><img  src={Twit}  class='ayush_icons' alt="" /></a>
+                <a href="https://www.youtube.com/channel/UCygVXXH-y4IVVhCK3xkAVGg" target="_blank"><img  src={Yt}  class='ayush_icons' alt="" /></a>
+                <a href="https://in.linkedin.com/company/petrichor-iitpkd" target="_blank"><img  src={Ln}  class='ayush_icons' alt="" /></a>
                 
                 
                 

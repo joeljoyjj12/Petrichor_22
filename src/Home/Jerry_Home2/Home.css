@@ -156,7 +156,7 @@
 .ayush_sponsors
 {
     background: black;
-    height: 70vh;
+    height: 75vh;
 }
 .ayush_heading_div
 {
@@ -281,6 +281,7 @@
 
 .ayush_button {
     font-family: "Sigmar One", cursive;
+    background-color: white;
     padding: 5px 65px;
     font-size: 30px;
     border:solid 2px red;
@@ -306,7 +307,7 @@
 {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: red;
+    background-color: #ff6969;
 }
 .ayush_all_icons
 {
@@ -316,6 +317,7 @@
 .ayush_icons
 {
     height: 60px;
+    margin-left: 50px;
 }
 
 
