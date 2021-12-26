@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
 import "./Home.css"
 // import LogoAnim2 from "./video_data/Logo_anim1.m4v"
 import Gau from "./gautham.jpg"
+import Ayush_about from "./ayush.png"
+import Sponsor1 from "./sponsor1.png"
+import Sponsor2 from "./sponsor2.png"
+import Sponsor3 from "./sponsor3.png"
+import Person from "./person.jpg"
+import Fb from "./facebook.png"
+import Insta from "./instagram.png"
+import Twit from "./twitter.png"
+import Yt from "./youtube.png"
 import Jj from "./video_data/cropped_logo_home.webm"
 
 function Home2() {
@@ -31,6 +42,7 @@ function Home2() {
                 setIsbtn1hover(false);
             
         })
+        Aos.init({duration: 2000});
     },[])
 
 
@@ -57,7 +69,86 @@ function Home2() {
                     </div>
                 </div>     
             </div>
+            <div class="ayush_about">
+                <h1 id="ayush_heading_about">About Us</h1>
+                <div class="ayush_all">
+                <div data-aos="fade-right" id="ayush_content_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <p>
+            </p></div>
+                <img data-aos="fade-left" src={Ayush_about}  class='ayush_about_pic' alt="" />
+                
+                </div>
+            </div>
+            <div class="ayush_sponsors">
+            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">Our Sposors</h1></div>
+            <div class="ayush_all">
+            <figure class="ayush_sponsor_item">
+            <img src={Sponsor1} data-aos="zoom-in"  class='ayush_sponsors_pic' id="ayush_first" alt="" />
+            <figcaption class="ayush_caption">Sponsor 1</figcaption>
+            </figure>
+            <figure class="ayush_sponsor_item">
+            <img src={Sponsor2} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_middle" alt="" />
+            <figcaption class="ayush_caption">Sponsor 2</figcaption>
+            </figure>
+            <figure class="ayush_sponsor_item">
+            <img src={Sponsor3} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_last" alt="" />
+            <figcaption class="ayush_caption">Sponsor 3</figcaption>
+            </figure>
+            </div>
+            </div>
+
+            <div class="ayush_contact">
+            <div class="ayush_heading_div"><h1 id="ayush_heading_contact">Contact Us</h1></div>
+            <div class="ayush_all">
+            <div class="ayush_content">
+            <div class="ayush_content-overlay"></div>
+            <img class="ayush_content-image" src={Person} />
+            <div class="ayush_content-details ayush_fade">
+                <h3 class="ayush_content-title">Name: xyxyxy</h3>
+                <p class="ayush_content-text">Details: dfjnjkjd</p>
+            </div>
+            </div>
+
+
+            <div class="ayush_content">
+            <div class="ayush_content-overlay"></div>
+            <img class="ayush_content-image" src={Person} />
+            <div class="ayush_content-details ayush_fade">
+                <h3 class="ayush_content-title">Name: xyxyxy</h3>
+                <p class="ayush_content-text">Details: dfjnjkjd</p>
+            </div>
+            </div>
+
+
+            <div class="ayush_content">
+            <div class="ayush_content-overlay"></div>
+            <img class="ayush_content-image" src={Person} />
+            <div class="ayush_content-details ayush_fade">
+                <h3 class="ayush_content-title">Name: xyxyxy</h3>
+                <p class="ayush_content-text">Details: dfjnjkjd</p>
+            </div>
+            </div>
+
+            </div>
+            <br/>
+            <div class="ayush_button_div"><button class="ayush_button">Core Team</button></div>
+            </div>
+            
+
+
+            <div class="ayush_footer">
+                <div class="ayush_all_icons">
+                <a href="" target="_blank"><img  src={Fb}  class='ayush_icons' alt="" /></a>
+                <a href="" target="_blank"><img  src={Insta}  class='ayush_icons' alt="" /></a>
+                <a href="" target="_blank"><img  src={Twit}  class='ayush_icons' alt="" /></a>
+                <a href="" target="_blank"><img  src={Yt}  class='ayush_icons' alt="" /></a>
+                
+                
+                
+                </div>
+            </div>
         </div>
+
+        
     )
 }
 
