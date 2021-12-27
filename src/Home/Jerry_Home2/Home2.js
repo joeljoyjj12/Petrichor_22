@@ -57,6 +57,21 @@ function Home2() {
                     </div>
                 </div>     
             </div>
+            <Buffer1 />
+        </div>
+    )
+}
+
+function Buffer1(){
+    return (
+        <div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
+            <div> this is petrichor 2022</div>
         </div>
     )
 }

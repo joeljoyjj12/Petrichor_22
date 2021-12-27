@@ -12,6 +12,9 @@ import Event_Card from './Event_Card/Event_Card';
 import About from "./About/About.js" 
 import Workshops from './Workshops/Workshops.js';
 import Proshows from "./Proshows/Proshows.js"
+import "./App.css"
+import { Scrollbars } from 'react-custom-scrollbars';
+
 function App() {
   return (
     <div>
@@ -34,7 +37,6 @@ function App() {
           <Redirect from="*" to="/#" />
         </Switch>
   </Router>
-  
   </div>
   )
 }

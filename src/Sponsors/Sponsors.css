@@ -5,12 +5,28 @@
     display: inline-grid;
     width: 100vw;
 
+
 }
-.jj_top_pad{
+
+.je_small_sponsor_container{
+    grid-template-columns: 3fr 3fr;
+}
+.je_sponsor_item_pic{
+    /* width:500px; */
+    height: 100px;
+    /* background-color: red; */
+    object-fit: contain;
+
+}
+
+.je_big_sponsor_container{
+    grid-template-columns: 1fr;
+}
+.je_top_pad{
     padding-top: 100px;
 }
 
-.jj_partner_title{
+.je_partner_title{
     color: white;
     width: 100vw;
     text-align: center;
@@ -49,7 +65,7 @@
     text-decoration: none   ;
 }
 
-.jj_sponsor_container{
+.je_sponsor_container{
     background-color: black;
 }
 
