@@ -16,10 +16,15 @@ function useQuery() {
 function Event_Card() {
     let query = useQuery();
     let [id,setId]=useState(parseInt(query.get("id")));
+    let [istech,setIstech]=useState(parseInt(parseInt(query.get("tech"))));
     let valid = id < Cult_events.length ? true : false
     useEffect(()=>{
         let val =parseInt(query.get("id"));
         setId(val);
+        let v2 =parseInt(query.get("tech"));
+        setIstech(v2);
+        console.log("id is "+val + "tech is it "+v2);
+
         valid = id < Cult_events.length ? true : false
     },[])
 
@@ -51,7 +56,7 @@ function Event_Card() {
 
         <div className="event_card_main">
             {valid?
-            <Main_stuff id ={id} data={Cult_events[id]} /> :
+            <Main_stuff id ={id} data={Cult_events[id]} istech={istech} /> :
             <div>sorry Event not found </div>
             }
         </div>
@@ -59,13 +64,14 @@ function Event_Card() {
     )
 }
 
-function Main_stuff({id,data}){
+function Main_stuff({id,data,istech}){
     return(
         <div>
             <div className="jj_event_pic_container">
                 <img src={data.picture} alt="" className="jj_card_pic" />
                     <div className="jj_event_pic_container_back">
-                        <Link to="cultural_events">
+                        <Link to={istech==1?"/technical_events":"/cultural_events"}>
+                        {/* <Link to="/technical_events"> */}
                             <AiOutlineArrowLeft style={{color:"white", fontSize:"25px"}} />
                         </Link>
                     </div>

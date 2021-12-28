@@ -6,12 +6,17 @@
     padding:70px 50px;
     grid-gap: 50px;
     /* background-color: aqua; */
+
+    
+
 }
 
 
 .je_cult_card{
     height: 350px;
     width: 100%;
+    transition: all 1s ease;
+
     /* overflow: hidden; */
     /* background-color: yellow; */
 }
@@ -66,7 +71,17 @@
 .je_cult_card_image_container:hover .je_cult_card_image{
     transform: scale(1.1);
 }
-
-.je_hidden_btn{
-    /* display: none; */
+/* 
+.je_cult_card{
+    transition: all 0.2s ease;
+    position: relative;
 }
+
+.je_cult_card:hover {
+        height: 550px;
+        width: 50vw;
+} */
+
+
+
+
