@@ -7,7 +7,6 @@ function Sponsors() {
     return (
         <div className='je_sponsor_container'>
             <div className='je_top_pad'></div>
-            Sponsor
 
 
 
@@ -44,13 +43,13 @@ function Sponsors() {
 
             
             
-            <div className='je_partner_title'>Official Partners</div>
-            <div className="je_partner_container">
+            <div className='je_partner_title je_partner_white_arjun'>Official Partners</div>
+            <div className="je_partner_container je_partner_white_arjun">
                 {Partner.map((a,b)=>{
                     return(
                     <div className="je_partner_item">
                         <a href={a[1]} className="je_aa"><img src={a[0]} className='je_parnter_item_pic'></img></a>
-                        <div className='je_parnter_item_title'><a href={a[1]} className="je_aa">{a[2]}</a></div>
+                        <div className='je_parnter_item_title '><a href={a[1]} className="je_aa">{a[2]}</a></div>
                     </div>
                         )
                 })}

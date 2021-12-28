@@ -7,6 +7,9 @@
 
 
 }
+.je_sponsors_title_arjun{
+
+}
 
 .je_small_sponsor_container{
     grid-template-columns: 3fr 3fr;
@@ -30,7 +33,14 @@
     color: white;
     width: 100vw;
     text-align: center;
-    font-size: 24px;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font:"CODE_BOLD";
+}
+.je_partner_white_arjun{
+    background-color: white;
+    color:black;
 }
 
 .je_partner_item{

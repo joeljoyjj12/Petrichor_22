@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./fonts/Linotte_Regular_400.otf" 
 import "./fonts/AGENCYR.TTF"
+import "./fonts/CODE_Light.otf"
+import "./fonts/CODE_Bold.otf"
 
 ReactDOM.render(
   <React.StrictMode>

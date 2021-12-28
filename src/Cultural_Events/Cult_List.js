@@ -19,12 +19,14 @@ function Cult_List() {
         // a.style.position="absolute";
         // a.style.top="0";
 
+      
+
     }
 
    
     return (
         <div className='je_cult_list_container '>
-
+            {/* <Bg /> */}
             {Events_data.map((a,b)=>{
              return(
                 <div className='je_cult_card'>

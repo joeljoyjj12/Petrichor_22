@@ -20,7 +20,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    /* overflow: hidden; */    /* change this back  */
+    overflow: hidden;    /* change this back  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,5 +68,5 @@
 }
 
 .je_hidden_btn{
-    display: none;
+    /* display: none; */
 }

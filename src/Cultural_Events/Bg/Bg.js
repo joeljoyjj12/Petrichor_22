@@ -30,7 +30,7 @@ export default function Bg() {
   <div class="ayush_cover">
     <div class="ayush_cover-bg"></div>
   </div>
-  {/* <div class="ayush_hexagon"></div> */}
+  <div class="ayush_hexagon"></div>
 </div>
   );
 }

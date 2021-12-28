@@ -46,6 +46,7 @@
   // top: 40vh;
   left: 0;
   background: radial-gradient(circle, transparent 0%, #000 150px, #000 100%);
+  // background: radial-gradient(circle, transparent 0%, rgb(255, 255, 255) 150px, rgb(255, 255, 255) 100%);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -57,7 +58,7 @@
   height: 100vh;
   left: 0;
   top: 0;
-  // background-image: url("./hexagon.svg");
+  background-image: url("./hexagon.svg");
   background-repeat: repeat;
   background-size: 61px 70px;
   background-position: center;
