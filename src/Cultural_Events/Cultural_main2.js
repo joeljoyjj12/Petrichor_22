@@ -8,7 +8,7 @@ import {
     useLocation
   } from "react-router-dom";
   import { Redirect } from 'react-router';
-function Technical_main() {
+function Cultural_main2() {
     
     useEffect(()=>{
         
@@ -26,7 +26,7 @@ function Technical_main() {
     return (
         <div className='je_tech_section1'>
                 <img src={Pic} alt="" className='je_tech_banger_pic' />
-                <div className="je_tech_banger_title_contaier">Technical Events</div>
+                <div className="je_tech_banger_title_contaier">Cultural Events</div>
 
         <div className="je_tech_section2">
             {
@@ -46,8 +46,6 @@ function Card2({a,b}){
 
     let click2=(q,e)=>{
         e.preventDefault();
-        console.log(e);
-        console.log("aaaaaaaaaaaaaaaaaaaaaaa");
         let hh=document.querySelector(".je_tech_card_image_hidden"+q);
         let distanceFromTop = hh.getBoundingClientRect().top; 
         let vt=hh.offsetTop;
@@ -136,10 +134,10 @@ function Card2({a,b}){
                         {/* <div className={`je_hidden_btn je_tech_hidden_redirect_button${b}`}><Link className={`jerry_btn_sumlate${b}`} to={`/cultural_events/event?id=${b}&tech=true`}>here</Link> </div> */}
                         {/* <div ><Link className={`jerry_btn_sumlate${b}`} to={`/cultural_events/event?id=${b}&tech=true`}> <div className={`jerry_clicker${b}`}>home_new</div> </Link></div> */}
             </div>
-            {jerry_triggered?<Redirect push to={`/technical_events/event?id=${b}&tech=1`} />:null}
+            {jerry_triggered?<Redirect push to={`/cultural_events/event?id=${b}&tech=0`} />:null}
                     {/* <div><Link className={`je_tech_hidden_redirect_button${b}`} to={`/cultural_events/event?id=${b}&tech=true`}>home</Link></div> */}
         </div>
     )
 }
 
-export default Technical_main
+export default Cultural_main2

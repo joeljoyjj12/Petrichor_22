@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import "./Navbar.css"
 import Hamburger from 'hamburger-react'
 import { BrowserRouter as Router, Switch, Route,Link } from "react-router-dom";
-
+import logo_outline from "./logo_outline.png";
 
 function Navbar1() {
     
@@ -47,6 +47,12 @@ function Navbar1() {
 
     return (
         <div>
+            <div style={{position:"fixed",zIndex:"4",margin:"15px 10px"}}> 
+                <Link to="/" >
+                    <img src={logo_outline} alt="" style={{width:"60px",height:"60px",objectFit:"contain"}} />    
+                </Link>
+            </div>
+            
             <div className="je_navbar_outer_container">
                 <div className="je_navbar_left_triangle"></div>
                 <div className="je_navbar_container">
@@ -58,9 +64,9 @@ function Navbar1() {
                         {d6?<div className="je_navbar_item je_navbar_item_current"><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
                         {d7?<div className="je_navbar_item"><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}
                         {d8?<div className="je_navbar_item"><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null} 
-                        <div  className="je_navbar_item je_navbar_list nav_hover_open">
-                            <Hamburger  toggled={isOpen} toggle={setOpen} className="nav_hover_open" data-trigger="hover"/>
-                        {isOpen?<div className="je_navbar_hover_list_container nav_hover_open"><Rupesh d1={d1} d2={d2}  d3={d3} d4={d4} d5={d5} d6={d6} d7={d7} d8={d8}/></div>:null}
+                        <div  className="je_navbar_item je_navbar_list nav_hover_open je_opened">
+                            <Hamburger  toggled={isOpen} toggle={setOpen} className="nav_hover_open je_opened" data-trigger="hover"/>
+                        {isOpen?<div className="je_navbar_hover_list_container nav_hover_open je_opened"><Rupesh isOpen={isOpen} setOpen={setOpen} d1={d1} d2={d2}  d3={d3} d4={d4} d5={d5} d6={d6} d7={d7} d8={d8}/></div>:null}
                         </div>
                 </div>
             </div>
@@ -68,21 +74,34 @@ function Navbar1() {
     )
 }
 
-function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8}){
+function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
+    
+    useEffect(()=>{
+        window.addEventListener('click',(e)=>{
+            // console.log(e.target.className);
+
+            if(e.target.className.includes("je_opened")||e.target.className.includes("hamburger-react"))
+                ;
+            else
+            setOpen((a)=>!a);
+
+        })
+    },[])
+    
     return (
-        <div className='je_navbar_hover_list nav_hover_open'>
-            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>About</div>:null}
-            {d2==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Cultural</div>:null}
-            {d3==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Technical</div>:null}
-            {d4==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>WorkShop</div>:null}
-            {d5==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Proshows</div>:null}
-            {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Sponsors</div>:null}
-            {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>CA Portal</div>:null}
-            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Merchandise</div>:null}
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>About Us</div>
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Core Team</div>
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Contact Us</div>
-            <div className='je_navbar_hover_list_item '>Subscribe</div>
+        <div className='je_navbar_hover_list nav_hover_open je_opened'>
+            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about/" className="je_link_simp">About</Link></div>:null}
+            {d2==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/cultural_events/" className="je_link_simp">Cultural</Link></div>:null}
+            {d3==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/technical_events" className="je_link_simp">Technical</Link></div>:null}
+            {d4==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/workshops" className="je_link_simp">WorkShops</Link></div>:null}
+            {d5==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/proshows" className="je_link_simp">Proshows</Link></div>:null}
+            {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
+            {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>CA Portal</div>:null}
+            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Merchandise</div>:null}
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>About Us</div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Core Team</div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Contact Us</div>
+            <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div>
         </div>
     )
 
