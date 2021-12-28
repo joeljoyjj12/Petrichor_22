@@ -14,7 +14,7 @@ import Workshops from './Workshops/Workshops.js';
 import Proshows from "./Proshows/Proshows.js"
 function App() {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
     <Router >
       <Navbar />
         <Switch>

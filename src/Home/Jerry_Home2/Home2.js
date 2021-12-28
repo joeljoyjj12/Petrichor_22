@@ -80,7 +80,7 @@ function Home2() {
                 </div>
             </div>
             <div class="ayush_sponsors">
-            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">Our Sposors</h1></div>
+            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">Title Sponsor</h1></div>
             <div class="ayush_all">
             <figure class="ayush_sponsor_item">
             <img src={Sponsor1} data-aos="zoom-in"  class='ayush_sponsors_pic' id="ayush_first" alt="" />

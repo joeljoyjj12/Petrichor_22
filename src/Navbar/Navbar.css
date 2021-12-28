@@ -7,11 +7,12 @@
     flex-direction: row;
     /* align-items: flex-end; */
     justify-content: end;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     width: 75vw;
     margin-left:20vw;
     padding-left: 5vw;
     position: fixed;
+    right: 0px;
     /* background-color: aqua; */
 }
 .je_link_simp{

@@ -1,6 +1,6 @@
 .je_home_section1{
-    height: 88vh;
-    width: 100vw;    
+    height: 100vh;
+    width: 100vw;
     position: relative;
     background-color: black;
     /* background-color: orange; */
@@ -31,7 +31,7 @@
     /* width: 100; */
 
     transform-origin: center;
-    
+
 }
 
 .je_home_logo{
@@ -122,14 +122,18 @@
 
 .ayush_about
 {
-    height: 80vh;
+    height: 90vh;
+    background:url("./bg_white_1.jpg");
+    background-size: cover;
 }
 #ayush_heading_about
 {
     color: red;
     font-size: 80px;
     padding-left: 200px;
-    
+    padding-top: 10px;
+    margin-top: 0px !important;
+
 }
 .ayush_all
 {
@@ -142,16 +146,37 @@
     width: 40%;
     border-radius: 8px;
     padding-right: 100px;
-   
+
 }
 
 #ayush_content_about
 {
     width: 35%;
-    padding-left: 200px;
+    padding: 2vw;
+    margin:0 4vw;
     align-self: center;
-
+    box-shadow: 4.5px 4.5px red;
 }
+
+#ayush_content_about:after{
+    content:'';
+    width:30%;
+    height:4px;
+    background:#FF2226;
+    position:absolute;
+    top:4px;
+    right: -3.5px;
+  }
+  
+  /* #ayush_content_about:before{
+    content:'';
+    width:4px;
+    height:92%;
+    background:#FF2226;
+    position:absolute;
+    top:-15px;
+    right: -15px;
+  } */
 
 .ayush_sponsors
 {
@@ -198,7 +223,7 @@
     text-align: center;
     margin-bottom: 10px;
   }
-  
+
   .ayush_content {
     position: relative;
     width: 90%;
@@ -206,7 +231,7 @@
     margin: auto;
     overflow: hidden;
   }
-  
+
   .ayush_content .ayush_content-overlay {
     background: rgba(0,0,0,0.7);
     position: absolute;
@@ -222,16 +247,16 @@
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
   }
-  
+
   .ayush_content:hover .ayush_content-overlay{
     opacity: 1;
   }
-  
+
   .ayush_content-image{
     width: 100%;
     border-radius: 50%;
   }
-  
+
   .ayush_content-details {
     position: absolute;
     text-align: center;
@@ -248,13 +273,13 @@
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  
+
   .ayush_content:hover .ayush_content-details{
     top: 50%;
     left: 50%;
     opacity: 1;
   }
-  
+
   .ayush_content-details h3{
     color: #fff;
     font-weight: 500;
@@ -262,21 +287,21 @@
     margin-bottom: 0.5em;
     text-transform: uppercase;
   }
-  
+
   .ayush_content-details p{
     color: #fff;
     font-size: 0.8em;
   }
-  
+
   .ayush_fade{
     top: 80%;
   }
-  
+
 #ayush_heading_contact
 {
     color: red;
     font-size: 80px;
-    
+
 }
 
 .ayush_button {
@@ -286,11 +311,11 @@
     font-size: 30px;
     border:solid 2px red;
     color: red;
-    
+
 }
 
 .ayush_button:hover {
-    
+
     cursor: pointer;
     color: white;
     background-color: red;
@@ -338,9 +363,9 @@
     }
     .je_home_section1{
         height: 100vh;
-        width: 100vw;    
+        width: 100vw;
     }
-    
+
     .test11{
         position: absolute;
         top: 40%;
@@ -354,7 +379,7 @@
         transform-origin: center;
         transform: scale(1.5, 1);
     }
-    
+
     .je_home_button_sec{
         padding-top: 20px;
     }
