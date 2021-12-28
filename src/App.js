@@ -14,6 +14,7 @@ import Workshops from './Workshops/Workshops.js';
 import Proshows from "./Proshows/Proshows.js"
 import "./App.css"
 import { Scrollbars } from 'react-custom-scrollbars';
+import About_us from './About_us/About_us';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route  exact path="/" component={Home}/>
           <Route  exact path="/home" component={Home}/>
           <Route  exact path="/about" component={About}/>
+          <Route  exact path="/about_us" component={About_us}/>
           <Route exact path="/technical_events" component={Technical_main}/>
           <Route exact path="/technical_events/event" component={Event_Card}/>
           <Route exact path="/cultural_events/" component={Cultural_main}/>

@@ -96,10 +96,10 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
             {d4==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/workshops" className="je_link_simp">WorkShops</Link></div>:null}
             {d5==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/proshows" className="je_link_simp">Proshows</Link></div>:null}
             {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
-            {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>CA Portal</div>:null}
-            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Merchandise</div>:null}
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>About Us</div>
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Core Team</div>
+            {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}
+            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us" className="je_link_simp">About Us</Link></div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/meet_the_team" className="je_link_simp">Meet the Team</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Contact Us</div>
             <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div>
         </div>
