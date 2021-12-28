@@ -31,7 +31,6 @@
 
 .je_tech_section2{
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding:70px 50px;
     grid-gap: 50px;
@@ -174,3 +173,19 @@
 }
 
 
+@media only screen and (max-width: 1000px) {
+
+    .je_tech_section2{
+        grid-template-columns: 1fr 1fr;
+        padding:70px 50px;
+        grid-gap: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .je_tech_section2{
+        grid-template-columns: 1fr ;
+        padding:70px 50px;
+        grid-gap: 80px;
+    }
+}
