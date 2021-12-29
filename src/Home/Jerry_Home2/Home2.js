@@ -9,7 +9,7 @@ import Gau from "./gautham.jpg"
 import Ayush_about from "./ayush.png"
 import Sponsor1 from "./sponsor1.png"
 import Sponsor2 from "./sponsor2.png"
-import Sponsor3 from "./sponsor3.png"
+import Sponsor from "./sbi-logo-33230.png"
 import Person from "./person.jpg"
 import Fb from "./facebook.png"
 import Insta from "./instagram.png"
@@ -73,27 +73,18 @@ function Home2() {
             <div class="ayush_about">
                 <h1 id="ayush_heading_about">About Us</h1>
                 <div class="ayush_all">
-                <div data-aos="fade-right" id="ayush_content_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <p>
+                <div data-aos="fade-right" id="ayush_content_about">Petrichor denotes the pleasant smell that accompanies the first rain after a long spell of warm weather; the novelty and freshness of a new beginning. Petrichor, the annual technocultural fest of IIT Palakkad, is a golden opportunity to bring out the artist or techie in you and to meet exponents from various technical, cultural and social fields. <br /> <br /> 
+                Petrichor made its mark with its inception in October 2018, and has continued to build on its glory, one step at a time. Our aspirations of a techno-cultural fusion have yet again brought us to another endeavour- Petrichor 2020. 
+                 <p>
             </p></div>
                 <img data-aos="fade-left" src={Ayush_about}  class='ayush_about_pic' alt="" />
                 
                 </div>
             </div>
             <div class="ayush_sponsors">
-            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">Title Sponsor</h1></div>
+            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">TITLE SPONSOR</h1></div>
             <div class="ayush_all">
-            <figure class="ayush_sponsor_item">
-            <img src={Sponsor1} data-aos="zoom-in"  class='ayush_sponsors_pic' id="ayush_first" alt="" />
-            <figcaption class="ayush_caption">Sponsor 1</figcaption>
-            </figure>
-            <figure class="ayush_sponsor_item">
-            <img src={Sponsor2} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_middle" alt="" />
-            <figcaption class="ayush_caption">Sponsor 2</figcaption>
-            </figure>
-            <figure class="ayush_sponsor_item">
-            <img src={Sponsor3} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_last" alt="" />
-            <figcaption class="ayush_caption">Sponsor 3</figcaption>
-            </figure>
+                <img src={Sponsor} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_last" alt="" />
             </div>
             </div>
 
@@ -108,7 +99,6 @@ function Home2() {
                 <p class="ayush_content-text">Details: dfjnjkjd</p>
             </div>
             </div>
-
 
             <div class="ayush_content">
             <div class="ayush_content-overlay"></div>

@@ -80,7 +80,7 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8}){
             {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>CA Portal</div>:null}
             {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Merchandise</div>:null}
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>About Us</div>
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Core Team</div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'><Link to="/meet_the_team" className='je_link_simp'>Core Team</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Contact Us</div>
             <div className='je_navbar_hover_list_item '>Subscribe</div>
         </div>

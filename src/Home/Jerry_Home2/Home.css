@@ -122,14 +122,17 @@
 
 .ayush_about
 {
-    height: 90vh;
-    background:url("./bg_white_1.jpg");
+    height: 78vh;
+    /* background:url("./bg_white_1.jpg"); */
+    background-color: rgb(243, 235, 235);
+    
     background-size: cover;
 }
 #ayush_heading_about
 {
     color: red;
-    font-size: 80px;
+    font-size: 65px;
+    transform: translate(-50px,40px);
     padding-left: 200px;
     padding-top: 10px;
     margin-top: 0px !important;
@@ -138,7 +141,11 @@
 .ayush_all
 {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+}
+
+.ayush_sponsor_item{
+    margin-top: 40px;
 }
 
 .ayush_about_pic
@@ -151,12 +158,17 @@
 
 #ayush_content_about
 {
-    width: 35%;
-    padding: 2vw;
+    width: 40%;
+    padding: 1.4vw 2.5vw 1vw 0.5vw;
     margin:0 4vw;
     align-self: center;
-    box-shadow: 4.5px 4.5px red;
+    box-shadow: 3px 3px red;
+    /* background:rgb(255, 253, 252); */
+    border-radius: 30px 0 0px 0;
+    transform: translateX(6vw);
+    z-index: 10;
 }
+
 
 #ayush_content_about:after{
     content:'';
@@ -164,8 +176,8 @@
     height:4px;
     background:#FF2226;
     position:absolute;
-    top:4px;
-    right: -3.5px;
+    top:0px;
+    right: -3px;
   }
   
   /* #ayush_content_about:before{
@@ -181,8 +193,14 @@
 .ayush_sponsors
 {
     background: black;
-    height: 75vh;
+    height: 93vh;
 }
+.ayush_sponsors_pic{
+    width:40%;
+    min-width: 350px;
+    margin-top: 50px;
+}
+
 .ayush_heading_div
 {
     display: flex;
@@ -215,7 +233,7 @@
 
 .ayush_contact
 {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .ayush_title{
@@ -352,6 +370,10 @@
 
 
 @media only screen and (max-width: 1000px) {
+    #ayush_content_about{
+        font-size: 12px;
+        transform: translateY(0px);
+    }
     .je_home_info{
         position: relative;
         top:60vh;
