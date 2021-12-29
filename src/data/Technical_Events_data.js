@@ -410,44 +410,155 @@ const Technical_Events_data=[
 
     
     {
-        name : "Crypto Trading Competition",
+        name : "Quiz Marathon",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/cult_event_pic/Crypto_Trading_Competition.jpg",
+        picture: "/media/cult_event_pic/Quiz_Marathon.jpg",
         organiser:[
             {
-                name : "Sayandip Chaudhuri",
-                pic :"/media/organisers/Sayandip_Chaudhuri.jpg",
-                email :"76026 40139",
+                name : "Amar Hamdan",
+                pic :"/media/organisers/Amar_Hamdan.jpg",
+                email :"86066 65885",
             },
             {
-                name : "Sonu Shaw",
-                pic :"/media/organisers/Sonu_Shaw.jpg",
-                email :"87772 35490",
+                name : "Sriramoju Chinmayee",
+                pic :"/media/organisers/Sriramoju_Chinmayee.jpg",
+                email :"93910 88714",
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["As we all know, cryptocurrency is more than just a simple investment. As the sector grows, so does the demand for new talent. A talent with working knowledge of blockchain and cryptocurrencies.",
-        "Pondering on wheter to invest in cryptocurrencies or gain real-world experience by trading cryptocurrency? You have come to the right place. People are hesitant to try it out as it is complicated, but it doesn't have to be. Trading on a live market using virtual money allows us to better comprehend market volatility and the benefits of money diversification across cryptos, as well as allowing us to gain real-world experience before entering the market with actual money."
+        description: ["Petrichor, IIT Palakkad brings you continuous joy in knowledge with the 3-day Quiz marathon conducted in the month of January. Forget about the regular academic quizzes and get ready with exciting topics like space, astronomy, music, movies, paintings, riddles and many more.",
+        "Your favourite topics can push you to the top and collect a total prize pool of Rs. 12,000 and prestigious certificates from IIT."
         ],
-        hover_description : "Finance",
+        hover_description : "Higher Secondary",
        
         // have each rule as a element of an array
-        rule_book_rules :["One entry is allowed per person",
-        "Entries will be completely evaluated on the basis of return on investment (ROI).",
-        "Competition will run for 15 days."],
+        rule_book_rules :
+        [
+        "General Instructions",
+        "The quiz will be a time-trial, i.e., the number of questions is sufficient to keep you occupied for the entire duration of the quiz. Therefore, if you try to search for answers, you will lose valuable time.",
+        "Only one attempt will be allowed per participant in each round. So ensure that you have proper internet connection and power-supply/charge on your device",
+        "Preliminary round is open for all participants. Hence you must attend both Round I & II to be eligible for the participation certificates.",
+        "The combined score in Round I & II will be used for the leaderboard for finals.",
+        "Participants can attempt the quiz through PC/Laptop/Tab/Mobile, preferably PC/Laptop for easy navigation through questions.",
+        "All participants have to join a zoom meeting for the quiz.",
+        "Details of the zoom meeting will be shared to the participants via email.",
+        "All participants must join the zoom meeting shared to them at least 5 minutes before the scheduled time.",
+        "This is a solo event. So any discussion with other participants or help from other sources are strictly prohibited.",
+         
+        "Rules - Prelims (Round 1 & 2)",
+        "The link to the quiz website will be given to the participants in the zoom meeting. Participants have to join the given quiz link and try to solve as many questions as they can before the time runs out.",
+        "Participants must keep their camera turned ON throughout the meeting.",
+        "Participants should unmute the microphone only when they are asked to do so.",
+        "Participants must make sure that they are seated in a separate room without much distractions and background noises.",
+        "If the participant leaves the meeting or gets disconnected, he/she will NOT be allowed to join again for this round.",
+         
+        "Rules - Finals",
+        "This round is completely conducted over Zoom.",
+        "Participants must keep their camera turned ON throughout the meeting.",
+        "Questions will be displayed on the screen and participants have to   type the answers in the chat box within the time limit mentioned by the quiz master for each question. Note: Only the host will be able to see the answers.",
+        "There will be a total of 5 small rounds in the finals, details of which will be shared on the day of the finals.",
+        "If the participant leaves the meeting or gets disconnected, he/she can join the meeting again. But you may lose time to answer the questions.",],
 
         //recommended always show true,
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           
-            ["General","  The competition will be completely based on virtual money, every student will be given a certain amount of virtual money and time.","The student with the highest ROI will be the winner of the competition."],
-        ],
+            ["Category - 1 (Class: 8th, 9th, 10th)"],
+            
+            [
+            "Preliminary Round I (Day-1)",
+            "Number of Questions: 20",
+            "Total Time: 15 minutes",
+            "Date: DD/MM/YYYY",
+            "Eligibility: All students currently studying in class 8/9/10",
+            "Platform: itsquiz.com"],
+            
+            ["Syllabus",
+            "Indian history & world geography",
+            "Literature & Nobel price",
+            "Invention & Inventors",
+            "Current Affairs",
+            "Riddles"],
+            
+            [
+            "Preliminary Round II (Day-2)",
+            "Number of Questions: 20",
+            "Total Time: 15 minutes",
+            "Date: DD/MM/YYYY",
+            "Eligibility: All participants",
+            "Platform: itsquiz.com",
+            ],
+            
+            ["Syllabus",
+            "Sports",
+            "Mental ability",
+            "Movies & music",
+            "Space & Astronomy",
+            "Paintings & Logo’s & Food science"],
+             
+            [
+            "Finals (Day-3)",
+            "Date: DD/MM/YYYY",
+            "Eligibility: Top 15 participants after Round II",
+            "Platform: Zoom(live streaming)",
+            "Syllabus: Entire syllabus from Round I & II",
+            ],
+             
+            
+            ["Category-2 (Class: 11th & 12th)"],
+             
+            
+            [
+            "Preliminary Round I (Day-1)",
+            "Number of Questions: 20",
+            "Total Time: 15 minutes",
+            "Date: DD/MM/YYYY",
+            "Eligibility: All students currently studying in class 11/12.",
+            "Platform: itsquiz.com",
+            ],
+            
+            [
+            
+            "Syllabus",
+            "Finance",
+            "Chemistry (inorganic, Organic, Physical)",
+            "Biology (Tech in biology)",
+            "Maths (mental ability based)",
+            "Physics (Basic laws, inventions etc..)",
+            ],
+             
+            [
+            "Preliminary Round II (Day-2)",
+            "Number of Questions: 20",
+            "Total Time: 15 minutes",
+            "Date: DD/MM/YYYY",
+            "Eligibility: All participants",
+            "Platform: itsquiz.com",
+            ],
+             
+            [
+            "Syllabus",
+            "Latest technologies",
+            "Riddles",
+            "Sports",
+            "Movies & music",
+            "Paintings and logos",
+            ],
+             
+            [
+            "Finals (Day-3)",
+            "Date: DD/MM/YYYY",
+            "Eligibility: Top 15 participants after Round II",
+            "Platform: Zoom(live streaming)",
+            "Syllabus: Entire syllabus from Round I & II",
+            ],
+            
+            ],
         
         pdf_present:false,
         
@@ -458,6 +569,77 @@ const Technical_Events_data=[
         prizes_general_text : "We have a exciting prized waiting for you",
         prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
     },
+
+
+    {
+        name : "SPEED TYPING COMPETITION",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/cult_event_pic/Crypto_Trading_Competition.jpg",
+        organiser:[
+            {
+                name : "VM Sreeram",
+                pic :"/media/organisers/VM_Sreeram.jpg",
+                email :"97782 07916",
+            },
+            {
+                name : "Ravi Ranjan",
+                pic :"/media/organisers/Ravi_Ranjan.jpg",
+                email :"77394 63363",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["This typing event is a part of Petrichor which is the techno-cultural fest of IIT Palakkad. Motive of this event is to encourage the young generation about (speed) typing which is an essential part of this digital era.",
+        "Through this event young high school and college students will get a chance to interact with higher college students. And we will provide certificates to each and every participant which will bring motivation as they are getting certificates from Indian Institute of Technology."
+        ],
+        hover_description : "Finance",
+       
+        // have each rule as a element of an array
+        rule_book_rules :["The contest is open for the students of class 9th to 12th (Up to secondary level), age limit is 18 years.",
+        "He/she must be a student of 9th to 12th class.",
+        "Maximum age should be 18 years.",
+        "They must have a laptop/PC with a webcam for contesting in the competition. For those Without a webcam, having a phone with a front cam is necessary.",
+        "They have a Zoom client installed for proctoring during the contest.",
+        "School ID Card is required for verification Purpose.",
+        "Must follow all the rules specified by the Competition platform and us.",
+        "Student who will register have to sit in the front of Webcam of your Laptop/PC while contesting Competition.",
+        "We will share a Competition link in the Zoom Meeting itself.",
+        "You have to join a zoom meeting with Webcam and Contesting Competition simultaneously during the whole time of the competition.",
+        "There is no entry fee, it is free of cost.",
+        "If anyone will be caught doing Malpractices or indulging in unfair practices or violation of rules will be disqualified from competition at that time itself.",
+        "All the rights to change any rules of the competition without prior notice to contestants and to disqualify any contestant whom the jury declares having indulged in any kind of malpractice is reserved with the organisers.",	
+        "Documents Required for Competition are School ID and Latest photo",
+        ]
+        ,
+
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+           
+            ["General","We will take the Contest in 3 Rounds. All the rounds will have a 2 minutes time limit. You will be given 2 attempts in all rounds, from which your personal best is considered for rank calculation.","Round 1- Top 30 will be progressed to Round 2.","Round 2- Top 10 will progress to the Next Round.","Round 3- Top 3 will be declared as Winners."],
+        ],
+        
+        pdf_present:false,
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : true,
+        judging_criteria : ["Rank will be decided on the basis of WPM(Word Per Minute).",
+            "If WPM is equal then rank will be decided on the basis of CPM",
+            "If the same WPM: the highest CPM wins.",
+            "If the same CPM: the lowest wrong words wins.",
+            "If the same CPM/wrong words: the lowest corrections wins.",
+            "If same CPM/wrong words/corrections: the earlier test result will be taken for winning."]
+            ,
+
+        prizes_general_text : "We have a exciting prized waiting for you",
+        prizes_in_ascending_order: ["₹ 3000","₹ 1000","₹ 500"],
+    },
+
 
 
 ]
