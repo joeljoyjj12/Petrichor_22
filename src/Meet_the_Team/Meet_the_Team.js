@@ -8,15 +8,15 @@ function Meet_the_Team() {
         var t1=document.querySelector(".core_team_desc_main .container.team_1");
         var t2=document.querySelector(".core_team_desc_main .container.team_2");
         window.addEventListener('scroll',()=>{
-            console.log(window.scrollY);
             let scroll_val=window.scrollY;
            
+            if(window.innerWidth>992){
             if(scroll_val<820)
             t1.style.transform=`translate(0px,${window.scrollY+80}px)`;
 
             if(scroll_val>1400 && scroll_val<1530 )
             t2.style.transform=`translate(0px,${window.scrollY-1400+40}px)`;
-
+            }
 
         });
     },[])
