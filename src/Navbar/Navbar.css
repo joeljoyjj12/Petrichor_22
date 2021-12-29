@@ -108,6 +108,17 @@
 .je_navbar_item_current{
     /* color: red; */
 }
+.je_logo_home_redirect{
+    position:fixed;
+    z-index: 4;
+    margin:15px 10px;
+}
+.je_logo_home_redirect_image{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
 
 @media only screen and (max-width: 700px) {
     .je_navbar_container{
@@ -132,6 +143,7 @@
         width:150px;
         
     }
-
-    
-  }
+    .je_logo_home_redirect{
+        margin:15px 0px;
+    }
+}

@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
 import Pic from "./assets/pic1.jpg"
-import Events_data from "../data/Events_data.js"
+import Technical_Events_data from "../data/Technical_Events_data.js"
 import {
     BrowserRouter as Router,
     Link,
@@ -30,7 +30,7 @@ function Technical_main() {
 
         <div className="je_tech_section2">
             {
-                Events_data.map((a,b)=>{
+                Technical_Events_data.map((a,b)=>{
                     return <Card2 a={a} b={b}/>
 
                 })

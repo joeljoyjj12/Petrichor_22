@@ -47,9 +47,9 @@ function Navbar1() {
 
     return (
         <div>
-            <div style={{position:"fixed",zIndex:"4",margin:"15px 10px"}}> 
+            <div className="je_logo_home_redirect" > 
                 <Link to="/" >
-                    <img src={logo_outline} alt="" style={{width:"60px",height:"60px",objectFit:"contain"}} />    
+                    <img  className='je_logo_home_redirect_image' src={logo_outline} alt=""  />    
                 </Link>
             </div>
             
@@ -83,7 +83,7 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
             if(e.target.className.includes("je_opened")||e.target.className.includes("hamburger-react"))
                 ;
             else
-            setOpen((a)=>!a);
+            setOpen(false);
 
         })
     },[])

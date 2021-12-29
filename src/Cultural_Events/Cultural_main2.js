@@ -1,13 +1,17 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
 import Pic from "./assets/pic1.jpg"
-import Events_data from "../data/Events_data.js"
+// import Events_data from "../data/Events_data.js"
+// import Events_data from "../data/Cultural_Events_data.js"
 import {
     BrowserRouter as Router,
     Link,
     useLocation
   } from "react-router-dom";
   import { Redirect } from 'react-router';
+// import Technical_Events_data from "../data/Technical_Events_data.js"
+import Cultural_Events_data from "../data/Cultural_Events_data.js"
+
 function Cultural_main2() {
     
     useEffect(()=>{
@@ -30,7 +34,7 @@ function Cultural_main2() {
 
         <div className="je_tech_section2">
             {
-                Events_data.map((a,b)=>{
+                Cultural_Events_data.map((a,b)=>{
                     return <Card2 a={a} b={b}/>
 
                 })

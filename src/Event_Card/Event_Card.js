@@ -6,7 +6,9 @@ import {
     useLocation
   } from "react-router-dom";
 import {AiOutlineArrowLeft} from "react-icons/ai";
-import Cult_events from '../data/Events_data';
+import Cultural_Events_data from '../data/Cultural_Events_data.js';
+import Technical_Events_data from '../data/Technical_Events_data.js';
+
 import { gsap } from "gsap";
 import "./General_Animator.css"
 function useQuery() {
@@ -17,7 +19,7 @@ function Event_Card() {
     let query = useQuery();
     let [id,setId]=useState(parseInt(query.get("id")));
     let [istech,setIstech]=useState(parseInt(parseInt(query.get("tech"))));
-    let valid = id < Cult_events.length ? true : false
+    let valid =true;
     useEffect(()=>{
         let val =parseInt(query.get("id"));
         setId(val);
@@ -25,7 +27,10 @@ function Event_Card() {
         setIstech(v2);
         console.log("id is "+val + "tech is it "+v2);
 
-        valid = id < Cult_events.length ? true : false
+        if(v2==1)
+            valid = id < Technical_Events_data.length ? true : false
+        else
+            valid = id < Cultural_Events_data.length ? true : false
     },[])
 
     useEffect(()=>{
@@ -56,7 +61,8 @@ function Event_Card() {
 
         <div className="event_card_main">
             {valid?
-            <Main_stuff id ={id} data={Cult_events[id]} istech={istech} /> :
+            istech==1?<Main_stuff id ={id} data={Technical_Events_data[id]} istech={istech} /> : <Main_stuff id ={id} data={Cultural_Events_data[id]} istech={istech} /> 
+            :
             <div>sorry Event not found </div>
             }
         </div>
@@ -109,21 +115,7 @@ function Main_stuff({id,data,istech}){
 
             </div>
 
-            {/* block3 which is same as block 2 itseld */}
-            <div className="jj_event_block1 jj_event_block2">
-                <div className="jj_event_block1_left jj_event_block2_left"> 03  <strong> Rules </strong> </div>
-                <div className="jj_event_block1_right jj_event_block2_right">
-                    
-                               {
-                    data.rule_book_rules.map((a,c)=>(
-                        <>
-                         <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
-                         <br />
-                         </>
-                    ))
-                }                   
-                     </div>
-            </div>
+           
 
 
 
@@ -132,11 +124,13 @@ function Main_stuff({id,data,istech}){
             
             <div className="jj_event_block1 jj_event_block2">
 
-            <div className="jj_event_block1_left jj_event_block2_left"> 04    <strong> structure </strong> </div>
+            <div className="jj_event_block1_left jj_event_block2_left"> 03    <strong> structure </strong> </div>
             <div className="jj_event_block1_right jj_event_block2_right">
                     
             {
-                        data.structure.map((a,c)=>(
+                        data.structure.map((a,c)=>{
+                            console.log(a)
+                            return (
                             <>
                             <div className='je_structure_title'>{a[0]}</div>
                             {a.map((f,g)=>(
@@ -150,12 +144,26 @@ function Main_stuff({id,data,istech}){
                                 </>
                             ))}
                             </>
-                        ))
+                        )})
             }                   
           </div>
         </div>
            :null}
-
+                {/* block3 which is same as block 2 itseld */}
+                <div className="jj_event_block1 jj_event_block2">
+                                <div className="jj_event_block1_left jj_event_block2_left"> 04  <strong> Rules </strong> </div>
+                                <div className="jj_event_block1_right jj_event_block2_right">
+                                    
+                                            {
+                                    data.rule_book_rules.map((a,c)=>(
+                                        <>
+                                        <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                                        <br />
+                                        </>
+                                    ))
+                                }                   
+                                    </div>
+                            </div>
             {/* bblock 4  --> new 5*/}
 
             {data.judging_criteria_show?

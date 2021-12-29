@@ -6,7 +6,7 @@ import {
     useLocation
   } from "react-router-dom";
 import {AiOutlineArrowLeft} from "react-icons/ai";
-import Cult_events from '../data/Events_data';
+// import Cult_events from '../data2/Events_data';
 import { gsap } from "gsap";
 import "./General_Animator.css"
 function useQuery() {
