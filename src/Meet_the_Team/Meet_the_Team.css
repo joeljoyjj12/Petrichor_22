@@ -1,5 +1,6 @@
 .core_team_desc_main{
     margin-top: 10px;
+    transition: transform 0.1s;
 }
 
 .core_main{
@@ -94,5 +95,16 @@
         transform: translate(0px,-8px);
         transition: transform 0.5s ;
     }
+
+    .core_team_desc_main .container{
+        transform: translate(0,80px);
+    }
    
+    .core_team_desc_main .container.team_2{
+        transform: translate(0,40px);
+    }
+
+    .core_team_desc_main .container.team_3{
+        transform: translate(0,100px);
+    }
 }
