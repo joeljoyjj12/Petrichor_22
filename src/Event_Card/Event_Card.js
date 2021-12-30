@@ -99,6 +99,7 @@ function Main_stuff({id,data,istech}){
                          </>
                     ))
                 }
+                {data.extra_link?<div className="jj_event_block1_des"><a className="je_aa" href={data.extra_link}>Click here for the <div style={{color:"red", display:"inline"}}>video</div></a></div>:null}
     
                 </div>
             </div>

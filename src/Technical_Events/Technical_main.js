@@ -126,9 +126,15 @@ function Card2({a,b}){
         >
             <div className={`je_tech_card je_tech_card${b}`} onClick={(e)=>click2(b,e)}>
                         <div className={`je_tech_card_image_container je_tech_card_image_container${b}`} >
-                            <div className={`relative_class relative_class${b}`}>
+                            <div className={`je_black_bg relative_class relative_class${b}`}>
                                 <img src={a.picture} alt="" className={`je_tech_card_image je_tech_card_image${b}`} />
-                                <div className='je_tech_card_hover_description'>{a.hover_description}</div>
+                                {/* <div className='je_tech_card_hover_description'>{a.hover_description}</div> */}
+                                <div className='je_tech_card_hover_description'>
+                                    
+                                        <div className="je_tech_card_hover_date" >{a.start_date}</div>
+                                        <div>{a.hover_description}</div>
+
+                                </div>
                             </div>
                             <img src={a.picture} alt="" className={`je_tech_card_image_hidden je_tech_card_image_hidden${b}`} />
                         </div>

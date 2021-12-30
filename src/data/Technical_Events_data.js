@@ -21,11 +21,11 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["11 StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Say hello to the world of virtual robotics! Spar online with Lego bots in a soccer match! Customize your dream bot and turn it into an undefeatable champion. Sport your coding skills to perfect it...", 
+        "We, Petrichor warmly welcome all Robo geeks to take part in Robo Soccer. exciting prizes await you, the Dr. Tenma of tomorrow! You can participate in this event individually as well as in a team, with not more than two members"
         ],
-        hover_description : "Robotics",
-       
+        hover_description : "Say hello to the world of virtual robotics! Spar online with Lego bots in a soccer match!",
+        extra_link :"https://drive.google.com/file/d/11vzunFzC4ULKyIN3t_FFa11hqoyd_Ex8/view",
         // have each rule as a element of an array
         rule_book_rules :["Every team has to register online on the official Petrichor website to participate in the competition.",
         "A team ID will be allocated to the team on registration which shall be used for future references.",
@@ -91,7 +91,7 @@ const Technical_Events_data=[
         description: ["Participants need to write a program in Python/C++ for a mobile robot to clear an unknown maze in least possible time. The robot model and control details will be given prior along with sample mazes for practice. The whole task will require concepts like obstacle avoidance and path planning. ", 
         "The platform for simulation is Gazebo 9 (with ROS Melodic on ubuntu 18.04), any other software cannot be used. The competition is designed to be beginner-friendly in field of ROS or robotics simulation, required materials will be provided for learning. The major portion consists of programming in python/C++, hence participants with zero knowledge in ROS are also welcome."
         ],
-        hover_description : "Robotics",
+        hover_description : "Navigating the Labyrinth",
        
         // have each rule as a element of an array
         rule_book_rules :["In case of any discrepancy, the final take will be of the judges.",
@@ -150,10 +150,10 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["Get ready to participate in iit pkd's petrichor cp contest. Where your cp and problem-solving skills will be put to test through several mind boggling innovative coding questions.", 
+        description: ["Get ready to participate in IIT Pkd's petrichor cp contest. Where your cp and problem-solving skills will be put to test through several mind boggling innovative coding questions.", 
         "Get a chance to compete among the best coders and show off your coding skills and win prizes worth 5k, all through the comfort of your home."
         ],
-        hover_description : "Computer Science",
+        hover_description : "Test your cp and problem-solving skills through several mind boggling and innovative coding questions.",
        
         // have each rule as a element of an array
         rule_book_rules :["It’s an individual contest not a team contest",
@@ -212,7 +212,7 @@ const Technical_Events_data=[
         description: ["In this competition participants are required to make a predicting model using python. We will be testing that model on sufficiently large data. We will provide a problem statement and chunk of data and by using that participant will have to train his model.", 
         "We will judge models based on the accuracy of model and compilation time."
         ],
-        hover_description : "Computer Science",
+        hover_description : "Predicting the Future isnt magic, it is Artifical Intelligence",
        
         // have each rule as a element of an array
         rule_book_rules :["You are not allowed to use standard machine learning libraries.",
@@ -265,10 +265,10 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["IIT Palakkad presents the most awaited event under Petrichor-2k22, D-SIGN. Petrichor allows you to compete against more than 290 colleges all over India, so show off your design talents. ", 
+        description: ["Petrichor allows you to compete against more than 290 colleges all over India, so show off your design talents. ", 
         "D-SIGN, the competition where competitors will be given a set of guidelines based on a theme, and are supposed to solve the task using their own innovative ideas and ingenuity."
         ],
-        hover_description : "Mechanical Engineering",
+        hover_description : "Bringing out the Innovator in you",
        
         // have each rule as a element of an array
         rule_book_rules :["This is a single participant competition. Each participant must register online using the URL provided below.",
@@ -324,7 +324,7 @@ const Technical_Events_data=[
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["We will have a building elevation competition conducted over the revit platform. We will give a building plan and contestants have to prepare the elevation of the same plan. "],
-        hover_description : "Civil Engineering",
+        hover_description : "Need a tagline here",
        
         // have each rule as a element of an array
         rule_book_rules :["This is an individual competition. Each participant must register online using the URL provided below.",
@@ -380,7 +380,7 @@ const Technical_Events_data=[
         description: ["As we all know, cryptocurrency is more than just a simple investment. As the sector grows, so does the demand for new talent. A talent with working knowledge of blockchain and cryptocurrencies.",
         "Pondering on wheter to invest in cryptocurrencies or gain real-world experience by trading cryptocurrency? You have come to the right place. People are hesitant to try it out as it is complicated, but it doesn't have to be. Trading on a live market using virtual money allows us to better comprehend market volatility and the benefits of money diversification across cryptos, as well as allowing us to gain real-world experience before entering the market with actual money."
         ],
-        hover_description : "Finance",
+        hover_description : "Dive Deep into Crypto",
        
         // have each rule as a element of an array
         rule_book_rules :["One entry is allowed per person",
@@ -434,7 +434,7 @@ const Technical_Events_data=[
         description: ["Petrichor, IIT Palakkad brings you continuous joy in knowledge with the 3-day Quiz marathon conducted in the month of January. Forget about the regular academic quizzes and get ready with exciting topics like space, astronomy, music, movies, paintings, riddles and many more.",
         "Your favourite topics can push you to the top and collect a total prize pool of Rs. 12,000 and prestigious certificates from IIT."
         ],
-        hover_description : "Higher Secondary",
+        hover_description : "Unlocking knowledge at the speed of thought",
        
         // have each rule as a element of an array
         rule_book_rules :
@@ -593,10 +593,9 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["This typing event is a part of Petrichor which is the techno-cultural fest of IIT Palakkad. Motive of this event is to encourage the young generation about (speed) typing which is an essential part of this digital era.",
-        "Through this event young high school and college students will get a chance to interact with higher college students. And we will provide certificates to each and every participant which will bring motivation as they are getting certificates from Indian Institute of Technology."
+        description: ["Everyone wants to be the first. In this online era, to become ahead among your friends you need to have faster speed typing skills whether you need to write an email or insert data and for so many reasons. To test your typing skill, we are bringing this speed typing event where you can check your typing speed among your batchmates from various schools."
         ],
-        hover_description : "Finance",
+        hover_description : "Ready Set Type",
        
         // have each rule as a element of an array
         rule_book_rules :["The contest is open for the students of class 9th to 12th (Up to secondary level), age limit is 18 years.",
