@@ -35,8 +35,8 @@ function Home2() {
 
 
     return (
-        <div>
-            <div className="je-home-container">
+        <div className="je_zi_1">
+            <div className="je-home-container ">
                 <div className="je_home_section1">
                     <img src={Gau}  className='je_home_bkg_pic' alt="" />
                     {/* <img src={Logo1} className='je_home_logo' alt="" /> */}

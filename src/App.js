@@ -19,7 +19,6 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <div>
     <Router >
       <Navbar />
         <Switch>
@@ -39,9 +38,8 @@ function App() {
           <Redirect from="/technical_events/*" to="/technical_events/#" />
           <Redirect from="*" to="/#" />
         </Switch>
-  </Router>
         <Footer />
-  </div>
+  </Router>
   )
 }
 

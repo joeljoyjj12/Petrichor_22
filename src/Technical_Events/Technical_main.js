@@ -25,10 +25,12 @@ function Technical_main() {
     },[])
     
     return (
+        <>
         <div className='je_tech_section1'>
                 <img src={Pic} alt="" className='je_tech_banger_pic' />
                 <div className="je_tech_banger_title_contaier">Technical Events</div>
 
+            </div>
          {/* <div className='ben_outer'> */}
                 <div className="je_tech_section2">
                 
@@ -38,9 +40,17 @@ function Technical_main() {
 
                         })
                     }
+                    {/* <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div>
+                    <div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div><div>s</div> */}
                 </div>
         {/* </div> */}
-        </div>
+        </>
 
     )
 }

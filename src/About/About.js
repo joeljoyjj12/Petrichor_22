@@ -5,6 +5,11 @@ function About() {
     return (
         <div>
             About
+            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
+            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
+            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
+            {/* <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div> */}
+            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
             <White_bg/>
         </div>
     )

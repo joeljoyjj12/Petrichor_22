@@ -34,8 +34,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding:70px 50px;
     grid-gap: 50px;
-    /* background-color: gray; */
-    height: 100%;
+    background-color: white; 
+    /* height: 100%;
+
+
+    background-color:rgba(0,0,255,0.4);
+    position: relative;
+
     /* height: fit-content; */
     /* height: 3vh; */
 }
