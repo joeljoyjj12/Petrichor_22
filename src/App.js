@@ -15,6 +15,7 @@ import Proshows from "./Proshows/Proshows.js"
 import "./App.css"
 import { Scrollbars } from 'react-custom-scrollbars';
 import About_us from './About_us/About_us';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Redirect from="*" to="/#" />
         </Switch>
   </Router>
+        <Footer />
   </div>
   )
 }

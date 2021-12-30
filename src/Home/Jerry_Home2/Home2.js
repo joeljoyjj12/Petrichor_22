@@ -57,21 +57,27 @@ function Home2() {
                     </div>
                 </div>     
             </div>
-            <Buffer1 />
+            <Buffer1 a={"nicee"}/>
+            <Buffer1 a={"seconddddddddd"}/>
+            <Buffer1 a={"third"}/>
+            <Buffer1 a={"4"}/>
+            <Buffer1 a={"five"}/>
         </div>
     )
 }
 
-function Buffer1(){
+function Buffer1({a}){
     return (
-        <div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
-            <div> this is petrichor 2022</div>
+        <div style={{backgroundColor:"white"}}>
+            <div> this is petrichor 2022 {a} {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
+            <div> this is petrichor 2022 {a}</div>
         </div>
     )
 }

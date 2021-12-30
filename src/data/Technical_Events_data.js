@@ -2,8 +2,8 @@ const Technical_Events_data=[
     {
         name : "Robo Soccer",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "15-01-2022",
+        end_date : "22-01-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -69,8 +69,8 @@ const Technical_Events_data=[
     {
         name : "Maze Runner",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "13-01-2021",
+        end_date : "27-01-2021",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -131,8 +131,8 @@ const Technical_Events_data=[
     {
         name : "Competitive Programming",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "15-01-2022",
+        end_date : "15-01-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -190,8 +190,8 @@ const Technical_Events_data=[
     {
         name : "Machine Learning Predicting Task",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "16-01-2022",
+        end_date : "19-01-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -246,8 +246,8 @@ const Technical_Events_data=[
     {
         name : "D-Sign",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "22-01-2022",
+        end_date : "25-01-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded

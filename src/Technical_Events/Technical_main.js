@@ -8,6 +8,7 @@ import {
     useLocation
   } from "react-router-dom";
   import { Redirect } from 'react-router';
+import White_bg from '../Global_Components/White_bg/White_bg';
 function Technical_main() {
     
     useEffect(()=>{
@@ -28,14 +29,17 @@ function Technical_main() {
                 <img src={Pic} alt="" className='je_tech_banger_pic' />
                 <div className="je_tech_banger_title_contaier">Technical Events</div>
 
-        <div className="je_tech_section2">
-            {
-                Technical_Events_data.map((a,b)=>{
-                    return <Card2 a={a} b={b}/>
+         {/* <div className='ben_outer'> */}
+                <div className="je_tech_section2">
+                
+                    {
+                        Technical_Events_data.map((a,b)=>{
+                            return <Card2 a={a} b={b}/>
 
-                })
-            }
-        </div>
+                        })
+                    }
+                </div>
+        {/* </div> */}
         </div>
 
     )
@@ -131,7 +135,8 @@ function Card2({a,b}){
                                 {/* <div className='je_tech_card_hover_description'>{a.hover_description}</div> */}
                                 <div className='je_tech_card_hover_description'>
                                     
-                                        <div className="je_tech_card_hover_date" >{a.start_date}</div>
+                                        <div className="je_tech_card_hover_date" >{a.start_date} to {a.end_date}</div>
+                                        {/* <div className="je_tech_card_hover_date" >{a.end_date}</div> */}
                                         <div>{a.hover_description}</div>
 
                                 </div>

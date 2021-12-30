@@ -28,10 +28,11 @@ function Cultural_main2() {
     },[])
     
     return (
-        <div className='je_tech_section1'>
+        <>        <div className='je_tech_section1'>
                 <img src={Pic} alt="" className='je_tech_banger_pic' />
                 <div className="je_tech_banger_title_contaier">Cultural Events</div>
 
+        </div>
         <div className="je_tech_section2">
             {
                 Cultural_Events_data.map((a,b)=>{
@@ -40,7 +41,8 @@ function Cultural_main2() {
                 })
             }
         </div>
-        </div>
+        </>
+
 
     )
 }

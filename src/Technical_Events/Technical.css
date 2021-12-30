@@ -34,6 +34,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding:70px 50px;
     grid-gap: 50px;
+    /* background-color: gray; */
+    height: 100%;
+    /* height: fit-content; */
+    /* height: 3vh; */
 }
 
 .je_tech_card_wrapper{
