@@ -4,6 +4,8 @@ import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
 import "./Home.css"
+import "./Home_2.css"
+import "./bg_anim.css"
 // import LogoAnim2 from "./video_data/Logo_anim1.m4v"
 import Gau from "./gautham.jpg"
 import Ayush_about from "./ayush.png"
@@ -11,6 +13,9 @@ import Sponsor1 from "./sponsor1.png"
 import Sponsor2 from "./sponsor2.png"
 import Sponsor from "./sbi-logo-33230.png"
 import Person from "./person.jpg"
+import img_c1 from './Images/contact_1.jpg'
+import img_c2 from './Images/contact_2.jpg'
+import img_c3 from './Images/contact_3.jpg'
 import Fb from "./facebook.png"
 import Insta from "./instagram.png"
 import Twit from "./twitter.png"
@@ -70,60 +75,105 @@ function Home2() {
                     </div>
                 </div>     
             </div>
-            <div class="ayush_about">
-                <h1 id="ayush_heading_about">About Us</h1>
-                <div class="ayush_all">
-                <div data-aos="fade-right" id="ayush_content_about">Petrichor denotes the pleasant smell that accompanies the first rain after a long spell of warm weather; the novelty and freshness of a new beginning. Petrichor, the annual technocultural fest of IIT Palakkad, is a golden opportunity to bring out the artist or techie in you and to meet exponents from various technical, cultural and social fields. <br /> <br /> 
-                Petrichor made its mark with its inception in October 2018, and has continued to build on its glory, one step at a time. Our aspirations of a techno-cultural fusion have yet again brought us to another endeavour- Petrichor 2020. 
-                 <p>
-            </p></div>
-                <img data-aos="fade-left" src={Ayush_about}  class='ayush_about_pic' alt="" />
-                
+
+
+
+            {/* About */}
+            <div class="ayush_about ">
+               
+                <div className="row justify-content-center">
+
+                    <div className="col-lg-6 col-md-10 col-sm-11 abt_left">
+                        <h1 id="ayush_heading_about"><span style={{color:"rgb(152 9 9)"}}>A</span>SIDE FROM THE TEAM</h1>
+                        <div class="ayush_all" data-aos="fade-right">
+                            <div id="ayush_content_about">We welcome you to the official website of <span style={{color:"rgb(152 9 9)",fontWeight:"800"}}>Petrichor</span> - the annual techno-cultural fest of IIT Palakkad. We are a team composed of the students of IIT Palakkad and have been actively involved over the last few months in bringing together our very fest online fest. Keeping up with the changing times and themed around “<span style={{color:"rgb(152 9 9)",fontWeight:"700"}}>Evolution</span>”,  Petrichor is being organized online this year. With just the perfect mix of cultural and technical events, we plan on making Petrichor’22 an unforgettable experience for you. To ensure that you don’t miss out on anything, do check out the website as all the information related to the fest will be available here. So stay tuned and brace yourselves for the journey of a lifetime with Petrichor’22 <br /> - <span style={{color:"rgb(152 9 9)"}} className='tagline_home'>A Virtual Extravaganza Like Never Before!</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 about_img_col" data-aos="fade-left">
+                        
+                    </div>
+
                 </div>
             </div>
-            <div class="ayush_sponsors">
-            <div class="ayush_heading_div"><h1 id="ayush_heading_sponsor">TITLE SPONSOR</h1></div>
-            <div class="ayush_all">
-                <img src={Sponsor} data-aos="zoom-in" class='ayush_sponsors_pic' id="ayush_last" alt="" />
-            </div>
-            </div>
-
-            <div class="ayush_contact">
-            <div class="ayush_heading_div"><h1 id="ayush_heading_contact">Contact Us</h1></div>
-            <div class="ayush_all">
-            <div class="ayush_content">
-            <div class="ayush_content-overlay"></div>
-            <img class="ayush_content-image" src={Person} />
-            <div class="ayush_content-details ayush_fade">
-                <h3 class="ayush_content-title">Name: xyxyxy</h3>
-                <p class="ayush_content-text">Details: dfjnjkjd</p>
-            </div>
-            </div>
-
-            <div class="ayush_content">
-            <div class="ayush_content-overlay"></div>
-            <img class="ayush_content-image" src={Person} />
-            <div class="ayush_content-details ayush_fade">
-                <h3 class="ayush_content-title">Name: xyxyxy</h3>
-                <p class="ayush_content-text">Details: dfjnjkjd</p>
-            </div>
-            </div>
 
 
-            <div class="ayush_content">
-            <div class="ayush_content-overlay"></div>
-            <img class="ayush_content-image" src={Person} />
-            <div class="ayush_content-details ayush_fade">
-                <h3 class="ayush_content-title">Name: xyxyxy</h3>
-                <p class="ayush_content-text">Details: dfjnjkjd</p>
-            </div>
-            </div>
 
-            </div>
-            <br/>
-            <div class="ayush_button_div"><button class="ayush_button">Core Team</button></div>
+
+
+
+
+
+
+
+            {/* Contact */}
+
+
+            <div class="home_contact">
+                
+                <h1 id="home_heading_contact">Contact Us</h1>
+                <div className="row justify-content-around contact_box">
+    
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c1} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c3} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c2} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ayush_button_div d-flex flex-row justify-content-start">
+                    <div className="core_hm_btn w-90 mx-auto">
+                        <button class="ayush_button">Core Team</button>
+                    </div>
+                </div>
             </div>
             
+
+
+
+
+
 
 
             <div class="ayush_footer">
