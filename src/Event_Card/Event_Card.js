@@ -93,8 +93,8 @@ function Main_stuff({id,data,istech}){
                     data.description.map((a,c)=>(
                         <>
                          {c== 0 ?
-                         <div className="jj_event_block1_bold ">{a} </div>:
-                         <div className="jj_event_block1_des">{a}</div>}
+                         <div className="jj_event_block1_bold je_nocapitalose_sentence_first_letter_capital">{a} </div>:
+                         <div className="jj_event_block1_des je_nocapitalose_sentence_first_letter_capital">{a}</div>}
                          <br />
                          </>
                     ))
@@ -138,7 +138,7 @@ function Main_stuff({id,data,istech}){
                                 <>
                                 {g==0?null:
                                 <>
-                                <div className="jj_event_block1_des jj_event_block3_des"> {g}. {f}</div>
+                                <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital"> {g}. {f}</div>
                                 <br />
                                 </>
                                 }
@@ -158,7 +158,7 @@ function Main_stuff({id,data,istech}){
                                             {
                                     data.rule_book_rules.map((a,c)=>(
                                         <>
-                                        <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                                        <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
                                         <br />
                                         </>
                                     ))
@@ -176,7 +176,7 @@ function Main_stuff({id,data,istech}){
             {
                         data.judging_criteria.map((a,c)=>(
                             <>
-                            <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                            <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
                             <br />
                             </>
                         ))
@@ -198,7 +198,7 @@ function Main_stuff({id,data,istech}){
                                {
                     data.prizes_in_ascending_order.map((a,c)=>(
                         <>
-                         <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                         <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
                          <br />
                          </>
                     ))
@@ -209,7 +209,7 @@ function Main_stuff({id,data,istech}){
                                {
                                 data.prizes_in_ascending_order.map((a,c)=>(
                                     <>
-                                    <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                                    <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
                                     <br />
                                     </>
                                 ))

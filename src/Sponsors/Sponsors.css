@@ -4,8 +4,6 @@
     /* grid-template-columns: 180px 300px 280px; */
     display: inline-grid;
     width: 100vw;
-
-
 }
 .je_sponsors_title_arjun{
 
@@ -29,6 +27,13 @@
     padding-top: 100px;
 }
 
+.je_sponsor_hover{
+    transition: all 0.2s ease;
+}
+
+.je_sponsor_hover:hover{
+    color:red;
+}
 .je_partner_title{
     color: white;
     width: 100vw;
@@ -37,10 +42,12 @@
     font-weight: 500;
     text-transform: uppercase;
     font:"CODE_BOLD";
+    
 }
 .je_partner_white_arjun{
+    padding-top: 30px;
+    color: black;
     background-color: white;
-    color:black;
 }
 
 .je_partner_item{
@@ -55,20 +62,26 @@
 }
 
 .je_parnter_item_pic{
-    width: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: green; */
     object-fit: contain;
 }
-
-
-.je_parnter_item_title{
+.je_sponsor_item_title{
     color: white;
     margin-top: 20px;
     font-size: 18px;
     transition: 0.1s all ease-in;
 }
-.je_parnter_item_title:hover{
-    color:red;
+
+
+.je_parnter_item_title{
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: 0.1s all ease-in;
 }
+
 
 .je_aa{
     color:inherit;
@@ -77,5 +90,27 @@
 
 .je_sponsor_container{
     background-color: black;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .je_partner_container{
+        grid-template-columns:  3fr 3fr;
+    }
+    .je_small_sponsor_container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .je_partner_container{
+        grid-template-columns:1fr;
+    }
+    
 }
 

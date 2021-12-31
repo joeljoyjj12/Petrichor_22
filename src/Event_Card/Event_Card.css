@@ -207,6 +207,14 @@
 }
 
 
+.je_nocapitalose_sentence_first_letter_capital{
+    text-transform: none;
+}
+
+.je_nocapitalose_sentence_first_letter_capital:first-letter {
+    text-transform: capitalize
+}
+
 .jj_event_block5_pic_transiter{
     transition: all 0.3s;
     position: relative;
