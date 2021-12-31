@@ -845,9 +845,59 @@ const Cult_events=[
         prizes_general_text : "We have exciting prizes awaiting you",
         prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
     },
+    {
+        name : "Digi-inc",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/Event_Cultural/Digi-inc.jpg",
+        organiser:[
+            {
+                name : "Alfin Jaison",
+                pic :"/media/organisers/Alfin_Jaison.jpg",
+                email :"9486749784",
+            },
+            {
+                name : "Akhil",
+                pic :"/media/organisers/Akhil.jpg",
+                email :"8129259743",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        ],
+        hover_description : "E Games",
+       
+        // have each rule as a element of an array
+        rule_book_rules :[
+            "There is no restriction on the size of the canvas or software used.",
+            "The participants must submit the psd,ai or any other design files of their artwork.",
+            "The artwork should contain the participant’s name or signature. ",
+            "Submission should be the original work of the participant; plagiarism is not allowed.",
+            "The participants have to submit 2 photos in total. 1 screenshot of the artwork at the mid stage of drawing. The final finished artwork.",
+        ],
 
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+            [   "General",
+                "Theme: Life in Lockdown",
+                "The competition is an individual event and a participant can submit only one entry.",
+            ]
+        ],
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : false,
 
-    
+        prizes_general_text : "We have exciting prizes awaiting you",
+        prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
+    },
+
     {
         name : "Smooth Moves",
         // jerry check if it is yyyyy-mm-dd or reverse
@@ -877,7 +927,7 @@ const Cult_events=[
        
         // have each rule as a element of an array
         rule_book_rules :[
-        "Any dance style is permitted.",
+            "Any dance style is permitted.",
             "Usage of props is permitted.",
             "Any stunts that can cause life risk are not permitted.",
             "Video must be continuous with appropriate music quality.",
@@ -890,26 +940,22 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            [
-                "Round 1:",
-                "The minimum time is 2 minutes and maximum is 3 minutes.",
-                "Choice of song will be given to the participants.",
+                [
+                    "Round 1",
+                    "The minimum time is 2 minutes and maximum is 3 minutes.",
+                    "Choice of song will be given to the participants.",
+                ],
+                [
+                    "Round 2",
+                    "A few participants who clear the first round will be allowed to take part in the second round.",
+                    "Each participant of the second round will receive a song mix of time duration of maximum one minute.",
+                    "The participants should choreograph the song mix by themselves and submit their final video within six hours (around 11am to 6pm).",
+                    "Plagiarism will not be entertained.",
+                ],
             ],
-                
-            [
-            
-                "Round 2:",
-                "A few participants who clear the first round will be allowed to take part in the second round.",
-                "Each participant of the second round will receive a song mix of time duration of maximum one minute.",
-                "The participants should choreograph the song mix by themselves and submit their final video within six hours (around 11am to 6pm).",
-                "Plagiarism will not be entertained.",
-            ],    
-                
-            ]
-            ,
         
         // reccommended make is true and write down the rest
-        judging_criteria_show : false,
+        judging_criteria_show : true,
         judging_criteria:[
             "THEME - 10",
             "ENERGY - 30",
@@ -920,6 +966,131 @@ const Cult_events=[
 
         prizes_general_text : "We have exciting prizes awaiting you",
         prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
+    },
+
+    
+    {
+        name : "Prom Night",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/Event_Cultural/Prom_Night.jpg",
+        organiser:[
+            {
+                name : "Thanmayee",
+                pic :"/media/organisers/Thanmayee.jpg",
+                email :"6302331104",
+            },
+            {
+                name : "Akshitha",
+                pic :"/media/organisers/Akshitha.jpg",
+                email :"8688647851",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        ],
+        hover_description : "Duo dance",
+       
+        // have each rule as a element of an array
+        rule_book_rules :[
+            "Any Dance style is permitted.",
+            "Both participants should be in the frame for the entire duration.",
+            "The minimum time is 3 minutes and maximum is 6 minutes.",
+            "Usage of props is permitted",
+            "Any stunts that can cause life risk are not permitted.",
+            "Video must be continuous with appropriate music quality.",
+            "No graphic element should be used while editing the video.",
+            "The decision of the judges will be final.",
+            "On exceeding the time limit, 5   marks will be reduced for every 10 seconds from the marks obtained by the concerned team.",
+        ],
+
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+                ["General","Two members per team (any combination) and one entry per team."],
+            ],
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : true,
+        judging_criteria:[
+            "SYNC - 30",
+            "ENERGY - 25",
+            "CHOREOGRAPHY - 25",
+            "PROPS AND COSTUMES - 10",
+            "EXPRESSIONS - 10",
+        ],
+
+        prizes_general_text : "We have exciting prizes awaiting you",
+        prizes_in_ascending_order: ["Rs. 5,000 ", "Rs. 2,500","Rs. 1,500"],
+    },
+
+
+
+    {
+        name : "Dance Wars",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/Event_Cultural/Dance_Wars.jpg",
+        organiser:[
+            {
+                name : "Thanmayee",
+                pic :"/media/organisers/Thanmayee.jpg",
+                email :"6302331104",
+            },
+            {
+                name : "Akshitha",
+                pic :"/media/organisers/Akshitha.jpg",
+                email :"8688647851",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        ],
+        hover_description : "Duo dance",
+       
+        // have each rule as a element of an array
+        rule_book_rules :[
+            "Any Dance style is permitted.",
+            "Both participants should be in the frame for the entire duration.",
+            "The minimum time is 3 minutes and maximum is 6 minutes.",
+            "Usage of props is permitted",
+            "Any stunts that can cause life risk are not permitted.",
+            "Video must be continuous with appropriate music quality.",
+            "No graphic element should be used while editing the video.",
+            "The decision of the judges will be final.",
+            "On exceeding the time limit, 5   marks will be reduced for every 10 seconds from the marks obtained by the concerned team.",
+        ],
+
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+                ["General","Two members per team (any combination) and one entry per team."],
+            ],
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : true,
+        judging_criteria:[
+            "SYNC - 30",
+            "ENERGY - 25",
+            "CHOREOGRAPHY - 25",
+            "PROPS AND COSTUMES - 10",
+            "EXPRESSIONS - 10",
+        ],
+
+        prizes_general_text : "We have exciting prizes awaiting you",
+        prizes_in_ascending_order: ["Rs. 5,000 ", "Rs. 2,500","Rs. 1,500"],
     },
 ]
 
