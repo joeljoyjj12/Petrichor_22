@@ -20,7 +20,6 @@ const Cult_events=[
                 email :"9188184292",
             },
         ],
-        description_title : "Title",
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
@@ -352,7 +351,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Solo singing",
        
         // have each rule as a element of an array
         rule_book_rules :["Duration: Maximum 5 minutes",
@@ -364,7 +363,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","A person can send only one audio recording. The corresponding video recording must be sent separately."]    
+            ["General","This is a Solo singing competition","A person can send only one audio recording. The corresponding video recording must be sent separately."]    
         ],
         
         // reccommended make is true and write down the rest
@@ -404,7 +403,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Solo instrument",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -420,7 +419,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","A person can send only one video recording. The corresponding audio recording can be sent separately. Though this is not mandatory, it is to be noted that recording with a separate device could increase the quality of audio."]    
+            ["General","This is a Solo instrument competition","A person can send only one video recording. The corresponding audio recording can be sent separately. Though this is not mandatory, it is to be noted that recording with a separate device could increase the quality of audio."]    
         ],
         
         // reccommended make is true and write down the rest
@@ -462,7 +461,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Band",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -526,7 +525,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Quiz",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -595,7 +594,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Story Writing",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -611,7 +610,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","Participants can use the google form link provided to submit their entries, submission details will be provided by mail later."]
+           ["General","This is a Story Writing competition","Participants can use the google form link provided to submit their entries, submission details will be provided by mail later."]
             ],
         
         // reccommended make is true and write down the rest
@@ -652,7 +651,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Freestyle Poetry",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -669,7 +668,7 @@ const Cult_events=[
         structure_show:true,
         structure:[
            ["General",
-           "The topic will be given on the spot",
+           "The topic will be given on the spot.",
            "Participants will be given 30 minutes to come up with their poem",
            "After 30 mins all entries should be submitted by a google form link that will be given in the meeting on spot and after submission, each participant will have to narrate their poem ",
             ]
@@ -714,7 +713,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Theme based photography",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -766,7 +765,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Comic strip",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -819,7 +818,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Pencil sketching",
        
         // have each rule as a element of an array
         rule_book_rules :[
@@ -870,7 +869,7 @@ const Cult_events=[
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
         "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
         ],
-        hover_description : "E Games",
+        hover_description : "Digital art",
        
         // have each rule as a element of an array
         rule_book_rules :[
