@@ -115,7 +115,7 @@ function Home2() {
                 <h1 id="home_heading_contact">Contact Us</h1>
                 <div className="row justify-content-around contact_box">
     
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
                         <div className="hm_img_box">
                             <img src={img_c1} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
@@ -130,7 +130,7 @@ function Home2() {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
                         <div className="hm_img_box">
                             <img src={img_c3} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
@@ -145,7 +145,7 @@ function Home2() {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
                         <div className="hm_img_box">
                             <img src={img_c2} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
@@ -164,7 +164,7 @@ function Home2() {
 
                 <div class="ayush_button_div d-flex flex-row justify-content-start">
                     <div className="core_hm_btn w-90 mx-auto">
-                        <button class="ayush_button">Core Team</button>
+                        <button class="ayush_button">Meet The Team</button>
                     </div>
                 </div>
             </div>

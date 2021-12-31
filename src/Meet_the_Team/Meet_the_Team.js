@@ -127,8 +127,8 @@ function Meet_the_Team() {
             <div className="row core_main justify-content-center">
                 <div className="col-lg-5 core_team_desc_main ">
                     <div className="container team_2">
-                        <h2 className='core_heading text-center'>CORE</h2>
-                        <h2 className='core_heading text-center' style={{transform:"translate(0,-18px)"}}>TEAM</h2>
+                        <h2 className='core_heading text-center'>SUPPORTIVE</h2>
+                        <h2 className='core_heading text-center' style={{transform:"translate(0,-18px)"}}>HEADS</h2>
                         <div className="d-flex justify-content-center">
                             <p className='core_descr '>
                                 Just like mycelium we operate as a network organisation. Our team is a beautiful community of nature explorers and medical experts, artists and scientists, meditators and activists who are convinced that the challenges of the future are best addressed by reconnecting with na
@@ -180,7 +180,7 @@ function Meet_the_Team() {
              <div className="row core_main justify-content-center">
                 <div className="col-lg-5 core_team_desc_main ">
                     <div className="container team_3">
-                        <h2 className='core_heading text-center'>CORE</h2>
+                        <h2 className='core_heading text-center'>WEBSITE</h2>
                         <h2 className='core_heading text-center' style={{transform:"translate(0,-18px)"}}>TEAM</h2>
                         <div className="d-flex justify-content-center">
                             <p className='core_descr '>

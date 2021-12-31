@@ -71,7 +71,7 @@ function Navbar1() {
 function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8}){
     return (
         <div className='je_navbar_hover_list nav_hover_open'>
-            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>About</div>:null}
+            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'><Link to="/about/" className="je_link_simp">About</Link></div>:null}
             {d2==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Cultural</div>:null}
             {d3==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Technical</div>:null}
             {d4==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>WorkShop</div>:null}
@@ -79,7 +79,7 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8}){
             {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Sponsors</div>:null}
             {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>CA Portal</div>:null}
             {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Merchandise</div>:null}
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>About Us</div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'><Link to="/about/" className="je_link_simp">About Us</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'><Link to="/meet_the_team" className='je_link_simp'>Core Team</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline'>Contact Us</div>
             <div className='je_navbar_hover_list_item '>Subscribe</div>

@@ -1,0 +1,142 @@
+.about_main_box{
+    background-image: url("./Images/bg_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 15vh ;
+
+    font-family: "Fredericka the Great";
+    color: white;
+}
+
+.abt_us_head{
+    margin-top: 10px;
+}
+
+.abt_us_h1{
+    font-size: 5rem !important;
+    background: #A39F9F;
+     background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
+    background: -moz-repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
+    background: repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: neonAnim 2s alternate-reverse infinite;   
+}
+
+/* @keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 10px rgba(232, 129, 129, .7),
+          0 0 40px rgba(232, 129, 129, .7),
+          0 0 100px rgba(232, 129, 129, .7);
+      }
+      to {
+        text-shadow:
+          0 0 5px rgba(232, 129, 129, .7),
+          0 0 20px rgba(232, 129, 129, .7),
+          0 0 60px rgba(232, 129, 129, .7);
+      }
+} */
+
+
+
+.abt_para{
+    color: rgb(170, 165, 165);
+    font-size: 1.3rem;  
+    margin-top: 8vh;
+    letter-spacing: 1.8px;
+}
+
+.abt_para_2{
+    margin-top: 14vh;
+    font-size: 1.1rem;
+}
+
+.abt_para_3{
+    margin-top: 12vh;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.abt_after_movie{
+    margin-top: 15vh;
+}
+.abt_after_movie div div{
+    margin: auto;
+}
+
+.react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.player-wrapper{
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+
+@media screen and (max-width:768px){
+    .abt_para{
+        color: rgb(170, 165, 165);
+        font-size: 1rem;  
+        margin-top: 8vh;
+        letter-spacing: 1.7px;
+        text-align: justify;
+    }
+    
+    .abt_para_2{
+        margin-top: 9vh;
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+    
+    .abt_para_3{
+        margin-top: 7.5vh;
+        font-size: 0.9rem;
+        padding-bottom: 22px;
+        text-align: justify;
+    }
+
+    .abt_after_movie{
+        margin-top: 10vh;
+    }
+}
+
+@media screen and (max-width:576px){
+    .abt_us_head{
+        margin-top: 1px;
+    }
+
+    .abt_para{
+        font-size: 0.85rem;  
+        margin-top: 5vh;
+        letter-spacing: 1.1px;
+    }
+    
+    .abt_para_2{
+        font-size: 0.73rem;  
+        margin-top: 8.6vh;
+        letter-spacing: 1px;
+    }
+    
+    .abt_para_3{
+        font-size: 0.73rem;  
+        margin-top: 7.5vh;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .abt_after_movie{
+        margin-top: 8vh;
+    }
+
+    .abt_us_h1{
+        font-size: 3.8rem !important;
+    }
+}

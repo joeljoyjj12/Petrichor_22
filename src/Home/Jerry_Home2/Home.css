@@ -415,8 +415,8 @@
 .ayush_button {
     font-family: "Roboto";
     background-color: black;
-    padding: 4px 32px;
-    font-size: 23px;
+    padding: 3px 18px;
+    font-size: 22px;
     font-weight: 400;
     border:solid 1.4px rgb(152, 9, 9);
     color: rgb(152, 9, 9);
@@ -605,7 +605,7 @@
         line-height: 23px;
         text-align: left;
         color: rgb(197, 194, 194);
-        transform: translate(5px,-110px);
+        transform: translate(5px,-100px);
         padding-right: 15px;
         padding-top: 15px;
         /* box-shadow: 1px 1px rgb(152 9 9); */
@@ -625,34 +625,45 @@
       }
 
     .tagline_home{
-        font-size: 23px;
+        font-size: 18px;
         margin-top: 2px;
-        line-height: 24px;
-        letter-spacing: 1px;
+        line-height: 22px;
+        /* color: rgb(207, 205, 205) !important; */
+        color: rgb(151, 19, 19) !important;
+        text-align: center;
+        text-transform: uppercase;
+        transform: translateX(-10px);
+        letter-spacing: 0.5px;
      
     }
 
     #home_heading_contact{
-        font-size: 45px;
-        transform: translateX(8vw);
+        font-size: 42px;
+        transform: translate(1vw,-20px);
         margin-bottom: 16px;
     }
     
     .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
-        font-size: 18px;
-        top:110px;
+        font-size: 15px;
+        top:80px;
         left: 18px;
-        transform: translateY(30px)
+        transform: translateY(20px)
     }
     .hm_cont_detail{
-        top: 140px;
+        top: 105px;
     }
     .hm_cont_desig{
-        top: 170px;
+        top: 130px;
     }
 
     .contact_box{
         padding-top: 2.4vw;
+    }
+
+    .ayush_button {
+        padding: 2px 12px;
+        font-size: 18px;
+        font-weight: 400;
     }
 
 }
