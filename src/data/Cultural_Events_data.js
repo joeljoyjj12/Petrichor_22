@@ -1092,6 +1092,115 @@ const Cult_events=[
         prizes_general_text : "We have exciting prizes awaiting you",
         prizes_in_ascending_order: ["Rs. 5,000 ", "Rs. 2,500","Rs. 1,500"],
     },
+    
+
+
+    {
+        name : "Rise -n- shine",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/Event_Cultural/Rise -n- shine.jpg",
+        organiser:[
+            {
+                name : "Kanimozhi",
+                pic :"/media/organisers/Kanimozhi.jpg",
+                email :"9345104215",
+            },
+            {
+                name : "Manikanta",
+                pic :"/media/organisers/Manikanta.jpg",
+                email :"7386025206",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        ],
+        hover_description : "Ramp walk",
+       
+        // have each rule as a element of an array
+        rule_book_rules :[
+            "The dressing of the contestants should be consistent with the theme. The entries of the contestants with the above mentioned theme are only considered.",
+            "Contestants may add background music or song to the video clip.",
+            "The creativity of the dressing is left to the contestants.",
+            "The decision of the judges is final.",
+        ],
+
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+                ["General",
+                    "The theme is INDO-WESTERN.",
+                    "This is a solo event where the contestant has to ramp walk in their style and send the video clip.",
+            ],
+            ],
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : false,
+        prizes_general_text : "We have exciting prizes awaiting you",
+        prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 2,000","Rs. 1,000"],
+    },
+
+
+    
+    {
+        name : "Calico Kultura",
+        // jerry check if it is yyyyy-mm-dd or reverse
+        start_date : "12-02-2021",
+        end_date : "14-02-2022",
+        // date to compete link
+        registeration_link : "https://www.google.com/",
+        // the pic should be locally uploaded
+        picture: "/media/Event_Cultural/Calico_Kultura.jpg",
+        organiser:[
+            {
+                name : "Kanimozhi",
+                pic :"/media/organisers/Kanimozhi.jpg",
+                email :"9345104215",
+            },
+            {
+                name : "Manikanta",
+                pic :"/media/organisers/Manikanta.jpg",
+                email :"7386025206",
+            },
+        ],
+        // first element will be bolded, I think u can only have 2 paras (map)
+        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        ],
+        hover_description : "Ramp walk",
+       
+        // have each rule as a element of an array
+        rule_book_rules :[
+            "Any kind of makeover editing/ adding stickers are not allowed.",
+            "The decision of the judges is final."
+        ],
+
+        //recommended always show true,
+        //instructure in each array row, the first 
+        structure_show:true,
+        structure:[
+            ["General","The theme is freestyle.",
+                "It is a solo event where the contestant has to send 2 photographs of them in the below mentioned specific kind."],
+            [
+                "Photo Specification","A wide angle picture (the complete picture)",
+                "A close shot picture"
+            ],
+        ],
+        
+        // reccommended make is true and write down the rest
+        judging_criteria_show : true,
+        judging_criteria:["The photography", "The attire", "The overall outlook and background.", "The pose."],
+        prizes_general_text : "We have exciting prizes awaiting you",
+        prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 2,000","Rs. 1,000"],
+    },
+
+
 ]
 
 
