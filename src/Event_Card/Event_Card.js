@@ -202,7 +202,20 @@ function Main_stuff({id,data,istech}){
                          <br />
                          </>
                     ))
-                }                   
+                }       
+
+                    {data.prizes_general_text_secondary?<>
+                    <div className="jj_event_block45_gen_text">{data.prizes_general_text}</div>
+                               {
+                                data.prizes_in_ascending_order.map((a,c)=>(
+                                    <>
+                                    <div className="jj_event_block1_des jj_event_block3_des">{c+1}. {a} </div>
+                                    <br />
+                                    </>
+                                ))
+                                }
+                                </>
+                                :null}               
                      </div>
             </div>
 
