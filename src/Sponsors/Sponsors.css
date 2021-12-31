@@ -74,12 +74,22 @@
     transition: 0.1s all ease-in;
 }
 
+.je_sponsor_item_title:hover{
+    color: red;
+}
+.je_little_sponsor_item_pic{
+    max-width: 35vw;
+}
 
 .je_parnter_item_title{
     color: black;
-    margin-top: 20px;
+    margin-top: 24px;
+    font-weight: 450;
     font-size: 18px;
     transition: 0.1s all ease-in;
+}
+.je_parnter_item_title:hover{
+    color: red;
 }
 
 
@@ -92,7 +102,9 @@
     background-color: black;
 }
 
-
+.je_sponsor_item_pic_max_width{
+    max-width: 85vw;
+}
 
 @media only screen and (max-width: 1000px) {
 
@@ -102,6 +114,9 @@
     .je_small_sponsor_container{
         grid-template-columns: 1fr;
     }
+    .je_little_sponsor_item_pic{
+        max-width: 60vw;
+    }
 }
 
 
@@ -110,6 +125,9 @@
 
     .je_partner_container{
         grid-template-columns:1fr;
+    }
+    .je_little_sponsor_item_pic{
+        max-width: 80vw;
     }
     
 }
