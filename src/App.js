@@ -16,6 +16,7 @@ import "./App.css"
 import { Scrollbars } from 'react-custom-scrollbars';
 import About_us from './About_us/About_us';
 import Footer from './Footer/Footer';
+import Countdown from './Countdown/Countdown';
 
 function App() {
   // const [isover,setIsover]=useState(false);
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/cultural_events/" component={Cultural_main}/>
           <Route exact path="/cultural_events/event" component={Event_Card}/>
           <Route exact path="/meet_the_team" component={Meet_the_Team}/>
+          <Route exact path="/countdown" component={Countdown}/>
           <Route exact path="/sponsors" component={Sponsor}/>
           <Route exact path="/workshops" component={Workshops}/>
           <Route exact path="/proshows" component={Proshows}/>
