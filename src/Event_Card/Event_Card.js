@@ -105,7 +105,7 @@ function Main_stuff({id,data,istech}){
             </div>
 
                 {/* block2 --> taking block 1 and just layering */}
-            <div className="jj_event_block1 jj_event_block2">
+            <div className="jj_event_block2 jj_event_block1 je_special ">
                 <div className="jj_event_block1_left jj_event_block2_left"> 02  <strong> Date </strong> </div>
                 <div className="jj_event_block1_right jj_event_block2_right">
                     

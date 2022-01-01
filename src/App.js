@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { BrowserRouter as Router, Switch, Route,Redirect } from "react-router-dom";
 import Cultural_main from './Cultural_Events/Cultural_main';
 // import Home from './Home/Home';
@@ -18,11 +18,16 @@ import About_us from './About_us/About_us';
 import Footer from './Footer/Footer';
 
 function App() {
+  // const [isover,setIsover]=useState(false);
+  const [isover,setIsover]=useState(false);
+
   return (
     <Router >
       <Navbar />
         <Switch>
-          <Route  exact path="/" component={Home}/>
+          <Route  exact path="/" 
+                    render={(props) => <Home isover={isover} setIsover={setIsover} /> } 
+          />
           <Route  exact path="/home" component={Home}/>
           <Route  exact path="/about" component={About}/>
           <Route  exact path="/about_us" component={About_us}/>

@@ -23,8 +23,27 @@ import Yt from "./youtube.png"
 import Ln from "./linkedin.png"
 import Jj from "./video_data/cropped_logo_home.webm"
 import CultTechSection from './CultTechSection.js';
+import Loader from "../../Loader/Loader.js" 
+// import { isover,setIsover } from "./yourHook";
 
-function Home2() {
+// function Home2(){
+function Home2({isover,setIsover}){
+    // let [isover,setIsover]=useState(false);
+    // const [isover,setIsover]=useState(false);
+
+    return (
+        <>
+        {
+            isover?
+            <Home22  />
+            :
+            <Loader isover={isover} setIsover={setIsover} className="jerry_loader_class_target"/>
+        }
+        </>
+    )
+}
+
+function Home22() {
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
@@ -258,7 +277,9 @@ function Jje(){
         width2 = f2*window.innerWidth;
 
 
-        document.querySelector(".je_video1").style.top="-100vw";
+        let ppp=document.querySelector(".je_video1");
+        if(ppp)
+        ppp.style.top="-100vw";
 
         setW(width2);
         setH(height2);
