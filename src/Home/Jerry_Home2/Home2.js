@@ -1,10 +1,28 @@
 import React, { useEffect, useState } from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
 import "./Home.css"
+import "./Home_2.css"
+import "./bg_anim.css"
 // import LogoAnim2 from "./video_data/Logo_anim1.m4v"
 import Gau from "./gautham.jpg"
+import Ayush_about from "./ayush.png"
+import Sponsor1 from "./sponsor1.png"
+import Sponsor2 from "./sponsor2.png"
+import Sponsor from "./sbi-logo-33230.png"
+import Person from "./person.jpg"
+import img_c1 from './Images/contact_1.jpg'
+import img_c2 from './Images/contact_2.jpg'
+import img_c3 from './Images/contact_3.jpg'
+import Fb from "./facebook.png"
+import Insta from "./instagram.png"
+import Twit from "./twitter.png"
+import Yt from "./youtube.png"
+import Ln from "./linkedin.png"
 import Jj from "./video_data/cropped_logo_home.webm"
+import CultTechSection from './CultTechSection.js';
 
 function Home2() {
 
@@ -31,12 +49,13 @@ function Home2() {
                 setIsbtn1hover(false);
             
         })
+        Aos.init({duration: 2000});
     },[])
 
 
     return (
-        <div className="je_zi_1">
-            <div className="je-home-container ">
+        <div>
+            <div className="je-home-container">
                 <div className="je_home_section1">
                     <img src={Gau}  className='je_home_bkg_pic' alt="" />
                     {/* <img src={Logo1} className='je_home_logo' alt="" /> */}
@@ -57,28 +76,125 @@ function Home2() {
                     </div>
                 </div>     
             </div>
-            <Buffer1 a={"nicee"}/>
-            <Buffer1 a={"seconddddddddd"}/>
-            <Buffer1 a={"third"}/>
-            <Buffer1 a={"4"}/>
-            <Buffer1 a={"five"}/>
-        </div>
-    )
-}
 
-function Buffer1({a}){
-    return (
-        <div style={{backgroundColor:"white"}}>
-            <div> this is petrichor 2022 {a} {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
-            <div> this is petrichor 2022 {a}</div>
+
+
+            {/* About */}
+            <div class="ayush_about ">
+               
+                <div className="row justify-content-center">
+
+                    <div className="col-lg-6 col-md-10 col-sm-11 abt_left">
+                        <h1 id="ayush_heading_about"><span style={{color:"rgb(152 9 9)"}}>A</span>SIDE FROM THE TEAM</h1>
+                        <div class="ayush_all" data-aos="fade-right">
+                            <div id="ayush_content_about">We welcome you to the official website of <span style={{color:"rgb(152 9 9)",fontWeight:"800"}}>Petrichor</span> - the annual techno-cultural fest of IIT Palakkad. We are a team composed of the students of IIT Palakkad and have been actively involved over the last few months in bringing together our very fest online fest. Keeping up with the changing times and themed around “<span style={{color:"rgb(152 9 9)",fontWeight:"700"}}>Evolution</span>”,  Petrichor is being organized online this year. With just the perfect mix of cultural and technical events, we plan on making Petrichor’22 an unforgettable experience for you. To ensure that you don’t miss out on anything, do check out the website as all the information related to the fest will be available here. So stay tuned and brace yourselves for the journey of a lifetime with Petrichor’22 <br /> - <span style={{color:"rgb(152 9 9)"}} className='tagline_home'>A Virtual Extravaganza Like Never Before!</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 about_img_col" data-aos="fade-left">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            {/* Contact */}
+
+
+            <div class="home_contact">
+                
+                <h1 id="home_heading_contact">Contact Us</h1>
+                <div className="row justify-content-around contact_box">
+    
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c1} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c3} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
+                        <div className="hm_img_box">
+                            <img src={img_c2} alt="" className='c_img_home' />
+                            <div className="hm_cont_name">
+                                Arjun V
+                            </div>
+                            <div className="hm_cont_detail">
+                                +91 7688987767
+                            </div>
+                            <div className="hm_cont_desig">
+                                Fest Coordinator
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ayush_button_div d-flex flex-row justify-content-start">
+                    <div className="core_hm_btn w-90 mx-auto">
+                        <button class="ayush_button">Core Team</button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <CultTechSection/>
+
+
+
+
+
+            {/* <div class="ayush_footer">
+                <div class="ayush_all_icons">
+                <a href="https://www.facebook.com/petrichor.iitpkd/" target="_blank"><img  src={Fb}  class='ayush_icons' alt="" /></a>
+                <a href="https://www.instagram.com/petrichor.iitpkd/?hl=en" target="_blank"><img  src={Insta}  class='ayush_icons' alt="" /></a>
+                <a href="https://twitter.com/petrichor_iit" target="_blank"><img  src={Twit}  class='ayush_icons' alt="" /></a>
+                <a href="https://www.youtube.com/channel/UCygVXXH-y4IVVhCK3xkAVGg" target="_blank"><img  src={Yt}  class='ayush_icons' alt="" /></a>
+                <a href="https://in.linkedin.com/company/petrichor-iitpkd" target="_blank"><img  src={Ln}  class='ayush_icons' alt="" /></a>
+                </div>
+            </div> */}
+
+
+
+
+
+
         </div>
+
+        
     )
 }
 

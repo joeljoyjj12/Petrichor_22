@@ -1,0 +1,114 @@
+.core_team_desc_main{
+    margin-top: 10px;
+    transition: transform 0.1s;
+}
+
+.core_main{
+    padding-top: 80px;
+    background-color: black;
+    width:100vw;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.core_img{
+    width:100%;
+    height: auto;
+    border-radius: 50%;
+    border:0px solid rgb(235, 228, 228);
+    margin-top: 20px;
+}
+
+.core_image_main_box{
+    /* background-color: white; */
+}
+
+
+.core_heading{
+    font-size: 80px;
+    color: white;
+    font-family: 'Bebas Neue';
+}
+
+.core_descr{
+    font-size: 16px;
+    font-family: 'Nunito';
+    color: rgb(185, 185, 185);
+    text-align: justify;
+    line-height: 24px;
+    max-width: 90%;
+    margin-top: 10px;
+}
+
+.core_p_name{
+    font-family: 'Nunito';
+    font-size: 1.15rem;
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(218, 216, 216);
+}
+
+.core_desig{
+    font-family: 'Nunito';
+    font-size: 0.95rem;
+    color: rgb(190, 36, 36);
+    font-weight: 700;
+}
+
+.image_box_core{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:576px){
+    .core_heading{
+        font-size: 50px;
+    }
+    
+    .core_p_name{
+        font-size: 0.6rem;
+    }
+    .core_desig{
+        font-size: 0.55rem;
+    }
+
+    .core_descr{
+        font-size: 11px;
+        line-height: 14.5px;
+        margin-top: -9px;
+    }
+
+    .core_img{
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width:992px){
+  
+    
+    .core_image_main_box{
+        /* border-left: 4px solid rgb(73, 72, 72); */
+        margin-top: 20px;
+    }
+    .image_box_core:hover{
+        transform: translate(0px,-8px);
+    }
+    .image_box_core{
+        transition: transform 0.5s ;
+    }
+
+    .core_team_desc_main .container{
+        transform: translate(0,80px);
+    }
+   
+    .core_team_desc_main .container.team_2{
+        transform: translate(0,40px);
+    }
+
+    .core_team_desc_main .container.team_3{
+        transform: translate(0,100px);
+    }
+}
+
+
