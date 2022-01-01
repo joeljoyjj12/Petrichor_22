@@ -130,7 +130,7 @@ function Home22() {
             {/* Contact */}
 
 
-            <div class="home_contact">
+            <div class="home_contact" name="home_contact">
                 
                 <h1 id="home_heading_contact">Contact Us</h1>
                 <div className="row justify-content-around contact_box">

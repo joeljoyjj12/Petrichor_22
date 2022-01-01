@@ -28,7 +28,8 @@ function App() {
           <Route  exact path="/" 
                     render={(props) => <Home isover={isover} setIsover={setIsover} /> } 
           />
-          <Route  exact path="/home" component={Home}/>
+          <Route  exact path="/home" render={(props) => <Home isover={isover} setIsover={setIsover} /> } 
+          />
           <Route  exact path="/about" component={About}/>
           <Route  exact path="/about_us" component={About_us}/>
           <Route exact path="/technical_events" component={Technical_main}/>
@@ -41,7 +42,7 @@ function App() {
           <Route exact path="/proshows" component={Proshows}/>
           <Redirect from="/cultural_events/*" to="/cultural_events/#" />
           <Redirect from="/technical_events/*" to="/technical_events/#" />
-          <Redirect from="*" to="/#" />
+          {/* <Redirect from="*" to="/#" /> */}
         </Switch>
         <Footer />
   </Router>
