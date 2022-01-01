@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { BrowserRouter as Router, Switch, Route,Redirect } from "react-router-dom";
 import Cultural_main from './Cultural_Events/Cultural_main';
 // import Home from './Home/Home';
@@ -12,11 +12,38 @@ import Event_Card from './Event_Card/Event_Card';
 import About from "./About/About.js" 
 import Workshops from './Workshops/Workshops.js';
 import Proshows from "./Proshows/Proshows.js"
+
+import "./App.css"
+
 function App() {
+
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>{
+      console.log("Hello");
+      let scrollTop = window.scrollY;
+      let docHeight = document.body.offsetHeight;
+      let winHeight = window.innerHeight;
+      let scrollPercent = scrollTop / (docHeight - winHeight);
+      let scrollPercentRounded = Math.round(scrollPercent * 100);
+
+      document.querySelector(".progress").style.backgroundImage = `conic-gradient(red 0deg,red ${scrollPercentRounded*3.6}deg,rgb(0, 0, 0) ${scrollPercentRounded*3.6}deg)`; 
+      document.querySelector(".inside p").innerHTML=`${scrollPercentRounded}%`;
+    })
+  },[])
+
   return (
     <div style={{overflowX:"hidden"}}>
     <Router >
       <Navbar />
+
+        <div class="progress">
+          <div class="inside">
+            <p>0%</p>
+          </div>
+        </div>
+
+        
+
         <Switch>
           <Route  exact path="/" component={Home}/>
           <Route  exact path="/home" component={Home}/>

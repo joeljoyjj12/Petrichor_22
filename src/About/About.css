@@ -18,7 +18,7 @@
 .abt_us_h1{
     font-size: 5rem !important;
     background: #A39F9F;
-     background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
+    background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
     background: -moz-repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
     background: repeating-radial-gradient(ellipse farthest-corner at center center, #A39F9F 0%, #e88181 100%);
     -webkit-background-clip: text;
@@ -51,6 +51,10 @@
     letter-spacing: 1.8px;
 }
 
+.typing_abt_para div{
+    display: inline !important;
+}
+
 .abt_para_2{
     margin-top: 14vh;
     font-size: 1.1rem;
@@ -80,6 +84,17 @@
     padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
 }
 
+@media screen and (min-width:992px){
+    .abt_para_1{
+        height:33vh;
+    }
+}
+
+@media screen and (max-width:992px){
+    .abt_para_1{
+        height:47vh;
+    }
+}
 
 @media screen and (max-width:768px){
     .abt_para{
@@ -88,6 +103,10 @@
         margin-top: 8vh;
         letter-spacing: 1.7px;
         text-align: justify;
+    }
+
+    .abt_para_1{
+        height: 32vh;
     }
     
     .abt_para_2{
@@ -117,6 +136,10 @@
         font-size: 0.85rem;  
         margin-top: 5vh;
         letter-spacing: 1.1px;
+    }
+
+    .abt_para_1{
+        height: 36vh;
     }
     
     .abt_para_2{

@@ -5,25 +5,37 @@ import ReactPlayer from 'react-player/youtube'
 import Aos from "aos";
 import "aos/dist/aos.css"
 
+import ReactTypingEffect from 'react-typing-effect';
+
 function About() {
 
     useEffect(()=>{
-        Aos.init({duration: 1000});
+        Aos.init({duration: 2000});
         if(window.innerWidth<576){
-            document.querySelector(".abt_aft_1").setAttribute('data-aos-delay',2800);
+            document.querySelector(".abt_aft_1").setAttribute('data-aos-delay',3000);
         }
+
     },[])
 
     return (
         <div className='about_main_box'>
 
             <div className='abt_us_head'>
-                <h1 className='text-center abt_us_h1'>About Us</h1>
+                <h1 className='text-center abt_us_h1'>
+                    About Us
+                </h1>
             </div>
             <div className="abt_para_1 abt_para" data-aos="fade-left">
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-10 col-md-9">
-                        <span style={{color:"#f77575"}}>Petrichor</span> is the annual techno-cultural fest of IIT Palakkad. It was founded in 2018 by a group of insightful students with the goal of providing an unprecedented platform for the convergence of talent, ideas and knowledge. Petrichor has lived up to its potential and now witnesses students from far and wide coming together to showcase their cultural flair or technical expertise as they leave the monotony of everyday life behind and celebrate the freshness of new dawns. 
+                        <span style={{color:"#f77575"}}>Petrichor </span> 
+                        <ReactTypingEffect 
+                            speed={28}
+                            typingDelay={10}
+                            eraseDelay={1000000000}
+                            className='typing_abt_para'
+                            text={[" is the annual techno-cultural fest of IIT Palakkad. It was founded in 2018 by a group of insightful students with the goal of providing an unprecedented platform for the convergence of talent, ideas and knowledge. Petrichor has lived up to its potential and now witnesses students from far and wide coming together to showcase their cultural flair or technical expertise as they leave the monotony of everyday life behind and celebrate the freshness of new dawns."]}
+                        />
                     </div>
                 </div>
             </div>

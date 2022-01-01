@@ -345,9 +345,11 @@
 #home_heading_contact
 {
     color: rgb(243, 234, 234);
-    font-size: 60px;
+    font-size: 64px;
     text-align: left;
     padding-left: 8vw;
+
+    letter-spacing: 5px;
 
 }
 
@@ -462,6 +464,9 @@
 
 
 @media only screen and (max-width: 992px) {
+
+    
+
     .ayush_about{
         background:url("./Images/pattern_evo_1.jpg");
         background-size: cover;
@@ -583,7 +588,7 @@
 
 @media only screen and (max-width: 576px){
     .ayush_about{
-        background:url("./Images/pattern_evo_2.jpg");
+        background:url("./Images/pattern_evo_3.jpg");
         background-size: cover;
         height: 95vh;
         overflow:hidden ;
