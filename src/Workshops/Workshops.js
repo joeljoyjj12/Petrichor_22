@@ -100,17 +100,7 @@ class Workshops extends React.Component {
             
             </div>
             </div>
-            
-
             </div>
-
-      
-      
-      
-      
-      
-      
-      
       
     }
   }
