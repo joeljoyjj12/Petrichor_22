@@ -46,7 +46,7 @@ function Navbar1() {
     }
 
     return (
-        <div>
+        <div style={{width:"100vw",backgroundColor:"yellow"}}>
             <div className="je_logo_home_redirect" > 
                 <Link to="/" >
                     <img  className='je_logo_home_redirect_image' src={logo_outline} alt=""  />    
@@ -56,7 +56,7 @@ function Navbar1() {
             <div className="je_navbar_outer_container">
                 <div className="je_navbar_left_triangle"></div>
                 <div className="je_navbar_container">
-                        {d1?<div className="je_navbar_item je_navbar_item_current"><Link to="/about/" className="je_link_simp">About</Link></div>:null}
+                        {d1?<div className="je_navbar_item je_navbar_item_current"><Link to="/about_us/" className="je_link_simp">About Us</Link></div>:null}
                         {d2?<div className="je_navbar_item je_navbar_item_current"><Link to="/cultural_events/" className="je_link_simp">Cultural</Link></div>:null}
                         {d3?<div className="je_navbar_item je_navbar_item_current"><Link to="/technical_events" className="je_link_simp">Technical</Link></div>:null}
                         {d4?<div className="je_navbar_item je_navbar_item_current"><Link to="/workshops" className="je_link_simp">WorkShops</Link></div>:null}
@@ -90,7 +90,7 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
     
     return (
         <div className='je_navbar_hover_list nav_hover_open je_opened'>
-            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about/" className="je_link_simp">About</Link></div>:null}
+            {d1==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us/" className="je_link_simp">About Us</Link></div>:null}
             {d2==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/cultural_events/" className="je_link_simp">Cultural</Link></div>:null}
             {d3==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/technical_events" className="je_link_simp">Technical</Link></div>:null}
             {d4==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/workshops" className="je_link_simp">WorkShops</Link></div>:null}
@@ -98,7 +98,7 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
             {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
             {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}
             {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us" className="je_link_simp">About Us</Link></div>
+            {/* <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us" className="je_link_simp">About Us</Link></div> */}
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/meet_the_team" className="je_link_simp">Meet the Team</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'>Contact Us</div>
             <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div>

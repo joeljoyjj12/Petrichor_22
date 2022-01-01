@@ -30,18 +30,19 @@ function Contact_content() {
 
 
                     <div className=" je_footer_s2 col-sm-12 col-md-4 col-lg-3 col-8 pt-2 " >
-                        <a href="https://www.facebook.com/petrichor.iitpkd/" target="_blank" >
+                        <a href="https://www.facebook.com/petrichor.iitpkd/" className="je_minner" target="_blank" >
                             <FacebookIcon className="icon_social facebook"/>
                           </a>
-                        <a href="https://www.instagram.com/petrichor.iitpkd/?hl=en" target="_blank">
+                        <a href="https://www.instagram.com/petrichor.iitpkd/?hl=en" className="je_minner" target="_blank">
                             <InstagramIcon className="icon_social insta"/>
                         </a>
-                        <a href="https://www.linkedin.com/company/petrichor-iitpkd/?originalSubdomain=in" target="_blank">
+                        <a href="https://www.linkedin.com/company/petrichor-iitpkd/?originalSubdomain=in"  className="je_minner" target="_blank">
                             <LinkedInIcon className="icon_social linkedin"/>
                         </a>
                         <a href="https://twitter.com/petrichor_iit" target="_blank">
                             <TwitterIcon className="icon_social twitter"/>
                         </a>
+                        
                     </div>
 
 

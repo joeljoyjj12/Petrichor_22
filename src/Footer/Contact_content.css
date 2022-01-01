@@ -4,6 +4,7 @@
     font-family: "Open Sans";
 }
 
+
 .contact_info h3{
      font-size: 18px;
      font-weight: bold;
@@ -63,6 +64,7 @@
     transform: translate(0,-4px);
     background-color: #ff0000;
 }
+.je_footer_s2 a .MuiSvgIcon-root{display: block !important;}
 
 .social_container1{
 padding:30px 0;
@@ -82,4 +84,10 @@ padding:30px 0;
 .je_aa:hover{
     text-decoration:none !important;
     color:inherit !important;
+}
+
+
+.je_minner{
+    min-height: 25px;
+    min-width: 25px;
 }
