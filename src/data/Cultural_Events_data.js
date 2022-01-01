@@ -21,8 +21,8 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["If your love for dramatics is profound and you have an ability to deliver a monologue that leaves the audience in love with your act, then Soliloquy is the stage you’ve been waiting for!", 
+        "Soliloquy is that monologue competition which gives you the freedom to express yourself as well as a chance to win exciting prizes!"
         ],
         hover_description : "Monologue Competition",
        
@@ -83,9 +83,7 @@ const Cult_events=[
         ],
         description_title : "Title",
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: [" “Relive it” gives you the chance to come forward and wow your peers with a movie scene that you’ve loved with all your heart! Reenact the movie scene which left you speechless and get a chance to win exciting prizes at the same time!"],
         hover_description : "Reenact a movie",
        
         // have each rule as a element of an array
@@ -142,9 +140,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["The VALORANT is an esports tournament for the first-person shooter video game Valorant. If you have what it takes to be the champion now is the time to prove it."],
         hover_description : "E Games",
        
         // have each rule as a element of an array
@@ -206,9 +202,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Battlegrounds Mobile India (in short form BGMI, previously known as PUBG Mobile India) is an online multiplayer battle royale game.If you have what it takes to be the chicken dinner now is the time to prove it."],
         hover_description : "E Games",
        
         // have each rule as a element of an array
@@ -272,9 +266,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Call of Duty: Mobile is a free-to-play shooter game developed by TiMi Studio Group and published by Activision for Android and iOS. If you have what it takes to be the champion now is the time to prove it."],
         hover_description : "E Games",
        
         // have each rule as a element of an array
@@ -348,9 +340,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Do you feel you have it in you to charm the audience with your melodious voice? Participate in Music Spotlight and get a chance to leave a mark in the minds and hearts of others with your spectacular performance."],
         hover_description : "Solo singing",
        
         // have each rule as a element of an array
@@ -400,9 +390,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["They say music is the language of love, now the question remains that are you the perfect messenger for it? Come along with the instruments of your choice as “Amplify” gives you the opportunity to showcase your talent and musical side!"],
         hover_description : "Solo instrument",
        
         // have each rule as a element of an array
@@ -458,9 +446,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Come forward with your Band as you participate in “Band it”, a competition like never before!","Brainstorm and bring out your creativity as you get a chance to rock the stage with your music and charming side!"],
         hover_description : "Band",
        
         // have each rule as a element of an array
@@ -522,8 +508,8 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Quizzle is a Quiz Competition which tests your knowledge in subjects you come across in everyday life - Sports, Science and Entertainment.",
+        "A once in a blue moon opportunity for all those quiz enthusiasts for whom finding answers is an easy nut to crack!"
         ],
         hover_description : "Quiz",
        
@@ -591,8 +577,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Living in an imaginary world built up by your brilliant mind? Inkathon gives you the ideal setting to bring your imaginary characters to life.","Participate in this story writing competition and let the world appreciate the marvelous stories cooked by you!"
         ],
         hover_description : "Story Writing",
        
@@ -648,9 +633,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Rhyme it awaits entries from all those poets who use their poems to express their thoughts to the outside world.","A freestyle poetry writing contest, we promise you that “Rhyme it” is the ideal stage to let your creativity and imagination flow!"],
         hover_description : "Freestyle Poetry",
        
         // have each rule as a element of an array
@@ -710,8 +693,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Capture the moments that urge you to shift back time!","Fotografia is a theme based photography contest which gives you the opportunity to amaze others with clicks encapsulating a theme within! "
         ],
         hover_description : "Theme based photography",
        
@@ -762,9 +744,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Get the chance to write a comic of your own with “Animation”.","A comic strip competition to unleash your love for comics and creative side!"],
         hover_description : "Comic strip",
        
         // have each rule as a element of an array
@@ -815,8 +795,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Artistique invites entries from all the talented artists who can turn a blank canvas into a marvellous piece of art with the mere trokes of a pencil.","So grab your pencils and get ready to sketch!"
         ],
         hover_description : "Pencil sketching",
        
@@ -866,9 +845,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Bring out the artist in you as digi-inc gives you the perfect opportunity to use the power of tech along with your creativity to create pieces of art which inspire.","Participate in digi-inc, a digital art competition and make the audience a fan of your talented self!"],
         hover_description : "Digital art",
        
         // have each rule as a element of an array
@@ -919,9 +896,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Do you have the moves that leave everyone awestruck?","If yes, then Smooth Moves is just the perfect opportunity for you! Sway to the music and dance your heart out in this dance competition like never before!"],
         hover_description : "Solo dance",
        
         // have each rule as a element of an array
@@ -990,9 +965,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Bring a friend along and express yourselves with a dance performance that leaves the audience mesmerized.","Prom Night awaits all those pairs who have the love for dance holding them together!"],
         hover_description : "Duo dance",
        
         // have each rule as a element of an array
@@ -1053,8 +1026,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
+        description: ["Get ready for the battle as you and your tribe compete with the rest to win the dance wars.","A group dance competition, dance wars is the battleground to showcase your love for your friends and flair for dancing!"
         ],
         hover_description : "Duo dance",
        
@@ -1116,9 +1088,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
+        description: ["Wake up from the slumber and dazzle the audience as you walk the ramp in “Rise-n-shine”.","A ramp walk contest with the perfect setting to win over the audience with your charming side!"],
         hover_description : "Ramp walk",
        
         // have each rule as a element of an array
@@ -1170,9 +1140,8 @@ const Cult_events=[
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."
-        ],
-        hover_description : "Ramp walk",
+        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."],
+        hover_description : "Fashion Modelling",
        
         // have each rule as a element of an array
         rule_book_rules :[

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .jerry_footer_crazy{
     background-color: aqua;
 }
@@ -38,7 +39,9 @@
     /* background-color: yellow; */
     position: relative;
 }
-.je_footer_s1:after {
+
+/* unlock this */
+/* .je_footer_s1:after {
     content: "";
     background: gray;
     position: absolute;
@@ -56,7 +59,7 @@
     left: 0;
     height: 70%;
     width:1px;
-  }
+  } */
 
 .jerry_footer_crazy_support{
     pointer-events: auto;
@@ -103,6 +106,10 @@
     .je_footer_s1,.je_footer_s2,.je_footer_s3{
         padding: 20px 0;  
 
+    }
+
+    .footer_disapperer{
+        display:none;
     }
 
     .je_footer_container_in{

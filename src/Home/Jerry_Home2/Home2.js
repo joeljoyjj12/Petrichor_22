@@ -34,7 +34,8 @@ function Home2({isover,setIsover}){
     return (
         <>
         {
-            isover?
+            isover ?
+            // true ?
             <Home22  />
             :
             <Loader isover={isover} setIsover={setIsover} className="jerry_loader_class_target"/>

@@ -28,7 +28,7 @@ function Contact_content() {
                         </div>
                     </div>
 
-
+                    <div className="footer_disapperer" style={{width:"2px",height:"90px",backgroundColor:"white",transform:"translateY(-30px)"}}></div>
                     <div className=" je_footer_s2 col-sm-12 col-md-4 col-lg-3 col-8 pt-2 " >
                         <a href="https://www.facebook.com/petrichor.iitpkd/" className="je_minner" target="_blank" >
                             <FacebookIcon className="icon_social facebook"/>
@@ -46,6 +46,7 @@ function Contact_content() {
                     </div>
 
 
+                    <div className="footer_disapperer" style={{width:"2px",height:"90px",backgroundColor:"white",transform:"translateY(30px)"}}></div>
                     <div className="je_footer_s3 col-sm-12 col-md-4 col-lg-3 col-8 contact_mail pt-2 ">
                         <div className="contact_address">
                             <EmailIcon style={red}/> 
