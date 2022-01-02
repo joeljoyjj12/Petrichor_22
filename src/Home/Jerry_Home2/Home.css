@@ -645,7 +645,7 @@
     #home_heading_contact{
         font-size: 42px;
         transform: translate(1vw,-20px);
-        margin-bottom: 16px;
+        margin-bottom:0px;
     }
     
     .hm_cont_name, .hm_cont_detail,.hm_cont_desig{

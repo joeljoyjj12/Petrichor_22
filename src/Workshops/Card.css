@@ -1,0 +1,156 @@
+.card-body-wk{
+    padding-bottom: 8px;
+    margin-top: 0 ;
+}
+
+.card_img_wk{
+    padding-left: 0px;
+    padding-right:0px;
+    background-image: url("./Images/robot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card_desc_wk{
+    background-color: #171717;
+}
+
+.card-header-wk{
+    text-transform: uppercase;
+    color: #B2F296;
+    font-family: "Rubik";
+    font-weight: 700;
+}
+
+.card_para_wk{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Karla";
+    text-align: justify;
+    max-width: 90%;
+    margin-bottom: 1.1rem;
+}
+
+.name_text_wk{
+    color: #CDCCCC;
+    margin-left: 18px;
+    font-family:"Open Sans";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.date_wk{
+    transform: translateX(1px);
+}
+
+.date_text_wk{
+    color: #CDCCCC;
+    margin-left: 20px;
+    font-family:"Karla";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.date_wk{
+    margin-top: 4px;
+}
+
+.reg_fee_wk{
+    text-transform: uppercase;  
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    font-family: "Rubik";
+    font-size: 1.1rem;
+}
+
+.reg_before{
+    font-family: "Orbitron";
+    font-weight: 600;
+    margin-top: 0.6rem;
+    margin-bottom: 0.65rem;
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+
+.button_wk{
+    margin-top: 12px;
+    width:12vw;
+}
+
+
+.card_button_wk {
+    text-transform: uppercase;
+    font-family:"Roboto";
+    font-weight:600;
+    padding: 0.45em 1em;
+    text-align: center;
+    font-size: 14px;
+    border: 1.5px solid #B2F296;
+    border-radius: 18px;
+    color: #B2F296;
+    transition: all 0.3s;
+    letter-spacing: 1.5px;
+}
+
+
+
+@media screen and (max-width:576px)
+{
+    .card-header-wk{
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        font-size: 0.85rem;
+    }
+
+    .card-body-wk{
+        padding-top: 0.6rem;
+    }
+
+    .card_para_wk{
+        margin-bottom: 0.7rem;
+        line-height: 14px;
+    }
+
+    .card_img_wk{
+        height:28vh;
+    }
+
+    .card_name_wk .name_text_wk{
+        font-size: 13px;
+    }
+
+    .card_name_wk svg{
+        height: 14px;
+        width: 14px;
+    }
+
+    .reg_before{
+        margin-bottom: 10px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .date_wk{
+        margin:0;
+    }
+    .date_wk span{
+        font-size:14px ;
+    }
+    .date_wk svg{
+        width: 13px;
+        height: 13px;
+        transform: translateY(-1px);
+    }
+
+    .reg_fee_wk{
+        font-size: 0.9rem;
+        margin-top: 0.6rem;
+    }
+    .reg_fee_wk svg{
+        width: 13px !important;
+        height: 13px !important;
+    }
+}
