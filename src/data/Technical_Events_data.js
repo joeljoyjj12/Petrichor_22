@@ -77,14 +77,14 @@ const Technical_Events_data=[
         picture: "/media/cult_event_pic/Maze_Runner.jpg",
         organiser:[
             {
-                name : "Ayush Singh",
-                pic :"/media/organisers/Ayush_Singh.jpg",
-                email :"8874236084",
+                name : "Aman Singh",
+                pic :"/media/organisers/Aman_Singh.jpg",
+                email :"9366758537",
             },
             {
-                name : "Jayasurya R",
-                pic :"/media/organisers/Jayasurya_R.jpg",
-                email :"94466 90988",
+                name : "Ashwin Kumar",
+                pic :"/media/organisers/Ashwin_Kumar.jpg",
+                email :"8240753402",
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
