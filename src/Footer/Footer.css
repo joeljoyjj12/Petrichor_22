@@ -121,7 +121,8 @@
 @media only screen and (max-width: 600px) {
     .je_footer_container_in{
         flex-direction: column;
-        padding:0 8%;
+        /* padding:0 8%; */
+        padding:0 0px;
     }
     .je_footer_s1,.je_footer_s2,.je_footer_s3{
         padding: 10px 0;  
@@ -136,4 +137,13 @@
 
 .je_zi_1{
     z-index: 1;
+}
+
+.je_footer_container_in{
+    /* overflow-x: hidden; */
+    width: 100%;
+}
+
+.je_100width{
+    width: 100%;
 }

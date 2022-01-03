@@ -22,7 +22,9 @@ class Workshops extends React.Component {
         THREE: THREE,
         backgroundColor:"#000000",
         color:"#ff0000",
-        minHeight:"2000",
+        minHeight:"1000",
+        scaleMobile: "0.1",
+        scale:"1",
       })
     }
     componentWillUnmount() {

@@ -338,6 +338,7 @@
 
 .home_contact
 {
+    padding-top: 30px;
     padding-bottom: 30px;
     background-color: black;
 }
@@ -348,7 +349,7 @@
     font-size: 64px;
     text-align: left;
     padding-left: 8vw;
-
+    /* margin-top: 30px; */
     letter-spacing: 5px;
 
 }
@@ -567,7 +568,10 @@
         top: 170px;
     }
     
-
+    #home_heading_contact
+    {
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -694,9 +698,17 @@
     .test11{
         /* background-color: red; */
     }
+
+    .home_contact
+    {
+        padding-top: 40px;
+    }
 }
 
 
+.jerry_no_overflow_x_hidden{
+    overflow-x: hidden;
+}
 
 
 

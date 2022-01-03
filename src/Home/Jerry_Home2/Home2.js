@@ -61,7 +61,7 @@ function Home2() {
     return (
         <div>
 
-            <div className="je-home-container">
+            <div className="je-home-container" style={{overflowX:"hidden"}}>
                 <div className="je_home_section1">
                     <img src={Gau}  className='je_home_bkg_pic' alt="" />
                     {/* <img src={Logo1} className='je_home_logo' alt="" /> */}
@@ -88,9 +88,9 @@ function Home2() {
             {/* About */}
             <div class="ayush_about ">
                
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
 
-                    <div className="col-lg-6 col-md-10 col-sm-11 abt_left">
+                    <div className="col-lg-6 col-md-10 col-sm-11 abt_left ">
                         <h1 id="ayush_heading_about"><span style={{color:"rgb(152 9 9)"}}>A</span>SIDE FROM THE TEAM</h1>
                         <div class="ayush_all" data-aos="fade-right">
                             <div id="ayush_content_about">We welcome you to the official website of <span style={{color:"rgb(152 9 9)",fontWeight:"800"}}>Petrichor</span> - the annual techno-cultural fest of IIT Palakkad. We are a team composed of the students of IIT Palakkad and have been actively involved over the last few months in bringing together our very fest online fest. Keeping up with the changing times and themed around “<span style={{color:"rgb(152 9 9)",fontWeight:"700"}}>Evolution</span>”,  Petrichor is being organized online this year. With just the perfect mix of cultural and technical events, we plan on making Petrichor’22 an unforgettable experience for you. To ensure that you don’t miss out on anything, do check out the website as all the information related to the fest will be available here. So stay tuned and brace yourselves for the journey of a lifetime with Petrichor’22 <br /> - <span style={{color:"rgb(152 9 9)"}} className='tagline_home'>A Virtual Extravaganza Like Never Before!</span>
@@ -117,10 +117,10 @@ function Home2() {
             {/* Contact */}
 
 
-            <div class="home_contact">
+            <div class="home_contact" style={{overflowX:"hidden"}}>
                 
                 <h1 id="home_heading_contact"><span style={{color:"rgb(201 23 23)"}}>C</span>ontact Us</h1>
-                <div className="row justify-content-around contact_box">
+                <div className="row justify-content-around contact_box je_100width">
     
                     <div className="col-md-4 col-lg-3 col-6 col-xs-5">
                         <div className="hm_img_box" data-aos="fade-right" data-aos-duration="1500">
@@ -244,7 +244,9 @@ function Jje(){
         width2 = f2*window.innerWidth;
 
 
-        document.querySelector(".je_video1").style.top="-100vw";
+        let tpotpo=document.querySelector(".je_video1");
+        if(tpotpo)
+        tpotpo.style.top="-100vw";
 
         setW(width2);
         setH(height2);

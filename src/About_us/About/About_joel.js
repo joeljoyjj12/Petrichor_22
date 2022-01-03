@@ -26,7 +26,7 @@ function About_joel() {
                 </h1>
             </div>
             <div className="abt_para_1 abt_para" data-aos="fade-left">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
                     <div className="col-lg-8 col-10 col-md-9">
                         <span style={{color:"#f77575"}}>Petrichor </span> 
                         <ReactTypingEffect 
@@ -41,7 +41,7 @@ function About_joel() {
             </div>
 
             <div className="abt_after_movie ">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
                     <div className="col-lg-6 col-11 col-md-9">
                         <div className="player-wrapper abt_aft_1" data-aos="fade-right" data-aos-duration="1000" >
                         <ReactPlayer 
@@ -56,7 +56,7 @@ function About_joel() {
             </div>
 
             <div className="abt_para_2 abt_para" data-aos="zoom-in">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
                     <div className="col-lg-8 col-10 col-md-9">
                         Petrichor has surely come a long way from the first physical fest held in the year 2018. It increased both its reach and scale which is evident in the rise from 6 cultural and 5 technical events to 17 cultural and 9 technical events in 2020. Even during the pandemic, Petrichor didn’t disappoint and remained active, bringing to its audience a plethora of cultural and technical events. Be it the online workshops including but not limited to Fusion 360 and Cloud computing, 
                         <span style={{color:"#f77575"}}> Calico Kultura</span> - a glamorous ‘virtual modeling contest’ or “#Quarantunes”- an initiative to bring together music enthusiasts, Petrichor went all out. “ Indoor soiree”- a set of cultural and technical events held in online mode received a whooping 800+ registrations from 290+ colleges spread across 20+ states. 
@@ -65,7 +65,7 @@ function About_joel() {
             </div>
 
             <div className="abt_after_movie">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
                     <div className="col-lg-6 col-11 col-md-9">
                         <div className="player-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <ReactPlayer 
@@ -80,7 +80,7 @@ function About_joel() {
             </div>
 
             <div className="abt_para_3 abt_para">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center je_100width">
                     <div className="col-lg-8 col-10 col-md-9" data-aos="zoom-in" data-aos-duration="500">
                         Petrichor went one step further in September, 2021 as it hosted the very first edition of its flagship event, 
                         <span style={{color:"#f77575"}}> National Technology and Entrepreneurship Summit</span>. Themed  around “Technology for Tomorrow” and having 8 eminent speakers, NTES was a huge success. 

@@ -53,8 +53,8 @@ function Contact_content() {
                             <h3>EMAIL</h3>
                             {/* <div className="jerry_footer_email_flex"> */}
                             <a href="mailto:events.petrichor@iitpkd.ac.in"  id="je_color_red_hover" className="je_aa_footer je_aa je_color_red_hover">events.petrichor@iitpkd.ac.in</a>
-                            <a href="mailto:realtions.petrichor@iitpkd.ac.in" id="je_color_red_hover"  className="je_aa_footer je_aa je_color_red_hover">realtions.petrichor@iitpkd.ac.in</a>
-                            <a href="mailto:petrichor@iitpkd.ac.in"  id="je_color_red_hover" className="je_aa_footer je_aa ">petrichor@iitpkd.ac.in</a>
+                            {/* <a href="mailto:realtions.petrichor@iitpkd.ac.in" id="je_color_red_hover"  className="je_aa_footer je_aa je_color_red_hover">realtions.petrichor@iitpkd.ac.in</a> */}
+                            {/* <a href="mailto:petrichor@iitpkd.ac.in"  id="je_color_red_hover" className="je_aa_footer je_aa ">petrichor@iitpkd.ac.in</a> */}
                             {/* </div> */}
                         </div>
                     </div>

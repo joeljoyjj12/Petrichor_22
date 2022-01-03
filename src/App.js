@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import { BrowserRouter as Router, Switch, Route,Redirect } from "react-router-dom";
 import Cultural_main from './Cultural_Events/Cultural_main';
 // import Home from './Home/Home';
@@ -21,10 +21,30 @@ import Countdown from './Countdown/Countdown';
 function App() {
   // const [isover,setIsover]=useState(false);
   const [isover,setIsover]=useState(false);
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>{
+      console.log("Hello");
+      let scrollTop = window.scrollY;
+      let docHeight = document.body.offsetHeight;
+      let winHeight = window.innerHeight;
+      let scrollPercent = scrollTop / (docHeight - winHeight);
+      let scrollPercentRounded = Math.round(scrollPercent * 100);
+
+      document.querySelector(".progress").style.backgroundImage = `conic-gradient(red 0deg,red ${scrollPercentRounded*3.6}deg,rgb(0, 0, 0) ${scrollPercentRounded*3.6}deg)`; 
+      document.querySelector(".inside p").innerHTML=`${scrollPercentRounded}%`;
+    })
+  },[])
 
   return (
     <Router >
       <Navbar />
+
+      
+      <div class="progress">
+          <div class="inside">
+            <p>0%</p>
+          </div>
+        </div>
         <Switch>
           <Route  exact path="/" 
                     render={(props) => <Home isover={isover} setIsover={setIsover} /> } 

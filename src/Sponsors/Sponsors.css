@@ -70,7 +70,14 @@
 .je_sponsor_item_title{
     color: white;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 22px;
+    transition: 0.1s all ease-in;
+}
+
+.je_sponsor_item_title_white{
+    color: white;
+    /* margin-top: 20px; */
+    font-size: 16px;
     transition: 0.1s all ease-in;
 }
 
@@ -86,6 +93,14 @@
     margin-top: 24px;
     font-weight: 450;
     font-size: 18px;
+    transition: 0.1s all ease-in;
+}
+
+.je_parnter_item_title_white{
+    color: black;
+    /* margin-top: 20px; */
+    /* font-weight: 450; */
+    font-size: 16px;
     transition: 0.1s all ease-in;
 }
 .je_parnter_item_title:hover{
