@@ -1,7 +1,8 @@
 .ayush-bg
 {
     height: 100%;
-}
+  background-color: yellow;
+  }
 .ayush_workshop
 {
     background-color: #23153c;
@@ -23,6 +24,7 @@
     height: 100%;
     position:absolute;
     opacity: 0.8;
+    /* object-fit: ; */
 }
 
 .ayush_workshop_heading

@@ -1,0 +1,113 @@
+.home_tech_1{
+    /* background-image: url("./Images/tech_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh; */
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.home_cult_1{
+    /* background-image: url("./Images/cult_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh; */
+    transition: all 0.3s ease;
+}
+
+.cult_tech_box{
+    margin-top: 45px;
+    padding-bottom: 18vh;
+}
+
+.event_head_home{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.wrap_cult_tech{
+    padding-top: 5.2vh;
+}
+
+.event_descr_home{
+    height: 100%;
+    font-family: "Rubik";
+    text-transform: uppercase;
+    font-size: 4rem ;
+    font-weight: 700;
+    letter-spacing: 9px;
+}
+
+
+/* Cult Tech Section Images */
+.jerry_ct_pic{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.7s ease;
+    object-fit: cover;
+    width: 100%;
+    max-width: 45vw;
+}
+
+.home_evnt{
+    transition: all 0.7s ease;
+    margin-bottom: 5vh;
+}
+
+.home_evnt:hover .jerry_ct_pic{
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+
+}
+
+
+.home_event_desc{
+    position: absolute;
+    left: 50%;
+    font-size: 3.1rem;
+    top:50%;
+    color:#fdfdff;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width:992px) {
+    .home_cult_1:hover{
+        transform: translate(-30px,-25px) scale(1.1);
+    }
+    .home_tech_1:hover{
+        transform: translate(30px,-25px) scale(1.1);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .home_cult_1:hover{
+        transform: translate(0,-25px) scale(1.1);
+    }
+    .home_tech_1:hover{
+        transform: translate(0,-25px) scale(1.1);
+    }
+}
+
+@media screen and (max-width:576px){
+    .event_head_home{
+        padding-bottom: 0px;
+    }
+    .wrap_cult_tech{
+        margin-top: 2vh;
+        padding-top: 1vh;
+        transform: translateY(-4vh);
+    }
+    .home_event_desc{
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width:730px){
+    .jerry_ct_pic_s1{
+        max-width: 80vw;
+    }
+    .jerry_ct_pic{
+        margin:20px 0;
+    }
+
+}

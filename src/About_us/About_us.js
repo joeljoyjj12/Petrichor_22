@@ -1,9 +1,10 @@
 import React from 'react'
-
+import About_joel from './About/About_joel.js'
+ 
 function About_us() {
     return (
         <div>
-            About us
+            <About_joel />
         </div>
     )
 }

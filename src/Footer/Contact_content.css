@@ -27,6 +27,10 @@
 
 .contact_address{
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contact_address address{
@@ -43,7 +47,9 @@
     padding-bottom: 10px;
     position: relative;
 }
-
+#je_color_red_hover:hover{
+    color: red !important;
+}
 .icon_social{
     height:35px !important;
     width:35px !important;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Aos from "aos";
+import {Link} from 'react-router-dom'
 import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
@@ -22,34 +23,15 @@ import Twit from "./twitter.png"
 import Yt from "./youtube.png"
 import Ln from "./linkedin.png"
 import Jj from "./video_data/cropped_logo_home.webm"
-import CultTechSection from './CultTechSection.js';
-import Loader from "../../Loader/Loader.js" 
-// import { isover,setIsover } from "./yourHook";
+import Cult_tech from './Cult_tech.js'
 
-// function Home2(){
-function Home2({isover,setIsover}){
-    // let [isover,setIsover]=useState(false);
-    // const [isover,setIsover]=useState(false);
-
-    return (
-        <>
-        {
-            isover ?
-            // true ?
-            <Home22  />
-            :
-            <Loader isover={isover} setIsover={setIsover} className="jerry_loader_class_target"/>
-        }
-        </>
-    )
-}
-
-function Home22() {
+function Home2() {
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
 
     useEffect(()=>{
+
         window.addEventListener('mousemove',(e)=>{
             // console.log(e.target.id);
             if(e.target.id=="je_home_btn2")
@@ -73,8 +55,12 @@ function Home22() {
     },[])
 
 
+    
+
+
     return (
         <div>
+
             <div className="je-home-container">
                 <div className="je_home_section1">
                     <img src={Gau}  className='je_home_bkg_pic' alt="" />
@@ -120,8 +106,8 @@ function Home22() {
             </div>
 
 
-
-
+            {/* Cult and Tech  */}
+            <Cult_tech />
 
 
 
@@ -131,13 +117,13 @@ function Home22() {
             {/* Contact */}
 
 
-            <div class="home_contact" name="home_contact">
+            <div class="home_contact">
                 
-                <h1 id="home_heading_contact">Contact Us</h1>
+                <h1 id="home_heading_contact"><span style={{color:"rgb(201 23 23)"}}>C</span>ontact Us</h1>
                 <div className="row justify-content-around contact_box">
     
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
-                        <div className="hm_img_box">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
+                        <div className="hm_img_box" data-aos="fade-right" data-aos-duration="1500">
                             <img src={img_c1} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
                                 Arjun V
@@ -151,8 +137,8 @@ function Home22() {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
-                        <div className="hm_img_box">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
+                        <div className="hm_img_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
                             <img src={img_c3} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
                                 Arjun V
@@ -166,8 +152,8 @@ function Home22() {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-lg-3 col-8 col-xs-5">
-                        <div className="hm_img_box">
+                    <div className="col-md-4 col-lg-3 col-6 col-xs-5">
+                        <div className="hm_img_box" data-aos="fade-left" data-aos-duration="1500">
                             <img src={img_c2} alt="" className='c_img_home' />
                             <div className="hm_cont_name">
                                 Arjun V
@@ -185,33 +171,13 @@ function Home22() {
 
                 <div class="ayush_button_div d-flex flex-row justify-content-start">
                     <div className="core_hm_btn w-90 mx-auto">
-                        <button class="ayush_button">Core Team</button>
+                        <Link style={{textDecoration:"none"}} to="/meet_the_team">
+                            <button class="ayush_button">Meet The Team</button>
+                        </Link>
                     </div>
                 </div>
             </div>
             
-
-            <CultTechSection/>
-
-
-
-
-
-            {/* <div class="ayush_footer">
-                <div class="ayush_all_icons">
-                <a href="https://www.facebook.com/petrichor.iitpkd/" target="_blank"><img  src={Fb}  class='ayush_icons' alt="" /></a>
-                <a href="https://www.instagram.com/petrichor.iitpkd/?hl=en" target="_blank"><img  src={Insta}  class='ayush_icons' alt="" /></a>
-                <a href="https://twitter.com/petrichor_iit" target="_blank"><img  src={Twit}  class='ayush_icons' alt="" /></a>
-                <a href="https://www.youtube.com/channel/UCygVXXH-y4IVVhCK3xkAVGg" target="_blank"><img  src={Yt}  class='ayush_icons' alt="" /></a>
-                <a href="https://in.linkedin.com/company/petrichor-iitpkd" target="_blank"><img  src={Ln}  class='ayush_icons' alt="" /></a>
-                </div>
-            </div> */}
-
-
-
-
-
-
         </div>
 
         
@@ -278,9 +244,7 @@ function Jje(){
         width2 = f2*window.innerWidth;
 
 
-        let ppp=document.querySelector(".je_video1");
-        if(ppp)
-        ppp.style.top="-100vw";
+        document.querySelector(".je_video1").style.top="-100vw";
 
         setW(width2);
         setH(height2);

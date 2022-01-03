@@ -1,16 +1,23 @@
-import React from 'react'
-import White_bg from '../Global_Components/White_bg/White_bg'
-
+import React,{useEffect} from 'react'
 function About() {
+
+    useEffect(()=>{
+        // VANTA.NET({
+        //     el: "#your-element-selector",
+        //     mouseControls: true,
+        //     touchControls: true,
+        //     gyroControls: false,
+        //     minHeight: 200.00,
+        //     minWidth: 200.00,
+        //     scale: 1.00,
+        //     scaleMobile: 1.00,
+        //     color: 0xfa0000,
+        //     backgroundColor: 0x0
+        //   })
+    },[])
     return (
         <div>
-            About
-            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
-            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
-            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
-            {/* <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div> */}
-            <div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div><div className="d">aaaaa</div>
-            <White_bg/>
+            this is about
         </div>
     )
 }

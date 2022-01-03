@@ -2,7 +2,9 @@
     margin-top: 10px;
     transition: transform 0.1s;
 }
-
+#jerry_addon_meet_the_team{
+    width: 100%;
+}
 .core_main{
     padding-top: 80px;
     background-color: black;
@@ -63,7 +65,7 @@
 
 @media screen and (max-width:576px){
     .core_heading{
-        font-size: 50px;
+        font-size: 46px;
     }
     
     .core_p_name{
@@ -82,7 +84,30 @@
     .core_img{
         margin-top: 2px;
     }
+
+    .core_image_main_box{
+        margin-top: 3vh;
+    }
+
+    .core_main.core_main_2{
+        padding-top: 4vh;
+    }
+
+    .core_team_desc_2{
+        transform: translateY(3.5vh);
+    }
 }
+
+.image_box_core{
+    transition: transform 0.5s ;
+}
+
+@media screen and (max-width:992px)
+{
+    
+}
+
+
 
 @media screen and (min-width:992px){
   
@@ -92,10 +117,8 @@
         margin-top: 20px;
     }
     .image_box_core:hover{
-        transform: translate(0px,-8px);
-    }
-    .image_box_core{
-        transition: transform 0.5s ;
+        transform: translate(0px,-12px);
+        transition: transform 0.45s ;
     }
 
     .core_team_desc_main .container{
@@ -103,12 +126,10 @@
     }
    
     .core_team_desc_main .container.team_2{
-        transform: translate(0,40px);
+        transform: translate(0,20vh);
     }
 
     .core_team_desc_main .container.team_3{
         transform: translate(0,100px);
     }
 }
-
-
