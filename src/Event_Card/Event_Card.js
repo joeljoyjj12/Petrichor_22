@@ -205,9 +205,9 @@ function Main_stuff({id,data,istech}){
                 }       
 
                     {data.prizes_general_text_secondary?<>
-                    <div className="jj_event_block45_gen_text">{data.prizes_general_text}</div>
+                    <div className="jj_event_block45_gen_text">{data.prizes_general_text_secondary}</div>
                                {
-                                data.prizes_in_ascending_order.map((a,c)=>(
+                                data.prizes_in_ascending_order_secondary.map((a,c)=>(
                                     <>
                                     <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
                                     <br />

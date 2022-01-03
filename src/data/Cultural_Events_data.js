@@ -196,7 +196,7 @@ const Cult_events=[
                 email :"7875384916",
             },
             {
-                name : "Syed Abdul Manteen",
+                name : "Syed Abdul Mateen",
                 pic :"/media/organisers/Syed_Abdul_Manteen.jpg",
                 email :"6303868362",
             },
@@ -260,7 +260,7 @@ const Cult_events=[
                 email :"8606665885",
             },
             {
-                name : "Syed Abdul Manteen",
+                name : "Syed Abdul Mateen",
                 pic :"/media/organisers/Syed_Abdul_Manteen.jpg",
                 email :"6303868362",
             },
@@ -548,10 +548,10 @@ const Cult_events=[
         judging_criteria_show : false,
 
         prizes_general_text : "For each of the following fieldds : Sports Quiz, Space and Technology, Inventors and Discoveries, Anime, Movies, TV Series, Novels the prizes are",
-        prizes_in_ascending_order: ["Rs. 1,000 ", "Rs. 750","Rs. 500"],
+        prizes_in_ascending_order: ["Rs. 750","Rs. 500"],
         
-        prizes_general_text_secondary : "For General Quiz we have the following prizes ",
-        prizes_in_ascending_order_secondary: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
+        prizes_general_text_secondary : "For General Quiz (Final) we have the following prizes ",
+        prizes_in_ascending_order_secondary: ["Rs. 1,500 ", "Rs. 1,000","Rs. 750"],
     },
 
 
@@ -1005,7 +1005,8 @@ const Cult_events=[
 
 
     {
-        name : "Dance Wars",
+        // name : "Dance Wars",
+        name : "Feet on Fire",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
@@ -1028,7 +1029,7 @@ const Cult_events=[
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["Get ready for the battle as you and your tribe compete with the rest to win the dance wars.","A group dance competition, dance wars is the battleground to showcase your love for your friends and flair for dancing!"
         ],
-        hover_description : "Duo dance",
+        hover_description : "Group dance",
        
         // have each rule as a element of an array
         rule_book_rules :[
