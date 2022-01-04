@@ -4,6 +4,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "15-01-2022",
         end_date : "22-01-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends", "25-01-22"],
+            ["Opportunity start","22-01-22"],
+            ["Opportunity ends","29-01-22"],
+            ["Team Participation","Max 3 (can be from different organisations)"],
+            ["Opportunity open for","Everyone"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -61,8 +69,8 @@ const Technical_Events_data=[
 
 
 
-        prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_general_text : "We have a exciting prizes for you",
+        prizes_in_ascending_order: ["Rs. 10,000 ", "Rs. 8,000"],
     },
 
    
@@ -71,6 +79,17 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "13-01-2021",
         end_date : "27-01-2021",
+        date_rest:[
+            ["Registration starts","07/01/22"],
+            ["Registration ends","25/01/22"],
+            ["Opportunity start","20/01/22"],
+            ["Opportunity ends","05/02/22"],
+            ["Package and problem statement sharing","21/01/22"],
+            ["Submission of code along with the package","03/02/22"],
+            ["Submission of screen recording","05/02/22"],
+            ["Team Participation","Max 3 (can be from different organisations)"],
+            ["Opportunity open for","Everyone"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -88,8 +107,7 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["Participants need to write a program in Python/C++ for a mobile robot to clear an unknown maze in least possible time. The robot model and control details will be given prior along with sample mazes for practice. The whole task will require concepts like obstacle avoidance and path planning. ", 
-        "The platform for simulation is Gazebo 9 (with ROS Melodic on ubuntu 18.04), any other software cannot be used. The competition is designed to be beginner-friendly in field of ROS or robotics simulation, required materials will be provided for learning. The major portion consists of programming in python/C++, hence participants with zero knowledge in ROS are also welcome."
+        description: ["Participants have to prepare a robust algorithm for a given two-wheeled mobile bot capable of solving an unknown maze. Here solving refers to the bot traversing from entry (starting point) to the exit (endpoint) of the maze."
         ],
         hover_description : "Navigating the Labyrinth",
        
@@ -108,11 +126,54 @@ const Technical_Events_data=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General",
-            "The participants will be randomly split into two groups and the participants in each group will be playing in a round-robin fashion against each other. Two participants from each group who score maximum points will be qualified for the semi-final.",
-            "Each win will get you two points, a draw will get one point for each team, and zero points if you lose in group stages"],
-           
+
+            ["Platform",
+            "It is a Gazebo-based simulation event",
+            "ROS Melodic and Gazebo 9 are preferred",
+            "ROS package containing the bot’s URDF model and a few test worlds (mazes), we'll provide you a day before the opportunity begins",
+            ],
+            
+            [
+            
+            
+            "Bot description",
+            "It is a two-wheeled mobile bot, the third wheel being a castor wheel for support.",
+            "It has velocity controllers for the two drive-wheels that can be accessed through respective ros topics.",
+            "A LiDAR is present on the top of the bot, capable of scanning 180 degrees and sample points can be set by the participants by changing the parameter in URDF (default is 5).",
+            "Bounding box of the complete bot measures - 1.65 m x 1.025 m x 1.35 m",
+            "It is allowed to make changes in the URDF parameters and adding plugins of your choice, but make sure to clearly mention in the submission PDF (refer to 'submission making' section for more details)",
+            "However, the physical dimensions of the bot, any parameters of the world CANNOT be changed",
+            ],
+            
+            [
+            "Maze description",
+            "The maze consists of 15X15 square cells, each cell being 3.125 m X 3.125 m.",
+            "There can be one or more solutions from start to end point.",
+            "Few practice mazes are provided with respective launch files with the package for the participants to test their algorithms on. However, they are free to choose custom mazes for test runs.",
+            ],
+            
+            ["Submission Making",
         ],
+            [
+                "For the pre-submission (11:59 PM 29/01/2022)",
+                "The modified ROS package containing all the scripts, dependencies/plugins should be compressed into a single folder and submit in the link we'll provide you in the mail on the submission day.",
+            ],
+            
+            [
+                "For the final competition day",
+                "The one-shot screen recording should be uploaded to youtube (don’t forget to keep it ‘unlisted’, this is critical). Then the link should be immediately mailed to (will inform later) and the team should message in the chat of the ongoing zoom meeting acknowledging the same. The mail time will be noted as the overall submission time.",
+                "The ‘submission PDF’ can be submitted via mail (same address as above) by 11:59 PM of the final competition day (i.e. 30/01/2022 tentatively ).",
+                "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
+                "There is no upper bound for the contents to be present it, but it should contain the following points:-",
+                "All the changes made in the given URDF",
+                "Extra plugins or packages used",
+                "Key features of the algorithm used",
+                "The starting method of the bot for each run.",
+                "Timestamps (simulation time) for start and end of each run (this will be cross verified)",
+            ],
+            
+            ],
+            
         
         pdf_present:true,
         pdf_link:"/media/pdf_events/Maze_Runner.pdf",
@@ -120,8 +181,17 @@ const Technical_Events_data=[
         // reccommended make is true and write down the rest
         judging_criteria_show : false,
         // judging_criteria : ["quality of sound produced", " your own twist to the original song"],
-
-
+            judging_criteria:["Shortlisting will be done on the basis of least Standard-Penalty",
+            "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
+            "{NOTE: w < x << y < z}",
+            "Overall_submission_time refers to the time taken on the final competition day (out of 30 mins) to make the final submission.",
+            "Mapping_time refers to the time taken in the first run, which is responsible for mapping on the final competition day.",
+            "Best_run_time refers to the least time taken by the bot to clear the maze in the complete recording, again on the final competition day.",
+            "Touches refers to the number of times the participant manually translated/rotated the bot in the corresponding run.",
+            "Apart from these, the robustness of the algorithm will also carry some weightage.",
+            "If the bot cannot clear the maze, submission can still be done without being disqualified. Appropriate marking will be done by the judging panel.",
+            "Participants will not be sharing the screen in the meeting, all the above times mentioned (except for the Overall_submission_time) will be taken from the recording submitted, hence the screen recording should be done cautiously."
+            ],
 
         prizes_general_text : "We have a exciting prized waiting for you",
         prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
@@ -133,6 +203,15 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "15-01-2022",
         end_date : "15-01-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends","27-01-22"],
+            ["Opportunity start","29-01-22"],
+            ["Opportunity ends","29-01-22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","College students"],
+            ["Contest Link","28-01-22"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -171,7 +250,9 @@ const Technical_Events_data=[
         structure_show:true,
         structure:[
             ["General",
-            "One cp contest of 3 hours where winners will be selected through common leaderboard"],
+            "One cp contest of 3 hours where winners will be selected through common leaderboard",
+            "It's free to register and the contest link will be sent to your registered mail id and it will be 3-hour contest",
+            ],
         ],
         
         pdf_present:false,
@@ -183,7 +264,7 @@ const Technical_Events_data=[
 
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 8,300 ", "Rs. 6,400", "Rs. 5,300"],
     },
 
 
@@ -192,6 +273,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "16-01-2022",
         end_date : "19-01-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends","21-01-22"],
+            ["Opportunity start","23-01-22"],
+            ["Opportunity ends","26-01-22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","College students"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -234,10 +323,10 @@ const Technical_Events_data=[
         
         // reccommended make is true and write down the rest
         judging_criteria_show : false,
-        // judging_criteria : ["quality of sound produced", " your own twist to the original song"],
+        judging_criteria : ["Accuracy of model", "Compilation time"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 7,500", "Rs. 6,000","Rs. 4,500"],
     },
 
 
@@ -248,6 +337,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "22-01-2022",
         end_date : "25-01-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends","27-01-22"],
+            ["Opportunity start","29-01-22"],
+            ["Opportunity ends","31-01-22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","College Students"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -265,8 +362,10 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["Petrichor allows you to compete against more than 290 colleges all over India, so show off your design talents. ", 
-        "D-SIGN, the competition where competitors will be given a set of guidelines based on a theme, and are supposed to solve the task using their own innovative ideas and ingenuity."
+        description: [
+            "We are bringing you this competition to give some exercise for your mind in this boring online semester. Here competitors have to design a model under various instructions given by the organizers with the help of their innovative ideas and ingenuity.",
+            "You will have 48 hours from the time the problem statement is revealed to solve it and make a model.",
+            
         ],
         hover_description : "Bringing out the Innovator in you",
        
@@ -276,8 +375,8 @@ const Technical_Events_data=[
         "Participants are not allowed to take any reference images from the internet. Any type of misconduct will result in disqualification.",
         "You can proceed with your work once the problem statement has been released. If you have any questions, you can contact us directly via WhatsApp at the numbers listed below, or via mail ID provided below.",
         "The file should be submitted in step file format.",
-        "To submit, send your file(only file and rendered pictures) via mail provided below. Xyz@gmail.com",
-        "Mail ID for submissions and queries: xyz"],
+        "Submission link will be provided along with the problem statement",
+    ],
 
         //recommended always show true,
         //instructure in each array row, the first 
@@ -296,7 +395,7 @@ const Technical_Events_data=[
         judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 8,000 ", "Rs. 6,500"],
     },
 
 
@@ -306,6 +405,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends","24-01-22"],
+            ["Opportunity start","26-01-22"],
+            ["Opportunity ends","28-01-22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","College students"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -351,7 +458,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 8,300 ", "Rs. 6,700"],
     },
 
 
@@ -360,6 +467,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07/01/22"],
+            ["Registration ends","19/01/22"],
+            ["Opportunity start","21/01/22"],
+            ["Opportunity ends","04/02/22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","College Students"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -378,7 +493,7 @@ const Technical_Events_data=[
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["As we all know, cryptocurrency is more than just a simple investment. As the sector grows, so does the demand for new talent. A talent with working knowledge of blockchain and cryptocurrencies.",
-        "Pondering on wheter to invest in cryptocurrencies or gain real-world experience by trading cryptocurrency? You have come to the right place. People are hesitant to try it out as it is complicated, but it doesn't have to be. Trading on a live market using virtual money allows us to better comprehend market volatility and the benefits of money diversification across cryptos, as well as allowing us to gain real-world experience before entering the market with actual money."
+        "Pondering on wheter to invest in cryptocurrencies or gain real-world experience by trading cryptocurrency? You have come to the right place. People are hesitant to try it out as it is complicated, but it doesn't have to be. Trading on a live market using virtual money allows us to better comprehend market volatility and the benefits of money diversification across cryptos, as well as allowing us to gain real-world experience before entering the market with actual money.Here, we allow you all to invest your virtual money upon various crypto coins over 2 weeks."
         ],
         hover_description : "Dive Deep into Crypto",
        
@@ -392,7 +507,13 @@ const Technical_Events_data=[
         structure_show:true,
         structure:[
            
-            ["General","  The competition will be completely based on virtual money, every student will be given a certain amount of virtual money and time.","The student with the highest ROI will be the winner of the competition."],
+            ["General","  The competition will be completely based on virtual money, every student will be given a certain amount of virtual money and time.","The student with the highest ROI will be the winner of the competition.",
+            "The whole competition will run on virtual money which will be provided at the start of the competition",
+            "Platform will be Roostoo app",
+            "Everyone will be given a fixed amount of virtual money and the person with the highest ROI at the end of the competition will win.",
+            "You can buy any number of coins with the money provided to you",
+            "Margin trading is not allowed",
+        ],
         ],
         
         pdf_present:false,
@@ -402,7 +523,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 8,400 ", "RS. 6,600"],
     },
 
 
@@ -414,6 +535,14 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-22"],
+            ["Registration ends","20-01-22"],
+            ["Opportunity Dates","23 & 29th January 2022"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","School Students (Class 8,9,10,11,12)"],
+            ["Website to be used","itsquiz.com"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -472,11 +601,12 @@ const Technical_Events_data=[
             
             [
             "Preliminary Round I (Day-1)",
-            "Number of Questions: 20",
-            "Total Time: 15 minutes",
-            "Date: DD/MM/YYYY",
-            "Eligibility: All students currently studying in class 8/9/10",
-            "Platform: itsquiz.com"],
+            // "Number of Questions: 20",
+            // "Total Time: 15 minutes",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: All students currently studying in class 8/9/10",
+            // "Platform: itsquiz.com"
+        ],
             
             ["Syllabus",
             "Indian history & world geography",
@@ -487,11 +617,11 @@ const Technical_Events_data=[
             
             [
             "Preliminary Round II (Day-2)",
-            "Number of Questions: 20",
-            "Total Time: 15 minutes",
-            "Date: DD/MM/YYYY",
-            "Eligibility: All participants",
-            "Platform: itsquiz.com",
+            // "Number of Questions: 20",
+            // "Total Time: 15 minutes",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: All participants",
+            // "Platform: itsquiz.com",
             ],
             
             ["Syllabus",
@@ -503,9 +633,9 @@ const Technical_Events_data=[
              
             [
             "Finals (Day-3)",
-            "Date: DD/MM/YYYY",
-            "Eligibility: Top 15 participants after Round II",
-            "Platform: Zoom(live streaming)",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: Top 15 participants after Round II",
+            // "Platform: Zoom(live streaming)",
             "Syllabus: Entire syllabus from Round I & II",
             ],
              
@@ -515,11 +645,11 @@ const Technical_Events_data=[
             
             [
             "Preliminary Round I (Day-1)",
-            "Number of Questions: 20",
-            "Total Time: 15 minutes",
-            "Date: DD/MM/YYYY",
-            "Eligibility: All students currently studying in class 11/12.",
-            "Platform: itsquiz.com",
+            // "Number of Questions: 20",
+            // "Total Time: 15 minutes",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: All students currently studying in class 11/12.",
+            // "Platform: itsquiz.com",
             ],
             
             [
@@ -534,11 +664,11 @@ const Technical_Events_data=[
              
             [
             "Preliminary Round II (Day-2)",
-            "Number of Questions: 20",
-            "Total Time: 15 minutes",
-            "Date: DD/MM/YYYY",
-            "Eligibility: All participants",
-            "Platform: itsquiz.com",
+            // "Number of Questions: 20",
+            // "Total Time: 15 minutes",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: All participants",
+            // "Platform: itsquiz.com",
             ],
              
             [
@@ -552,11 +682,20 @@ const Technical_Events_data=[
              
             [
             "Finals (Day-3)",
-            "Date: DD/MM/YYYY",
-            "Eligibility: Top 15 participants after Round II",
-            "Platform: Zoom(live streaming)",
+            // "Date: DD/MM/YYYY",
+            // "Eligibility: Top 15 participants after Round II",
+            // "Platform: Zoom(live streaming)",
             "Syllabus: Entire syllabus from Round I & II",
             ],
+            ["General",
+            "Preliminary Rounds will be of 15 minutes with 20 questions",
+            "Each participant will receive an email with the login information prior to the competition. Participants have to login to this website to attempt the quiz. Instructions will be given in the meeting.",
+            "The question paper will be visible only on the day of the quiz and the link to the question paper will be given in the zoom meeting 5-10 minutes before the quiz. Participants will also receive an email once the quiz is active. Instructions will be given in the meeting.",
+            "You can use a mobile phone. But a PC or Laptop is recommended. This will help you to see the questions and options clearly without scrolling the page(Easy Navigation). This will save your time.",
+            "Only those who participate in both Round 1 & 2 will be given a certificate. Further, the winners from the finals will be given a separate Winners Certificate and Cash Prize.",
+            "If you lose your internet connection during round 1 & 2, the quiz will immediately end for the participant and he/she will not be allowed to join the zoom meeting again for that round. For Finals (Round 3), Even if you leave the meeting, you are allowed to join the meeting again. But you may lose your time to answer the question ",
+            "A camera/webcam is compulsory for attending all the three rounds. Participants must keep it turned ON throughout the quiz.",
+        ],
             
             ],
         
@@ -566,8 +705,8 @@ const Technical_Events_data=[
         judging_criteria_show : false,
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
-        prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_general_text : "Prize Distribution for both categories",
+        prizes_in_ascending_order: ["Rs. 2,500 ", "R. 2000","Rs. 1500"],
     },
 
 
@@ -576,10 +715,18 @@ const Technical_Events_data=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07/01/22"],
+            ["Registration ends","20/01/22"],
+            ["Opportunity Date","23/01/22"],
+            ["Team Participation","Individual"],
+            ["Opportunity open for","Higher Secondary Students (Class 9,10,11,12)"],
+            ["Website to be used","typer.io"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/cult_event_pic/Crypto_Trading_Competition.jpg",
+        picture: "/media/cult_event_pic/SPEED_TYPING_COMPETITION.jpg",
         organiser:[
             {
                 name : "VM Sreeram",
@@ -593,7 +740,7 @@ const Technical_Events_data=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["Everyone wants to be the first. In this online era, to become ahead among your friends you need to have faster speed typing skills whether you need to write an email or insert data and for so many reasons. To test your typing skill, we are bringing this speed typing event where you can check your typing speed among your batchmates from various schools."
+        description: ["Everyone wants to be the first. In this online era, to become ahead among your friends you need to have faster speed typing skills whether you need to write an email or insert data and for so many reasons.","To test your typing skill, we are bringing this speed typing event where you can check your typing speed among your batchmates from various schools."
         ],
         hover_description : "Ready Set Type",
        
@@ -612,15 +759,14 @@ const Technical_Events_data=[
         "If anyone will be caught doing Malpractices or indulging in unfair practices or violation of rules will be disqualified from competition at that time itself.",
         "All the rights to change any rules of the competition without prior notice to contestants and to disqualify any contestant whom the jury declares having indulged in any kind of malpractice is reserved with the organisers.",	
         "Documents Required for Competition are School ID and Latest photo",
-        ]
-        ,
+        ],
 
         //recommended always show true,
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           
-            ["General","We will take the Contest in 3 Rounds. All the rounds will have a 2 minutes time limit. You will be given 2 attempts in all rounds, from which your personal best is considered for rank calculation.","Round 1- Top 30 will be progressed to Round 2.","Round 2- Top 10 will progress to the Next Round.","Round 3- Top 3 will be declared as Winners."],
+            ["General","We will take the Contest in 3 Rounds. All the rounds will have a 2 minutes time limit. You will be given 2 attempts in all rounds, from which your personal best is considered for rank calculation.","Round 1- Top 30 will be progressed to Round 2.","Round 2- Top 10 will progress to the Next Round.","Round 3- Top 3 will be declared as Winners.",
+            ],
         ],
         
         pdf_present:false,
@@ -636,11 +782,8 @@ const Technical_Events_data=[
             ,
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["₹ 3000","₹ 1000","₹ 500"],
+        prizes_in_ascending_order: ["Rs. 3,300","Rs. 2,600","Rs. 2,100"],
     },
-
-
-
 ]
 
 

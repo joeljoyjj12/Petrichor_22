@@ -1,8 +1,10 @@
 import React from 'react'
-import Bg from './ayush_workshop_bg.jpg'
+// import Bg from './ayush_workshop_bg.jpg'
 // import Bg from './workshop_jerry.jpg'
 // import Bg from './workshop_jerry3.jpg'
-import WorkImg from './workshop.jpg'
+// import WorkImg from './workshop.jpg'
+import Bg from './workshop_arjun.jpg'
+
 import Aos from "aos";
 import "aos/dist/aos.css"
 import './workshop.css'

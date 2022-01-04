@@ -81,8 +81,8 @@ function Main_stuff({id,data,istech}){
                             <AiOutlineArrowLeft style={{color:"white", fontSize:"25px"}} />
                         </Link>
                     </div>
-                <div className="jj_event_pic_container_title1" >{data.name} </div>
-                <div className="jj_event_pic_container_button" ><a className="jj_clean_a" href={data.registeration_link} target="_blank"> register here </a></div>
+                <div className="jj_event_pic_container_title1">{data.name} </div>
+                <div className="jj_event_pic_container_button"><a className="jj_clean_a" href={data.registeration_link} target="_blank"> register here </a></div>
             </div>
 
             <div className="jj_event_block1">
@@ -109,8 +109,24 @@ function Main_stuff({id,data,istech}){
                 <div className="jj_event_block1_left jj_event_block2_left"> 02  <strong> Date </strong> </div>
                 <div className="jj_event_block1_right jj_event_block2_right">
                     
-                        <div className="jj_event_block1_des  jj_event_block45_gen_text jj_event_block2_des">Start Date :<strong> {data.start_date} </strong> </div>                     
-                        <div className="jj_event_block1_des  jj_event_block45_gen_text jj_event_block2_des">End Date &nbsp; : <strong>{data.end_date}  </strong> </div>                     
+                        {data.date_rest?
+                        <>
+                        {
+                        data.date_rest.map((f1,g)=>{
+                        // return <div className="jj_event_block1_des jj_event_block45_gen_text jj_event_block2_des jj_event_block45_gen_text">{f[0]}: {f[1]} </div>                     
+                        // return <div className="jj_event_block1_des" style={{color:"black",letterSpacing:"0.1em", lineHeight:"24px"}}>{f[0]}: {f[1]} </div>                     
+                        return <div className="jj_event_block1_des " style={{color:"black",fontWeight:"400",fontSize:"16px"}}> {f1[0]} : {f1[1]}</div>
+                        })}
+                        </>
+                        :
+                        <>
+                        <div className="jj_event_block1_des" style={{color:"black",fontWeight:"400",fontSize:"17px"}}>Start Date : {data.start_date}  </div>                     
+                        <div className="jj_event_block1_des" style={{color:"black",fontWeight:"400",fontSize:"17px"}}>End Date &nbsp; : {data.end_date}  </div>                     
+                        {/* <div className="jj_event_block1_des jj_event_block45_gen_text jj_event_block2_des">Start Date :<strong> {data.start_date} </strong> </div>                      */}
+                        {/* <div className="jj_event_block1_des jj_event_block45_gen_text jj_event_block2_des">End Date &nbsp; : <strong>{data.end_date}  </strong> </div>                      */}
+                        </>
+                        
+                        }
                      </div>
 
 
@@ -139,7 +155,7 @@ function Main_stuff({id,data,istech}){
                                 {g==0?null:
                                 <>
                                 <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital"> {g}. {f}</div>
-                                <br />
+                                {/* <br /> */}
                                 </>
                                 }
                                 </>
@@ -159,7 +175,7 @@ function Main_stuff({id,data,istech}){
                                     data.rule_book_rules.map((a,c)=>(
                                         <>
                                         <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
-                                        <br />
+                                        {/* <br /> */}
                                         </>
                                     ))
                                 }                   
@@ -177,7 +193,7 @@ function Main_stuff({id,data,istech}){
                         data.judging_criteria.map((a,c)=>(
                             <>
                             <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
-                            <br />
+                            {/* <br /> */}
                             </>
                         ))
             }                   
@@ -199,7 +215,7 @@ function Main_stuff({id,data,istech}){
                     data.prizes_in_ascending_order.map((a,c)=>(
                         <>
                          <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
-                         <br />
+                         {/* <br /> */}
                          </>
                     ))
                 }       
@@ -210,7 +226,7 @@ function Main_stuff({id,data,istech}){
                                 data.prizes_in_ascending_order_secondary.map((a,c)=>(
                                     <>
                                     <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital">{c+1}. {a} </div>
-                                    <br />
+                                    {/* <br /> */}
                                     </>
                                 ))
                                 }
