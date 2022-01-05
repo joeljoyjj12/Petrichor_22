@@ -132,8 +132,8 @@ const Technical_Events_data=[
             ["Opportunity start","20-01-22"],
             ["Opportunity ends","05-02-22"],
             ["Package and problem statement sharing","20-01-22"],
-            ["Submission of code along with the package","03-02-22"],
-            ["Submission of screen recording","04-02-22"],
+            ["Submission of code along with the package","04-02-22"],
+            ["Submission of screen recording","05-02-22"],
             ["Team Participation","Max 3 (can be from different organisations)"],
             ["Opportunity open for","Everyone"],
         ],
@@ -213,7 +213,7 @@ const Technical_Events_data=[
                 "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
             ],
             [
-                "Contents to be present",
+                "Submission PDF must contain",
                 "All the changes made in the given URDF",
                 "Extra plugins or packages used",
                 "Key features of the algorithm used",
@@ -439,7 +439,7 @@ const Technical_Events_data=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["Problem statement","Design a Study Chair. The more creative one will be the winner. You can add as many features you want; those will also add points to your score."],
+            // ["Problem statement","Design a Study Chair. The more creative one will be the winner. You can add as many features you want; those will also add points to your score."],
             ["General","It is an individual event. Participants will have 48 hours from the time the problem statement is revealed to solve it","The design file must follow the format described in the problem statement.", "Any CAD software will do."],
         ],
         
@@ -502,7 +502,7 @@ const Technical_Events_data=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["Problem statement","We will give a building plan consisting of the Ground floor and first floor. Participants have to design a 3-D model of the design given"],
+            // ["Problem statement","We will give a building plan consisting of the Ground floor and first floor. Participants have to design a 3-D model of the design given"],
             ["General","It is an individual event. Participants will have 24 hours from the time the problem statement is revealed to solve it.","The design file must follow the format described in the problem statement. Revit software is preferred for the competition."],
         ],
         
