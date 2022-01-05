@@ -9,7 +9,8 @@ import Aos from "aos";
 import "aos/dist/aos.css"
 import './workshop.css'
 import { useEffect,useRef,useState } from 'react'
-import NET from "vanta/dist/vanta.net.min"
+// import NET from "vanta/dist/vanta.net.min"
+import GLOBE from "vanta/dist/vanta.globe.min"
 import * as THREE from "three"
 import Workshops_joel from './Workshops/Workshops_joel';
 
@@ -19,14 +20,14 @@ class Workshops extends React.Component {
       this.vantaRef = React.createRef()
     }
     componentDidMount() {
-      this.vantaEffect = NET({
+      this.vantaEffect = GLOBE({
         el: this.vantaRef.current,
         THREE: THREE,
-        backgroundColor:"#000000",
-        color:"#ff0000",
-        minHeight:"1000",
-        scaleMobile: "0.1",
-        scale:"1",
+        // backgroundColor:"#000000",
+        // color:"#ff0000",
+        // minHeight:"1000",
+        // scaleMobile: "0.1",
+        // scale:"1",
       })
     }
     componentWillUnmount() {

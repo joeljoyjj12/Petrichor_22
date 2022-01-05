@@ -2,7 +2,7 @@ const Technical_Events_data=[
     {
         name : "Robo Soccer",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "15-01-2022",
+        start_date : "22-01-2022",
         end_date : "22-01-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -77,13 +77,13 @@ const Technical_Events_data=[
     {
         name : "Maze Runner",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "13-01-2021",
+        start_date : "20-01-22",
         end_date : "27-01-2021",
         date_rest:[
-            ["Registration starts","07/01/22"],
-            ["Registration ends","25/01/22"],
-            ["Opportunity start","20/01/22"],
-            ["Opportunity ends","05/02/22"],
+            ["Registration starts","07-01-22"],
+            ["Registration ends","25-01-22"],
+            ["Opportunity start","20-01-22"],
+            ["Opportunity ends","05-02-22"],
             ["Package and problem statement sharing","21/01/22"],
             ["Submission of code along with the package","03/02/22"],
             ["Submission of screen recording","05/02/22"],
@@ -201,7 +201,7 @@ const Technical_Events_data=[
     {
         name : "Competitive Programming",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "15-01-2022",
+        start_date : "29-01-22",
         end_date : "15-01-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -271,7 +271,7 @@ const Technical_Events_data=[
     {
         name : "Machine Learning Predicting Task",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "16-01-2022",
+        start_date : "23-01-22",
         end_date : "19-01-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -284,7 +284,7 @@ const Technical_Events_data=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/cult_event_pic/Machine_Learning_Predicting_Task.jpg",
+        picture: "/media/cult_event_pic/Machine_Learning_Predicting_Task.png",
         organiser:[
             {
                 name : "Kundan Pal",
@@ -335,7 +335,7 @@ const Technical_Events_data=[
     {
         name : "D-Sign",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "22-01-2022",
+        start_date : "29-01-2022",
         end_date : "25-01-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -403,7 +403,7 @@ const Technical_Events_data=[
     {
         name : "Miniature",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "26-01-2022",
         end_date : "14-02-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -465,20 +465,20 @@ const Technical_Events_data=[
     {
         name : "Crypto Trading Competition",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "21-01-2022",
         end_date : "14-02-2022",
         date_rest:[
-            ["Registration starts","07/01/22"],
-            ["Registration ends","19/01/22"],
-            ["Opportunity start","21/01/22"],
-            ["Opportunity ends","04/02/22"],
+            ["Registration starts","07-01-22"],
+            ["Registration ends","19-01-22"],
+            ["Opportunity start","21-01-22"],
+            ["Opportunity ends","04-02-22"],
             ["Team Participation","Individual"],
             ["Opportunity open for","College Students"],
         ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/cult_event_pic/Crypto_Trading_Competition.jpg",
+        picture: "/media/cult_event_pic/Crypto_Trading_Competition.png",
         organiser:[
             {
                 name : "Sayandip Chaudhuri",
@@ -533,7 +533,7 @@ const Technical_Events_data=[
     {
         name : "Quiz Marathon",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "23,29-01-2022",
         end_date : "14-02-2022",
         date_rest:[
             ["Registration starts","07-01-22"],
@@ -711,14 +711,14 @@ const Technical_Events_data=[
 
 
     {
-        name : "SPEED TYPING COMPETITION",
+        name : "Speed Typing Competition",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "23-01-2022",
         end_date : "14-02-2022",
         date_rest:[
-            ["Registration starts","07/01/22"],
-            ["Registration ends","20/01/22"],
-            ["Opportunity Date","23/01/22"],
+            ["Registration starts","07-01-22"],
+            ["Registration ends","20-01-22"],
+            ["Opportunity Date","23-01-22"],
             ["Team Participation","Individual"],
             ["Opportunity open for","Higher Secondary Students (Class 9,10,11,12)"],
             ["Website to be used","typer.io"],
