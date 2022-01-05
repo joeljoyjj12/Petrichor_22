@@ -4,7 +4,12 @@ import "./Footer.css"
 
 function Footer() {
     return (
+        <>
             <Contact_content />
+            <div className="copyright_footer">
+                <div className="cpy_text">© Petrichor 2022, IIT Palakkad</div>
+            </div>
+        </>
     )
 }
 

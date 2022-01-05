@@ -24,19 +24,19 @@ function Workshops_joel(){
                     color="#B2F296"
                     deadline="15/01/2022"
                     date="JANUARY 19-27"
-                    speaker="Dr. Anand TNC"
+                    speaker="Dr. Pramod Kuntikana"
                     price="300"
                     bg={img1}
                     />
                 </div>
                 <div className="col-7 col-lg-7 col-md-8 col-sm-9 col-10" data-aos="flip-down">
                     <Card 
-                    title="wheeled robot modeling and simulation in python"
+                    title="introduction to wheeled robot modeling and simulation in python"
                     desc="Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user."
                     color="#FFE800"
                     deadline="15/01/2022"
                     date="JANUARY 19-27"
-                    speaker="Dr. Anand TNC"
+                    speaker="Dr. Vijay Muralidharan"
                     price="300"
                     bg={img2}
                     />
@@ -60,7 +60,7 @@ function Workshops_joel(){
                     color="#E7A012"
                     deadline="15/01/2022"
                     date="JANUARY 19-27"
-                    speaker="Dr. Anand TNC"
+                    speaker="Dr. Athul S Varghese"
                     price="700"
                     bg={img2}
                     />

@@ -1,3 +1,21 @@
+.copyright_footer{
+    height: 32px;
+    background-color: rgb(7, 7, 7);
+}
+
+.cpy_text{
+    position: absolute;
+    font-family: "Rubik";
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    left: 50%;
+    transform: translate(-50%,7px);
+}
+
+.je_aa_footer{
+    font-size: 14px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .jerry_footer_crazy{
     background-color: aqua;
@@ -10,7 +28,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding:0 8%;
+    padding:0 3%;
 }
 
 .je_footer_s1, .je_footer_s2, .je_footer_s3{

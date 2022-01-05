@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
-import Pic from "./assets/pic1.jpg"
+import Pic from "./assets/pic_2.jpg"
 // import Events_data from "../data/Events_data.js"
 // import Events_data from "../data/Cultural_Events_data.js"
 import {
@@ -15,6 +15,7 @@ import Cultural_Events_data from "../data/Cultural_Events_data.js"
 function Cultural_main2() {
     
     useEffect(()=>{
+        window.scroll(0,0);
         
         let rr=document.querySelector(".je_tech_hidden_redirect_button1");
         window.addEventListener('keydown',(e)=>{

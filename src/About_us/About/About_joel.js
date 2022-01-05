@@ -10,6 +10,7 @@ import ReactTypingEffect from 'react-typing-effect';
 function About_joel() {
 
     useEffect(()=>{
+        window.scroll(0,0);
         Aos.init({duration: 2000});
         if(window.innerWidth<576){
             document.querySelector(".abt_aft_1").setAttribute('data-aos-delay',3000);

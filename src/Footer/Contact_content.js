@@ -12,7 +12,7 @@ function Contact_content() {
     const red={color:"red",fontSize:"30px",display:"inline-block",marginBottom:"10px"};
     return (
         <div className="bottom_contact">
-             <div className="container social_container1">
+             <div className=" social_container1">
                 {/* <div> */}
                 <div className="row je_footer_container_in contact_info justify-content-around align-items-center"> 
                    

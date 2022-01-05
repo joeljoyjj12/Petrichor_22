@@ -59,7 +59,7 @@ function Navbar1() {
                         {d1?<div className="je_navbar_item je_navbar_item_current"><Link to="/about_us/" className="je_link_simp">About Us</Link></div>:null}
                         {d2?<div className="je_navbar_item je_navbar_item_current"><Link to="/cultural_events/" className="je_link_simp">Cultural</Link></div>:null}
                         {d3?<div className="je_navbar_item je_navbar_item_current"><Link to="/technical_events" className="je_link_simp">Technical</Link></div>:null}
-                        {d4?<div className="je_navbar_item je_navbar_item_current"><Link to="/workshops" className="je_link_simp">WorkShops</Link></div>:null}
+                        {d4?<div className="je_navbar_item je_navbar_item_current"><Link to="/workshops" className="je_link_simp">Workshops</Link></div>:null}
                         {d5?<div className="je_navbar_item je_navbar_item_current"><Link to="/proshows" className="je_link_simp">Proshows</Link></div>:null}
                         {d6?<div className="je_navbar_item je_navbar_item_current"><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
                         {d7?<div className="je_navbar_item"><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}

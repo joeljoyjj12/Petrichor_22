@@ -13,6 +13,10 @@
     margin: 0;
     font-size: 20px;
     color: white;
+
+    background-image: url("./Images/bg_1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .core_img{
@@ -111,7 +115,6 @@
 
 @media screen and (min-width:992px){
   
-    
     .core_image_main_box{
         /* border-left: 4px solid rgb(73, 72, 72); */
         margin-top: 20px;
@@ -130,6 +133,6 @@
     }
 
     .core_team_desc_main .container.team_3{
-        transform: translate(0,100px);
+        transform: translate(0,10px);
     }
 }

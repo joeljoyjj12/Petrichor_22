@@ -41,8 +41,8 @@
 
 /* Cult Tech Section Images */
 .jerry_ct_pic{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
     transition: all 0.7s ease;
     object-fit: cover;
     width: 100%;
@@ -51,7 +51,7 @@
 
 .home_evnt{
     transition: all 0.7s ease;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .home_evnt:hover .jerry_ct_pic{
@@ -112,17 +112,41 @@
         margin-top: 2vh;
         padding-top: 1vh;
         transform: translateY(-4vh);
+        margin-left: auto;
+        margin-right: auto;
     }
     .home_event_desc{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
     }
     .jerry_ct_pic{
         margin:20px 0;
         max-width: 80vw;
     }
     .cult_tech_box{
-        margin-top: 0;
+        padding-top: 2vh;
         padding-bottom: 0;
+    }
+    .jerry_ct_pic{
+        -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0);
+    
+    }
+    .home_cult_1:hover{
+        transform: translate(0px,0px) scale(1);
+    }
+    .home_tech_1:hover{
+        transform: translate(0px,0px) scale(1);
     }
 }
 
+
+@media screen and (max-width:730px){
+    .jerry_ct_pic_s1{
+        max-width: 80vw;
+    }
+
+    .jerry_ct_pic{
+        margin:20px 0;
+    }
+
+}

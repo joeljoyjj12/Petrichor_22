@@ -18,10 +18,20 @@
 .je_tech_banger_title_contaier{
     position: absolute;
     /* background-color: green; */
-    top:40vh;
-    left:9vw;
+    top:50%;
+    left:50%;
+    width: 90%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transform: translate(-50%,-50%);
+    font-family: "Rubik";
+    text-align: center;
     font-size: 70px;
     color: white;
+}
+.je_tech_banger_title_contaier::first-letter{
+    color: rgb(207, 12, 12);
 }
 
 .je_tech_list_container{

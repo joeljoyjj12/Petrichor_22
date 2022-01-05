@@ -6,6 +6,7 @@ import Home from './Home/Jerry_Home2/Home2';
 // import Navbar from "./Navbar/Navbar"
 import Navbar from "./Navbar/Navbar1.js"
 import Technical_main from './Technical_Events/Technical_main';
+import Tech_vanta from './Technical_Events/Tech_vanta.js';
 import Meet_the_Team from "./Meet_the_Team/Meet_the_Team"
 import Sponsor from "./Sponsors/Sponsors"
 import Event_Card from './Event_Card/Event_Card';
@@ -19,7 +20,7 @@ import Footer from './Footer/Footer';
 import Countdown from './Countdown/Countdown';
 
 function App() {
-  // const [isover,setIsover]=useState(false);
+
   const [isover,setIsover]=useState(false);
   useEffect(()=>{
     window.addEventListener("scroll",()=>{

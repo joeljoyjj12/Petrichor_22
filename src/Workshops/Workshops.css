@@ -1,0 +1,13 @@
+.workshop_card > div{
+    margin-top: 10px;
+    margin-bottom: 10vh;
+}
+
+
+
+@media screen and (min-width:992px) {
+    .workshop_card > div{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}

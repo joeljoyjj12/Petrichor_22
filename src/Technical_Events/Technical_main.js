@@ -12,6 +12,7 @@ import White_bg from '../Global_Components/White_bg/White_bg';
 function Technical_main() {
     
     useEffect(()=>{
+        window.scroll(0,0);
         
         let rr=document.querySelector(".je_tech_hidden_redirect_button1");
         window.addEventListener('keydown',(e)=>{

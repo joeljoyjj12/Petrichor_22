@@ -1,3 +1,9 @@
+.bg_container_wrap_home{
+    background-image: url("./Images/bg_wk_red.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .je_home_section1{
     height: 100vh;
     width: 100vw;
@@ -124,10 +130,11 @@
 {
     height: 100vh;
     /* background-color: rgb(246, 246, 246); */
-    background-color: rgb(5, 4, 4);
-    background-image: url("./Images/pattern_bg_2.jpg");
-    background-position: center;
-    background-size: contain;
+
+    /* background-color: rgb(5, 4, 4); */
+
+    /* background-image: url("./Images/pattern_bg_2.jpg"); */
+    background-size: cover;
 }
 
 
@@ -160,10 +167,10 @@
     font-size: 45px;
     text-align: center;
     letter-spacing: 5px;
-    font-family: "Source Sans Pro";
+    font-family: "Roboto";
     font-weight: 600;
     transform: translate(-50px,40px);
-    padding-left: 200px;
+    padding-left: 130px;
     padding-top: 10px;
     margin-top: 0px !important;
 
@@ -338,24 +345,26 @@
 
 .home_contact
 {
-    padding-top: 30px;
     padding-bottom: 30px;
-    background-color: black;
+    padding-top: 20px;
+    margin-top: 14vh;
+    /* background-color: black; */
 }
 
 #home_heading_contact
 {
     color: rgb(243, 234, 234);
     font-size: 64px;
+    font-family: "Roboto";
     text-align: left;
     padding-left: 8vw;
-    /* margin-top: 30px; */
-    letter-spacing: 5px;
+
+    letter-spacing: 2px;
 
 }
 
 .contact_box{
-    padding:8vh 2vw;
+    padding:9vh 2vw;
 }
 
 .contact_box div{
@@ -370,7 +379,7 @@
     width: 100%;
     height: auto;
     transition: all 0.45s;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 
 .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
@@ -381,7 +390,7 @@
     letter-spacing: 4px;
     width: 90%;
     text-align: center;
-    color: rgb(209, 203, 203);
+    color: rgb(192, 13, 13) ;
     left: 18px;
     z-index: 5;
 
@@ -394,6 +403,8 @@
 
 .hm_cont_detail{
     top: 160px;
+    color: rgb(206, 205, 205);
+    font-size: 24px;
 }
 
 .hm_cont_desig{
@@ -402,7 +413,7 @@
     font-family: "Source Sans Pro";
     letter-spacing: 1px;
     font-weight: 600;
-    color: rgb(126, 126, 126);
+    color: rgb(148, 148, 148);
 }
 
 .hm_img_box:hover .hm_cont_detail,.hm_img_box:hover .hm_cont_name,.hm_img_box:hover .hm_cont_desig{
@@ -418,18 +429,18 @@
 .ayush_button {
     font-family: "Roboto";
     background-color: black;
-    padding: 3px 18px;
-    font-size: 22px;
+    padding: 2.8px 16px;
+    font-size: 17px;
     font-weight: 400;
-    border:solid 1.4px rgb(152, 9, 9);
-    color: rgb(152, 9, 9);
+    border:solid 2px rgb(192, 0, 0);
+    color: rgb(192, 0, 0);
     /* border-radius: 8px; */
     transition: all 0.3s;
 
 }
 
 .core_hm_btn{
-    transform: translateY(-35px);
+    transform: translateY(-25px);
 }
 
 .ayush_button:hover {
@@ -568,10 +579,7 @@
         top: 170px;
     }
     
-    #home_heading_contact
-    {
-        margin-top: 30px;
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -660,6 +668,7 @@
     }
     .hm_cont_detail{
         top: 105px;
+        font-size: 14px;
     }
     .hm_cont_desig{
         top: 130px;
@@ -698,17 +707,9 @@
     .test11{
         /* background-color: red; */
     }
-
-    .home_contact
-    {
-        padding-top: 40px;
-    }
 }
 
 
-.jerry_no_overflow_x_hidden{
-    overflow-x: hidden;
-}
 
 
 

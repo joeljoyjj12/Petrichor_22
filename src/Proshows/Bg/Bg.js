@@ -1,6 +1,8 @@
 import './Bg.scss';
 import $ from 'jquery';
 import React from "react";
+import ReactTypingEffect from 'react-typing-effect';
+
 import "./Bg.css"
 
 export default function Bg() {
@@ -41,7 +43,15 @@ export default function Bg() {
           <div>
       </div>
 
-      <div className="jerry_cmg_soon">Coming Soon</div>
+      <div className="jerry_cmg_soon neon_text">
+        <ReactTypingEffect 
+            speed={220}
+            cursor=' '
+            typingDelay={100}
+            eraseDelay={1000000000}
+            text={["Coming Soon"]}
+        />
+      </div>
       <div class="ayush_hexagon"></div>  
     </div>
   );

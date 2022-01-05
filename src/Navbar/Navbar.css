@@ -1,5 +1,5 @@
 :root{
-    --navbar-fs: 20px;
+    --navbar-fs: 17.5px;
 }
 .je_navbar_outer_container{
     z-index: 20;
@@ -13,11 +13,12 @@
     /* margin-left:20vw; */
     /* padding-left: 5vw; */
     position: fixed;
+    right: 0px;
     /* background-color: aqua; */
 }
 .je_link_simp{
     text-decoration: none;
-    color: inherit;
+    color: rgb(223, 222, 222);
 }
 
 
@@ -69,7 +70,7 @@
     left:-110px;
     /* transform: translate(50%,50%); */
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.801);
     color:white;
     z-index: 100;
     padding:10px 20px;
@@ -87,8 +88,9 @@
 }
 
 .je_navbar_hover_list_item{
-    padding: 10px 10px;
+    padding: 10px 0px;
     transition: 0.2s all;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.582);
 
 }
 .je_navbar_hover_list_item:hover{
@@ -98,6 +100,7 @@
 .je_navbar_item{
     margin: 10px 10px;
     font-size: var(--navbar-fs);
+    font-family: "karla";
     text-transform: capitalize;
     transition: 0.2s all;
 }
