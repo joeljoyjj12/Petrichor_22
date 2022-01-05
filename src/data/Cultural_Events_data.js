@@ -404,8 +404,8 @@ const Cult_events=[
     {
         name : "Music Spotlight",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "04-02-2022",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         date_rest:[
             ["Registration starts","07-01-2022"],
             ["Registration ends","02-02-2022"],
@@ -460,8 +460,8 @@ const Cult_events=[
     {
         name : "Amplify",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -517,8 +517,8 @@ const Cult_events=[
     {
         name : "Band it",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -581,6 +581,14 @@ const Cult_events=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration start","07-01-2022"],
+            ["Registration end","30-01-2022"],
+            ["Sports Quiz","01-02-2022"],
+            ["Science Quiz","02-02-2022"],
+            ["Entertainment Quiz","03-02-2022"],
+            ["General Quiz","05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -643,13 +651,11 @@ const Cult_events=[
         prizes_general_text_secondary : "For General Quiz (Final) we have the following prizes ",
         prizes_in_ascending_order_secondary: ["Rs. 1,500 ", "Rs. 1,000","Rs. 750"],
     },
-
-
     {
         name : "Inkathon",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -704,8 +710,8 @@ const Cult_events=[
     {
         name : "Rhyme it",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -728,11 +734,13 @@ const Cult_events=[
        
         // have each rule as a element of an array
         rule_book_rules :[
-            "Entries cannot be edited after submission",
-            "The preferred submission format is a typed PDF or Word document. Scanned handwritten entries are also accepted, however, we do not take the responsibility of the judges not being able to understand your handwriting.",
+            "Participants can choose a theme of their choice for the poem.",
+            "All entries should be submitted through d2c",
+            "Entries cannot be edited after submission.",
+            "The preferred submission format is a typed PDF or Word document.",
             "The language should be English",
-            "The maximum number of lines allowed is 20 lines",
-            "Only one entry per person is permitted",
+            "The maximum number of lines allowed is 20 lines ",
+            "Only one entry per person is permitted ",
             "Plagiarism may lead to immediate disqualification from the competition.",
         ],
 
@@ -763,8 +771,8 @@ const Cult_events=[
     {
         name : "Fotografía",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -814,8 +822,8 @@ const Cult_events=[
     {
         name : "Animation",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -866,8 +874,8 @@ const Cult_events=[
     {
         name : "Artistique",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -916,8 +924,8 @@ const Cult_events=[
     {
         name : "Digi-inc",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -969,6 +977,12 @@ const Cult_events=[
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "12-02-2021",
         end_date : "14-02-2022",
+        date_rest:
+        [
+            ["Start of Round 1","07-01-2022"],
+            ["End of Round 1","01-02-2022"],
+            ["Round 2","07-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1036,8 +1050,8 @@ const Cult_events=[
     {
         name : "Prom Night",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1098,8 +1112,8 @@ const Cult_events=[
         // name : "Dance Wars",
         name : "Feet on Fire",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1160,8 +1174,8 @@ const Cult_events=[
     {
         name : "Rise -n- shine",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1211,8 +1225,8 @@ const Cult_events=[
     {
         name : "Calico Kultura",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1230,8 +1244,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."],
+        description: ["Calico Kultura gives an ideal opportunity for all the aspiring models to take the center stage and mesmerize everyone with their glamour! An online modelling competition that awaits sizzling performances by you!!"],
         hover_description : "Fashion Modelling",
        
         // have each rule as a element of an array

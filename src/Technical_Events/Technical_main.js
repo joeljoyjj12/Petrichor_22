@@ -11,18 +11,6 @@ import {
 import White_bg from '../Global_Components/White_bg/White_bg';
 function Technical_main() {
     
-    useEffect(()=>{
-        
-        let rr=document.querySelector(".je_tech_hidden_redirect_button1");
-        window.addEventListener('keydown',(e)=>{
-            if(e.keyCode==65)
-            {
-                console.log(rr);
-                rr.click();
-
-            }
-        })
-    },[])
     
     return (
         <>

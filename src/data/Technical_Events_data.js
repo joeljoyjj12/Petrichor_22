@@ -34,13 +34,14 @@ const Technical_Events_data=[
         ],
         hover_description : "Say hello to the world of virtual robotics! Spar online with Lego bots in a soccer match!",
         extra_link :"https://drive.google.com/file/d/11vzunFzC4ULKyIN3t_FFa11hqoyd_Ex8/view",
+        extra_link2:"https://www.virtualroboticstoolkit.com/documentation/sections/7/articles/113",
         // have each rule as a element of an array
-        rule_book_rules :["Every team has to register online on the official Petrichor website to participate in the competition.",
+        rule_book_rules :["Every team has to register online on the official Petrichor website/D2C to participate in the competition.",
         "A team ID will be allocated to the team on registration which shall be used for future references.",
         "The duration of each match will be 3 minutes.",
         "Teams can make and use their own custom models or use the default models available.",
         "The field will be reset in case the ball is stuck between bots for more than a considerable amount of time.",
-        "A penalty (for e.g., asking the opponent to start first, reducing the goals scored, etc.) will be imposed if the custom model is more than a definite size (width of the bot must be less than or equal to 40% of goal post width), If the Bot blocks the whole Goalpost, then it will lead to disqualification of the team. (Go through this link to find out how to measure distances on a field)",
+        "A penalty (for e.g., asking the opponent to start first, reducing the goals scored, etc.) will be imposed if the custom model is more than a definite size (width of the bot must be less than or equal to 40% of goal post width), If the Bot blocks the whole Goalpost, then it will lead to disqualification of the team. (Go through the link in the description at the top of the page to find out how to measure distances on a field)",
         "In the case of a Draw in knockout stages extra time will be provided, even after extra time if the result is a draw, then we will have 5 penalty shootouts if the result is still a draw, then the team with the highest points will qualify for the next match.",
         "The decision of the organizers or judges shall be treated as final and binding on all.",
         "No responsibility will be held by Petrichor, IIT Palakkad for any late, lost, or misdirected entries.",
@@ -59,6 +60,52 @@ const Technical_Events_data=[
             "The qualified participants will play a semi-final match against a selected opponent (based on points) and the winner of that match will qualify for the finals. The two winners of the semis will compete against each other in the final and the one who wins the final will be crowned as the Robo soccer champion.",
             "If a draw happens in the Knockout stages, extra time will be provided, even after extra time if the result is a draw, then we will have 5 penalty shootouts if the result is still a draw then the team with the highest points will qualify for the next match.",
             "The number of groups may increase based on the number of participants enrolled."],
+            [
+                "Objective:",
+                "Spar online with Lego bots in a soccer match! Customize your dream bot and turn it into an undefeatable champion. Sport your coding skills to perfect it.",
+                "You can participate in this event individually as well as in a team, with not more than two members",
+                "The idea of the game is to use your team’s custom built or default bots (built using LDD or LDraw) to find the ball and connect it to the opposing team’s goal net using compass and IR sensor (basically simulating a normal football game).",
+            ],
+            [
+                "Platform",
+                "It's an VirtualRoboticsToolkit simulation, you need to use Ldraw or Lego Digital Designer to make your own custom bot, and ev3 software for coding the bot.",
+            ],
+            [
+                "Problem Description", 
+                "RoboSoccer aims, where possible, to reflect the game of human soccer. Teams	consisting of autonomous robots are to chase a ball that emits infra-red rays around a WRO size GEN II Soccer field to score more goals than the opposition.",
+                "Use the IR Sensor and Compass Sensor to find the ball and locate the opposing net.",
+                "You will be using LEGO Mindstorms for this.",
+                "You can make your own custom virtual LEGO robot model using Lego Digital Designer or with LDraw Software and can submit the files of your model, or you could choose to go with the default Lego robot model provided by the VirtualRoboticsToolkit software(A software that will be used to simulate the bots for the match) if you choose to use the default model, study the default model carefully by yourself to determine the connection of sensors/motors with port numbers.",
+                "You need EV3 Software to code your own LEGO bot",
+                "You can test out your model/code using the VirtualRoboticsToolkit Software’s Free version( Free Version is available for only 15 days)",
+            ],
+            [
+                "Software's",
+                "It goes without saying that the Virtual Robotics Toolkit is a computationally heavy application.Therefore, you will definitely want to considering installing the Toolkit to a machine that has a little extra horse power to spare.",
+                "EV3 Software(windows)",
+                "Lego Digital Designer(Windows)",
+                "LDraw(Windows)",
+                "VirtualRoboticsToolkit(Windows)",
+                "VirtualRoboticsToolkit(Mac)",
+                "These software’s don’t support Linux based systems",
+                "Software download and compatibility link can be taken from D2C main page or googled. ",
+                "NOTE: You may require the programming blocks from HighTechnic® to use the IR Seeker and Compass Sensors. These programming blocks can be downloaded from this link: https://www.hitechnic.com/downloads",
+                "There will be one on one matches in a round-robin format between teams.",
+                "In group stages, every win will fetch you two points, zero points for losing and one-one points for each team in case of a draw.",
+                "For important matches such as semi-finals etc in case of a draw, one minute extra time will be given, if the result still ends up in a draw, each team will have 5 penalty shootouts one by one.",
+                "If the final result still ends up in a draw, the team with more points in the group stages will be declared as a winner.",
+                "The teams need to provide extra code files for penalty shootouts",
+            ],
+            [
+                "For Submissions",
+                "Make a folder(named after your team) put all of the required files in it, upload this folder in your drive, and share the drive link in the google form that will be shared for submissions.",
+                "Your folder should consist of the following files",
+                "Code files,( including penalty shootout code, the naming convention for the main match code file:-main naming convention for penalty shootout code file:-penalty)",
+                "Model file(if using a custom model)",
+                "Last day to submit is 17th Jan 11:59:00 pm",
+                "For more FAQ's please visit the D2C page which you will reach on clicking Register."
+                ],
+                
         ],
         
         
@@ -164,14 +211,16 @@ const Technical_Events_data=[
                 "The one-shot screen recording should be uploaded to youtube (don’t forget to keep it ‘unlisted’, this is critical). Then the link should be immediately mailed to (will inform later) and the team should message in the chat of the ongoing zoom meeting acknowledging the same. The mail time will be noted as the overall submission time.",
                 "The ‘submission PDF’ can be submitted via mail/D2C (same address as above) by 11:59 PM of the final competition day (i.e. 05-02-2022 tentatively).",
                 "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
-                "There is no upper bound for the contents to be present it, but it should contain the following points:-",
+            ],
+            [
+                "Contents to be present",
                 "All the changes made in the given URDF",
                 "Extra plugins or packages used",
                 "Key features of the algorithm used",
                 "The starting method of the bot for each run.",
                 "Timestamps (simulation time) for start and end of each run (this will be cross verified)",
+                "There is no upper bound for contents to be present it, you can have additional contents too.",
             ],
-            
             
             ],
             
@@ -202,7 +251,7 @@ const Technical_Events_data=[
             ],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 10,000 ", "Rs. 8,000"],
     },
 
 
@@ -403,7 +452,7 @@ const Technical_Events_data=[
         judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 8,000 ", "Rs. 6,500"],
+        prizes_in_ascending_order: ["Rs. 6,200 ", "Rs. 5,000","Rs. 3,800"],
     },
 
 
@@ -531,7 +580,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 8,400 ", "RS. 6,600"],
+        prizes_in_ascending_order: ["Rs. 5,000", "RS. 3,500","Rs. 2,500","Rs. 2,000","Rs. 2,000"],
     },
 
 
@@ -714,7 +763,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "Prize Distribution for both categories",
-        prizes_in_ascending_order: ["Rs. 2,500 ", "R. 2000","Rs. 1500"],
+        prizes_in_ascending_order: ["Rs. 2,500 ", "Rs. 2,000","Rs. 1,500"],
     },
 
 
