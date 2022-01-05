@@ -77,16 +77,16 @@ const Technical_Events_data=[
     {
         name : "Maze Runner",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "20-01-22",
+        start_date : "20-01-2022",
         end_date : "27-01-2021",
         date_rest:[
             ["Registration starts","07-01-22"],
             ["Registration ends","25-01-22"],
             ["Opportunity start","20-01-22"],
             ["Opportunity ends","05-02-22"],
-            ["Package and problem statement sharing","21/01/22"],
-            ["Submission of code along with the package","03/02/22"],
-            ["Submission of screen recording","05/02/22"],
+            ["Package and problem statement sharing","20-01-22"],
+            ["Submission of code along with the package","03-02-22"],
+            ["Submission of screen recording","04-02-22"],
             ["Team Participation","Max 3 (can be from different organisations)"],
             ["Opportunity open for","Everyone"],
         ],
@@ -155,14 +155,14 @@ const Technical_Events_data=[
             ["Submission Making",
         ],
             [
-                "For the pre-submission (11:59 PM 29/01/2022)",
+                "For the pre-submission (11:59 PM 04-02-2022)",
                 "The modified ROS package containing all the scripts, dependencies/plugins should be compressed into a single folder and submit in the link we'll provide you in the mail on the submission day.",
             ],
             
             [
                 "For the final competition day",
                 "The one-shot screen recording should be uploaded to youtube (don’t forget to keep it ‘unlisted’, this is critical). Then the link should be immediately mailed to (will inform later) and the team should message in the chat of the ongoing zoom meeting acknowledging the same. The mail time will be noted as the overall submission time.",
-                "The ‘submission PDF’ can be submitted via mail (same address as above) by 11:59 PM of the final competition day (i.e. 30/01/2022 tentatively ).",
+                "The ‘submission PDF’ can be submitted via mail (same address as above) by 11:59 PM of the final competition day (i.e. 05-02-2022 tentatively).",
                 "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
                 "There is no upper bound for the contents to be present it, but it should contain the following points:-",
                 "All the changes made in the given URDF",
@@ -172,6 +172,7 @@ const Technical_Events_data=[
                 "Timestamps (simulation time) for start and end of each run (this will be cross verified)",
             ],
             
+            
             ],
             
         
@@ -179,11 +180,18 @@ const Technical_Events_data=[
         pdf_link:"/media/pdf_events/Maze_Runner.pdf",
         
         // reccommended make is true and write down the rest
-        judging_criteria_show : false,
+        judging_criteria_show : true,
+        judging_criteria_extra:[
+            [
+                // "Formula for Evaluation",
+            "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
+            "NOTE: w < x << y < z",
+            ],
+        ],
         // judging_criteria : ["quality of sound produced", " your own twist to the original song"],
             judging_criteria:["Shortlisting will be done on the basis of least Standard-Penalty",
-            "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
-            "{NOTE: w < x << y < z}",
+            // "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
+            // "**NOTE: w < x << y < z",
             "Overall_submission_time refers to the time taken on the final competition day (out of 30 mins) to make the final submission.",
             "Mapping_time refers to the time taken in the first run, which is responsible for mapping on the final competition day.",
             "Best_run_time refers to the least time taken by the bot to clear the maze in the complete recording, again on the final competition day.",

@@ -36,7 +36,15 @@
       padding: 20px;
     }
 }
-  
+.cd_new_cd{
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+}
+
+.cd_video{
+  transform: scale(1.2);
+}
 .ayush_countdown_body{
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
@@ -115,5 +123,11 @@
     .ayush_countdown_container h1 {
       font-size: 58px;
     }
-  }
   
+  }
+
+  @media (max-width: 1000px) {
+    .cd_video{
+    transform: scale( 2.5);
+  }
+}

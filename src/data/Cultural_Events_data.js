@@ -27,7 +27,7 @@ const Cult_events=[
         hover_description : "Monologue Competition",
        
         // have each rule as a element of an array
-        rule_book_rules :["The language Should be English/Hindi.",
+        rule_book_rules :["The language should be English/Hindi.",
         "It should not exceed more than 5 minutes.",
         "Exceeding the time limit will cost into negative marking.",
         "A rough script and a little intro should be provided before the deadline.",
@@ -41,7 +41,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","Entries will be accepted through a Google Form along with essential information like Name, Phn_no., E-mail, etc."]
+            ["General","Entries will be accepted through D2C along with essential information like Name, Phn_no., E-mail, etc."]
         ],
         
         
@@ -87,7 +87,7 @@ const Cult_events=[
         hover_description : "Reenact a movie",
        
         // have each rule as a element of an array
-        rule_book_rules :["The language Should be English/Hindi.",
+        rule_book_rules :["The language should be English.",
         "It should not exceed more than 15 minutes.",
         "Exceeding the time limit will cost into negative marking.",
         "A little intro/Youtube link to the original scene should be provided before the deadline.",
@@ -100,7 +100,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","Entries will be accepted through a Google Form along with essential information like Name, Phn_no., E-mail, etc."]
+            ["General","Entries will be accepted through D2C along with essential information like Name, Phn_no., E-mail, etc."]
         ],
         
         
@@ -159,7 +159,7 @@ const Cult_events=[
             [
                 "Match structure",
                 "Game mode: Battle Royale (25 teams)", 
-                "There will be 3 matches on (Erangle, Miramar, Sanhok)",
+                "There will be 3 matches on Erangle, Miramar and  Sanhok",
                 "1 kill = 1 point", 
             ],
             ["Position and Points",
@@ -282,7 +282,7 @@ const Cult_events=[
         structure:[
             [
                 "Registration",
-                "Participants have to fill the google form to be eligible for the competition before the deadline.. Note: Only the team leader should fill the form on behalf of all the members and only one form is accepted per team ",
+                "Participants have to fill through D2C to be eligible for the competition before the deadline.. Note: Only the team leader should fill the form on behalf of all the members and only one form is accepted per team ",
                 "Participants can make a team of maximum 4 players. ",
                 "In the form, the leader should fill the following details of each player Full Name, Email id, Whatsapp number, Call of duty player name, School/College name and other general details. ",
                 "CODM player-id must be mentioned correctly with proper capital/small letters, special characters, symbols, numbers etc... ",
@@ -595,7 +595,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","This is a Story Writing competition","Participants can use the google form link provided to submit their entries, submission details will be provided by mail later."]
+           ["General","This is a Story Writing competition","Participants can use D2C to submit their entries, submission details will be provided by mail later."]
             ],
         
         // reccommended make is true and write down the rest
@@ -703,7 +703,7 @@ const Cult_events=[
             "The photograph could be in JPG, JPEG or PNG format. ",
             "Photographs without the EXIF data will be disqualified.",
             "Basic editing and colour corrections of the photograph is allowed. Image manipulation is prohibited.",
-            "Entries is to be submitted via the Google form. (will inform via mail)",
+            "Entries is to be submitted via D2C.",
             "No signature, stamp, watermark, or any other identifying marks is allowed anywhere on the entries.",
         ],
 
@@ -711,7 +711,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","Theme is xxx","The competition is an individual event and a participant can submit only one entry."]
+           ["General","Theme is Light Painting","The competition is an individual event and a participant can submit only one entry."]
             ],
         
         // reccommended make is true and write down the rest
@@ -762,7 +762,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","Theme is xxx","The competition is an individual event and a participant can submit only one entry."]
+           ["General","Theme is Friendship","The competition is an individual event and a participant can submit only one entry."]
             ],
         
         // reccommended make is true and write down the rest
