@@ -189,6 +189,26 @@ function Main_stuff({id,data,istech}){
 
             <div className="jj_event_block1_left jj_event_block2_left"> {data.structure_show?"05":"04"} <strong> Judging Criteria </strong> </div>
             <div className="jj_event_block1_right jj_event_block2_right">
+            {data.judging_criteria_extra?
+                data.judging_criteria_extra.map((a,c)=>{
+                    console.log(a)
+                    return (
+                    <>
+                    <div className='je_structure_title' style={{textAlign:"center",paddingBottom:"0"}}><strong>{a[0]}</strong></div>
+                    {a.map((f,g)=>(
+                        <>
+                        {g==0?null:
+                        <>
+                        <div className="jj_event_block1_des jj_event_block3_des je_nocapitalose_sentence_first_letter_capital" style={{paddingBottom:"20px"}}> • {f}</div>
+                        {/* <br /> */}
+                        </>
+                        }
+                        </>
+                    ))}
+                    </>
+                )}):null
+            }
+
             {
                         data.judging_criteria.map((a,c)=>(
                             <>
