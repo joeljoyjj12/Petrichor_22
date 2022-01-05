@@ -233,8 +233,8 @@ function Sponsors() {
                 {Big_Sponsor.map((a,b)=>{
                     return(
                     <div className="je_partner_item je_sponsor_item je_sbi_scroll">
-                        <a href={a[1]} target="_blank" className="je_aa"><img src={a[0]} className='je_sponsor_item_pic je_sponsor_item_pic_max_width'></img></a>
-                        <div className='je_sponsor_item_title'><a href={a[1]} className=" je_aa">{a[2]}</a></div>
+                        <a href={a[1]} target="_blank" className="je_aa" target="_blank"><img src={a[0]} className='je_sponsor_item_pic je_sponsor_item_pic_max_width'></img></a>
+                        <div className='je_sponsor_item_title'><a href={a[1]} className=" je_aa" target="_blank">{a[2]}</a></div>
                         <div className='je_sponsor_item_title_white'>{a[3]}</div>
                     </div>
                         )
@@ -250,8 +250,8 @@ function Sponsors() {
                 {Sponsor.map((a,b)=>{
                     return(
                     <div className={`je_partner_item je_sponsor_item je_sponsor_item${b}`}>
-                        <a href={a[1]} target="_blank" className="je_aa"><img src={a[0]} className='je_sponsor_item_pic je_little_sponsor_item_pic'></img></a>
-                        <div className='je_sponsor_item_title'><a href={a[1]} className=" je_aa">{a[2]}</a></div>
+                        <a href={a[1]} target="_blank" className="je_aa" target="_blank"><img src={a[0]} className='je_sponsor_item_pic je_little_sponsor_item_pic'></img></a>
+                        <div className='je_sponsor_item_title'><a href={a[1]} className=" je_aa" target="_blank">{a[2]}</a></div>
                         <div className='je_sponsor_item_title_white'>{a[3]}</div>
                     </div>
                         )
@@ -267,8 +267,8 @@ function Sponsors() {
                 {Partner.map((a,b)=>{
                     return(
                     <div className={`je_partner_item je_partner_item_scroll je_partner_item_scroll${b}`}>
-                        <a href={a[1]}  target="_blank"className="je_aa"><img src={a[0]} className='je_parnter_item_pic' style={{height:a[3],width:a[4]}}></img></a>
-                        <div className="je_parnter_item_title"><a href={a[1]} className="je_aa">{a[2]}</a></div>
+                        <a href={a[1]}  target="_blank"className="je_aa" target="_blank"><img src={a[0]} className='je_parnter_item_pic' style={{height:a[3],width:a[4]}}></img></a>
+                        <div className="je_parnter_item_title"><a href={a[1]} className="je_aa" target="_blank">{a[2]}</a></div>
                         <div className="je_parnter_item_title_white">{a[5]}</div>
                     </div>
                     )

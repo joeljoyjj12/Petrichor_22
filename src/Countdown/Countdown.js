@@ -2,6 +2,11 @@ import React from 'react'
 import Timer from "./Timer.js"
 import promo from "./promo.mp4"
 function Countdown() {
+    React.useEffect(()=>{
+        let aa=document.querySelector(".progress");
+        aa.style.display="none";
+    },[])
+
     return (
         <div className="ayush_countdown_body jerry_cd_full" style={{zIndex:"100",position:"fixed"}}>
             

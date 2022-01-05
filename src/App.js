@@ -21,6 +21,7 @@ import Countdown from './Countdown/Countdown';
 function App() {
   // const [isover,setIsover]=useState(false);
   const [isover,setIsover]=useState(false);
+  const [gotocountdown,Setgotocountdown]=useState(true);
   useEffect(()=>{
     window.addEventListener("scroll",()=>{
       console.log("Hello");
@@ -33,6 +34,22 @@ function App() {
       document.querySelector(".progress").style.backgroundImage = `conic-gradient(red 0deg,red ${scrollPercentRounded*3.6}deg,rgb(0, 0, 0) ${scrollPercentRounded*3.6}deg)`; 
       document.querySelector(".inside p").innerHTML=`${scrollPercentRounded}%`;
     })
+  },[])
+
+  useEffect(()=>{
+
+    let deadline = new Date("Jan 7, 2022 21:00:00").getTime();
+    let now = new Date().getTime();
+    let t = deadline - now;
+    if(t<0)
+    {
+      Setgotocountdown(false);       
+    }
+    else{
+      Setgotocountdown(true);       
+
+    }
+
   },[])
 
   return (
