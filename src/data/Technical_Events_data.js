@@ -162,7 +162,7 @@ const Technical_Events_data=[
             [
                 "For the final competition day",
                 "The one-shot screen recording should be uploaded to youtube (don’t forget to keep it ‘unlisted’, this is critical). Then the link should be immediately mailed to (will inform later) and the team should message in the chat of the ongoing zoom meeting acknowledging the same. The mail time will be noted as the overall submission time.",
-                "The ‘submission PDF’ can be submitted via mail (same address as above) by 11:59 PM of the final competition day (i.e. 05-02-2022 tentatively).",
+                "The ‘submission PDF’ can be submitted via mail/D2C (same address as above) by 11:59 PM of the final competition day (i.e. 05-02-2022 tentatively).",
                 "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
                 "There is no upper bound for the contents to be present it, but it should contain the following points:-",
                 "All the changes made in the given URDF",
@@ -381,7 +381,7 @@ const Technical_Events_data=[
         rule_book_rules :["This is a single participant competition. Each participant must register online using the URL provided below.",
         "Petrichor, IIT Palakkad will not be found responsible for any late or misdirected entries.",
         "Participants are not allowed to take any reference images from the internet. Any type of misconduct will result in disqualification.",
-        "You can proceed with your work once the problem statement has been released. If you have any questions, you can contact us directly via WhatsApp at the numbers listed below, or via mail ID provided below.",
+        "You can proceed with your work once the problem statement has been released. If you have any questions, you can contact us directly via WhatsApp at the numbers listed below.",
         "The file should be submitted in step file format.",
         "Submission link will be provided along with the problem statement",
     ],
