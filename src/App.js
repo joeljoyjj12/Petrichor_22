@@ -65,7 +65,7 @@ function App() {
           <Route exact path="/proshows" component={Proshows}/>
           <Redirect from="/cultural_events/*" to="/cultural_events/#" />
           <Redirect from="/technical_events/*" to="/technical_events/#" />
-          {/* <Redirect from="*" to="/#" /> */}
+          <Redirect from="*" to="/#" />
         </Switch>
         <Footer />
   </Router>

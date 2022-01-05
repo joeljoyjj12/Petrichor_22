@@ -17,16 +17,8 @@ function Cultural_main2() {
     useEffect(()=>{
         window.scroll(0,0);
         
-        let rr=document.querySelector(".je_tech_hidden_redirect_button1");
-        window.addEventListener('keydown',(e)=>{
-            if(e.keyCode==65)
-            {
-                console.log(rr);
-                rr.click();
+    },[]);
 
-            }
-        })
-    },[])
     
     return (
         <>        <div className='je_tech_section1'>

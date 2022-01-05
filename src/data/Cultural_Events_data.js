@@ -2,8 +2,8 @@ const Cult_events=[
     {
         name : "soliloquy",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -27,7 +27,7 @@ const Cult_events=[
         hover_description : "Monologue Competition",
        
         // have each rule as a element of an array
-        rule_book_rules :["The language Should be English/Hindi.",
+        rule_book_rules :["The language should be English/Hindi.",
         "It should not exceed more than 5 minutes.",
         "Exceeding the time limit will cost into negative marking.",
         "A rough script and a little intro should be provided before the deadline.",
@@ -41,7 +41,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","Entries will be accepted through a Google Form along with essential information like Name, Phn_no., E-mail, etc."]
+            ["General","Entries will be accepted through D2C along with essential information like Name, Phn_no., E-mail, etc."]
         ],
         
         
@@ -63,8 +63,8 @@ const Cult_events=[
     {
         name : "Relive it",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -87,7 +87,7 @@ const Cult_events=[
         hover_description : "Reenact a movie",
        
         // have each rule as a element of an array
-        rule_book_rules :["The language Should be English/Hindi.",
+        rule_book_rules :["The language should be English.",
         "It should not exceed more than 15 minutes.",
         "Exceeding the time limit will cost into negative marking.",
         "A little intro/Youtube link to the original scene should be provided before the deadline.",
@@ -100,7 +100,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","Entries will be accepted through a Google Form along with essential information like Name, Phn_no., E-mail, etc."]
+            ["General","Entries will be accepted through D2C along with essential information like Name, Phn_no., E-mail, etc."]
         ],
         
         
@@ -121,8 +121,13 @@ const Cult_events=[
     {
         name : "Valorant",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "04-02-2022",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-2022"],
+            ["Registration ends","02-02-2022"],
+            ["Play on ","04-02-2022 and 05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -144,35 +149,108 @@ const Cult_events=[
         hover_description : "E Games",
        
         // have each rule as a element of an array
-        rule_book_rules :["Players registering for the tournament must have completed minimum age of 16 years. If a player is over the age of 16 but under 18, he/she needs to provide a consent form from their parents or guardians.",
-        "Ranking Requirements: All players on a Team’s roster must have held a ranking of level 15 in the game and above Platinum V Tier, at the time of registration.",
-        "Single Team Exclusivity: A Team Member or the captain is allowed to compete for the one Team that they have an agreement with. A Team Member or coach will not be allowed to compete for more than one team.",
-        "Each Team must maintain, during the tournament exactly four players which is the minimum and maximum number of players allowed.",
-        "Only the registered players can play in the tournament. (If any other player is caught playing, then the team will be disqualified.)",
-        "Each team must select their captain who shall be responsible for communications with the officials of the tournament. A team cannot change the team captain during the tournament without prior approval from the tournament officials.",
-        "Players must not use an emulator to play on a PC or other device that is not a handheld device."],
+        rule_book_rules :[
+            "Show respect to everyone involved in the tournament. This includes, but is not limited  to players and organisers.",
+            "Treat everyone the same way as you would like to be treated yourself.",
+            "Always show integrity while playing in every tournament, be honest and play fair.",
+            "Do not use any discriminatory language, including but not limited to any language  regarding ethnicity, nationality, race, gender, religion, sexual orientation or personal  beliefs.",
+            "Do not use any extreme foul language, including but not limited to excessive profanity  or language that is graphically sexual, grotesque, or violent.",
+            "Do not make threats of real-world violence or other intended harm to anyone involved in the tournament.",
+            "Do not harass, stalk, or purposely do things to make someone else feel uncomfortable or threatened.",
+            "Do not share personal information about yourself or other individuals.",
+            "Do not engage in, request, arrange, or offer illegal activities or materials.",
+            "Do not impersonate other individuals.",
+            "Do not spam, be it in text or voice.",
+            "Do not share your account, your account is for your use and your use alone. Do not  grant access to your account to anyone else, and do not access anyone else’s account, even with their permission.",
+        ],
 
         //recommended always show true,
         //instructure in each array row, the first 
         structure_show:true,
-        structure:[
-            [
-                "Match structure",
-                "Game mode: Battle Royale (25 teams)", 
-                "There will be 3 matches on (Erangle, Miramar, Sanhok)",
-                "1 kill = 1 point", 
-            ],
-            ["Position and Points",
-            "15 points",
-            "12 points",
-            "10 points",
-            "8 points",
-            "6 points",
-            "4 points",
-            "2 points",
-            "1 points",
-            ]
-            ],
+        structure:["1. PLATFORM RULES",
+        ["1.1 Discord",
+        "Discord is the platform used for the communication between the teams and the hosts.",
+        "All teams and players are required to be on the server and to be assigned roles.  • If your role has not been assigned to you. Please report it in the #report channel.",
+        ],  
+        [
+        "1.2. Valorant",  
+        "The game is played on Valorant in the custom party in tournament mode.",
+        "All players are requested to have the latest version of the Game and a stable internet connection.",
+        "Use of Any third-party modding software will lead to disqualification.",
+        ],
+        [
+            "1.3 Account",
+            "All players are allowed to have only one (1) account. All information registered  on your account needs to be up-to-date and to have the correct information.",
+            "If you face any issues with your account, contact report it in the #report Channel.",
+            "Ignoring any rules mentioned above will lead to disqualification from the tournament.",
+            "Valorant nickname has to be in format Riot ID #Tagline. Any other format will be  invalid. You are not allowed to share or use another person’s game account. Your account is for your use, and your use alone.",
+        ],
+        
+        [
+            "2. GAME RULES",  
+        ],
+        [
+            "2.1 TEAMS AND ROSTERS",  
+            "Each team’s roster must consist of at least 5 players.",
+            "Each team’s roster will be allowed to have 5 main players and 1 substitute. Once the tournament starts, you cannot replace any player.",
+            "A substitute player may only be added before the Tournament Start. This player cannot be part of any other team’s roster which is participating in the tournament.",
+            "Match has to be played in the following format: 5v5.",
+            "A player is allowed to represent only one (1) team’s roster in the same Tournament.",
+        ],
+        
+        [
+            "2.2 Team Names",
+            "The Team’s name will be selected at the time of registration and may not be  changed at any time during the Tournament.",
+            "All Team names must be different and unique",
+            "Neither a Team’s name may include any word or phrase in any language that is  offensive, toxic or hurtful",
+        ],
+          
+        [
+            "3. ONLINE EVENTS",
+        ],
+        [
+            "3.1 Match Rules",  
+            "The tournament will be held as scheduled unless stated otherwise by the  organisers.",
+            "The mode of the tournament will be a knockout and elimination.",
+            "All players will have to be in the lobby before the time limit goes down (15  minutes). In case of players missing, the team with less than 5 members will be considered a no show. In that case, the team will be penalized and lose the  match with the worst score possible.",
+            "After all the players have joined the lobby, the map for the match will be  decided using https://www.mapban.gg/",
+            "Before the start of the game, players will be given a link in the discord #mapban  channel to ban the maps alternatively, the team to ban the second last map chooses the map while the opposing team chooses to defend or attack first.",
+            "The teams should be certain not to use the party mic while in game.",
+            "During a game, if a team should lose 2 players that have disconnected from the  match at the same time, that team will forfeit the remainder of the game to the opposing team.",
+        ],  
+        
+        [
+            "3.2 Stoppage of play",
+            "The game may only be paused for the following reasons:",
+            "Player drops",
+            "Player disconnects",
+            "Technical issues",
+            "Stoppage of play may be requested at any time for the above reasons. The  team initiating a pause must first call the ‘PAUSE’ in chat.",
+            "A pause may not be called during combat, or once the Spike has been planted.",
+            "Pauses can be called before the beginning of the round or if called during the  round, pause will be awarded in the next round's beginning.",
+            "Once both teams are ready, the team who paused the match will unpause it.Each team will have 5 total minutes of pause time.",
+            "A game can also be paused for a tactical timeout, we are limiting to two tactical  timeouts per team per game.",
+        ],
+        [
+            "3.3 Check in",  
+            "Check in According to the schedule, the team should check-in in the discord  channel before 15 minutes of the match start.",
+            "If the team still does not check in before 5 minutes of the match start. It will be  penalized and lose the match with the worst score possible 3.4 Map pool",
+        ],
+        [
+            "3.5 Remake",  
+            "If one of the teams will not pick all the agents in the character selection screen  and the game goes back to the lobby, the game has to be remade.",
+            "In the case that the game started before writing ready from both sides, the team  which did not write ready has the right to call a remake before round 1 of the  game starts. (before the countdown in the game of round 1 reaches 0)",
+            "If any of the players are not connected to the game before the counter reaches  0, the team can call a remake and the game has to be remade.",
+        ],
+        [
+        
+            "3.6 Results",  
+            "Once the match finishes, both team captains have to take a screenshot of the  results and post it in the Discord channel after each game.",
+            "On the game result screenshot, results above the scoreboard, all the players  and information of the match on the right of the results have to be visible",
+        ],
+        
+        
+        ],
         
         // reccommended make is true and write down the rest
         judging_criteria_show : false,
@@ -183,8 +261,13 @@ const Cult_events=[
     {
         name : "BGMI",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "04-02-2022",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-2022"],
+            ["Registration ends","02-02-2022"],
+            ["Play on ","04-02-2022 and 05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -247,7 +330,7 @@ const Cult_events=[
     {
         name : "Call of Duty Mobile",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
@@ -282,7 +365,7 @@ const Cult_events=[
         structure:[
             [
                 "Registration",
-                "Participants have to fill the google form to be eligible for the competition before the deadline.. Note: Only the team leader should fill the form on behalf of all the members and only one form is accepted per team ",
+                "Participants have to fill through D2C to be eligible for the competition before the deadline.. Note: Only the team leader should fill the form on behalf of all the members and only one form is accepted per team ",
                 "Participants can make a team of maximum 4 players. ",
                 "In the form, the leader should fill the following details of each player Full Name, Email id, Whatsapp number, Call of duty player name, School/College name and other general details. ",
                 "CODM player-id must be mentioned correctly with proper capital/small letters, special characters, symbols, numbers etc... ",
@@ -321,12 +404,17 @@ const Cult_events=[
     {
         name : "Music Spotlight",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-2022"],
+            ["Registration ends","02-02-2022"],
+            ["Play on ","04-02-2022 and 05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/Event_Cultural/Music_Spotlight.jpeg",
+        picture: "/media/Event_Cultural/Music_Spotlight.png",
         organiser:[
             {
                 name : "Joel Sam Mathew",
@@ -362,7 +450,8 @@ const Cult_events=[
         "Voice quality and Rhythm sense - 40",
         "Melody and originality - 40",
         "Likes, shares and comments - 20",
-        "1 Comment = 2 Likes, 1 Share = 3 Likes"],
+        // "1 Comment = 2 Likes, 1 Share = 3 Likes"
+    ],
 
         prizes_general_text : "We have exciting prizes awaiting you",
         prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
@@ -371,8 +460,8 @@ const Cult_events=[
     {
         name : "Amplify",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -397,7 +486,7 @@ const Cult_events=[
         rule_book_rules :[
             "Duration: Maximum 7 minutes",
             "Number of participants: 1",
-            "Rules and Regulations:",
+            // "Rules and Regulations:",
             "No restriction on the number of instruments.",
             "No pre-recorded tracks are allowed.",
             "Exceeding the time limit will cause deduction of 10 marks per minute.",
@@ -417,7 +506,8 @@ const Cult_events=[
         "Creativity/Originality - 35",
         "Technical Brilliance/Individual Skill - 35",
         "Likes, shares and comments - 20",
-        "1 Comment = 2 Likes, 1 Share = 3 Likes"],
+        // "1 Comment = 2 Likes, 1 Share = 3 Likes"
+    ],
 
         prizes_general_text : "We have exciting prizes awaiting you",
         prizes_in_ascending_order: ["Rs. 3,000 ", "Rs. 1,500","Rs. 750"],
@@ -427,8 +517,8 @@ const Cult_events=[
     {
         name : "Band it",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -454,12 +544,12 @@ const Cult_events=[
             "Duration: 10 min",
             "Number of participants: 3-12",
             "There is no constraint on the genre of songs. Suitable judges will be called to judge Eastern as well as Western Music. However, variety will be appreciated.",
-            "The final edited video which will be streamed has to be submitte",
-            "Performance could be recorded separately and mixed (if the participants are unable to meet)",
-            "All audio recordings should be sent accompanied by raw unedited video footage in which the lip movement for vocalists and hand movement for instrumentalists should be clearly visible",
+            "The final edited video which will be streamed has to be submitted.",
+            "Performance could be recorded separately and mixed (if the participants are unable to meet).",
+            "All audio recordings should be sent accompanied by raw unedited video footage in which the lip movement for vocalists and hand movement for instrumentalists should be clearly visible.",
             "Recreating any physical Instrument/Vocals using any software is not allowed. Pre-processing is not allowed. Post-processing is allowed.",
-            "Pitch corrections not allowed",
-            "Using Autotune, Karaoke, Looping, or using any piece from any external source is strictly prohibited",
+            "Pitch corrections not allowed.",
+            "Using Autotune, Karaoke, Looping, or using any piece from any external source is strictly prohibited.",
             "Any Software can be used only for the purpose of recording and mixing",
             "No restriction on editing the final video which will be streamed.",
             "Exceeding the time limit will cause deduction of 10 marks per minute.",
@@ -469,7 +559,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["General","A Band can have a single entry. Refer to rules for more information."]    
+            ["General","A Band can have a single entry."]    
         ],
         
         // reccommended make is true and write down the rest
@@ -489,8 +579,16 @@ const Cult_events=[
     {
         name : "Quizzle",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration start","07-01-2022"],
+            ["Registration end","30-01-2022"],
+            ["Sports Quiz","01-02-2022"],
+            ["Science Quiz","02-02-2022"],
+            ["Entertainment Quiz","03-02-2022"],
+            ["General Quiz","05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -553,13 +651,11 @@ const Cult_events=[
         prizes_general_text_secondary : "For General Quiz (Final) we have the following prizes ",
         prizes_in_ascending_order_secondary: ["Rs. 1,500 ", "Rs. 1,000","Rs. 750"],
     },
-
-
     {
         name : "Inkathon",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -595,7 +691,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","This is a Story Writing competition","Participants can use the google form link provided to submit their entries, submission details will be provided by mail later."]
+           ["General","This is a Story Writing competition","Participants can use D2C to submit their entries, submission details will be provided by mail later."]
             ],
         
         // reccommended make is true and write down the rest
@@ -614,8 +710,8 @@ const Cult_events=[
     {
         name : "Rhyme it",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -638,11 +734,13 @@ const Cult_events=[
        
         // have each rule as a element of an array
         rule_book_rules :[
-            "Entries cannot be edited after submission",
-            "The preferred submission format is a typed PDF or Word document. Scanned handwritten entries are also accepted, however, we do not take the responsibility of the judges not being able to understand your handwriting.",
+            "Participants can choose a theme of their choice for the poem.",
+            "All entries should be submitted through d2c",
+            "Entries cannot be edited after submission.",
+            "The preferred submission format is a typed PDF or Word document.",
             "The language should be English",
-            "The maximum number of lines allowed is 20 lines",
-            "Only one entry per person is permitted",
+            "The maximum number of lines allowed is 20 lines ",
+            "Only one entry per person is permitted ",
             "Plagiarism may lead to immediate disqualification from the competition.",
         ],
 
@@ -673,8 +771,8 @@ const Cult_events=[
     {
         name : "Fotografía",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -703,7 +801,7 @@ const Cult_events=[
             "The photograph could be in JPG, JPEG or PNG format. ",
             "Photographs without the EXIF data will be disqualified.",
             "Basic editing and colour corrections of the photograph is allowed. Image manipulation is prohibited.",
-            "Entries is to be submitted via the Google form. (will inform via mail)",
+            "Entries is to be submitted via D2C.",
             "No signature, stamp, watermark, or any other identifying marks is allowed anywhere on the entries.",
         ],
 
@@ -711,7 +809,7 @@ const Cult_events=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","Theme is xxx","The competition is an individual event and a participant can submit only one entry."]
+           ["General","Theme is Light Painting","The competition is an individual event and a participant can submit only one entry."]
             ],
         
         // reccommended make is true and write down the rest
@@ -724,8 +822,8 @@ const Cult_events=[
     {
         name : "Animation",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -755,14 +853,14 @@ const Cult_events=[
             "Only JPEG and PNG formats will be accepted",
             "There is no restriction on the software used.",
             "The comic strip should have 4 panels and should inscribe in a square canvas.",
-            "Submission should be the original work of the participant; plagiarism is not allowed.",
+            "Submission should be the original work of the participant. Plagiarism is not allowed.",
         ],
 
         //recommended always show true,
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-           ["General","Theme is xxx","The competition is an individual event and a participant can submit only one entry."]
+           ["General","Theme is Friendship","The competition is an individual event and a participant can submit only one entry."]
             ],
         
         // reccommended make is true and write down the rest
@@ -776,8 +874,8 @@ const Cult_events=[
     {
         name : "Artistique",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -804,8 +902,8 @@ const Cult_events=[
             "There is no restriction on the size of the drawing sheet used.",
             "Pictures uploaded should be the top view of the artwork.",
             "The artwork should contain the participant’s name or signature. ",
-            "Submission should be the original work of the participant; plagiarism is not allowed.",
-            "The participants have to submit 2 photos in total. 1 photo of the artwork at the mid stage of drawing. 1 photo of the final finished artwork.",
+            "Submission should be the original work of the participant. Plagiarism is not allowed.",
+            "The participants have to submit 2 photos in total. (1 photo of the artwork at the mid stage of drawing. 1 photo of the final finished artwork).",
         ],
 
         //recommended always show true,
@@ -826,8 +924,8 @@ const Cult_events=[
     {
         name : "Digi-inc",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -853,8 +951,8 @@ const Cult_events=[
             "There is no restriction on the size of the canvas or software used.",
             "The participants must submit the psd,ai or any other design files of their artwork.",
             "The artwork should contain the participant’s name or signature. ",
-            "Submission should be the original work of the participant; plagiarism is not allowed.",
-            "The participants have to submit 2 photos in total. 1 screenshot of the artwork at the mid stage of drawing. The final finished artwork.",
+            "Submission should be the original work of the participant. Plagiarism is not allowed.",
+            "The participants have to submit 2 photos in total. (1 screenshot of the artwork at the mid stage of drawing. The final finished artwork).",
         ],
 
         //recommended always show true,
@@ -877,8 +975,14 @@ const Cult_events=[
     {
         name : "Smooth Moves",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
+        date_rest:
+        [
+            ["Start of Round 1","07-01-2022"],
+            ["End of Round 1","01-02-2022"],
+            ["Round 2","07-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -907,7 +1011,7 @@ const Cult_events=[
             "Video must be continuous with appropriate music quality.",
             "No graphic element should be used while editing the video.",
             "The decision of the judges will be final.",
-            "On exceeding the time limit, 5   marks will be reduced for every 10 seconds from the marks obtained by the concerned team.",
+            "On exceeding the time limit, 5 marks will be reduced for every 10 seconds from the marks obtained by the concerned partcipant.",
         ],
 
         //recommended always show true,
@@ -946,8 +1050,8 @@ const Cult_events=[
     {
         name : "Prom Night",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1008,8 +1112,8 @@ const Cult_events=[
         // name : "Dance Wars",
         name : "Feet on Fire",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1035,29 +1139,29 @@ const Cult_events=[
         rule_book_rules :[
             "Any Dance style is permitted.",
             "Both participants should be in the frame for the entire duration.",
-            "The minimum time is 3 minutes and maximum is 6 minutes.",
-            "Usage of props is permitted",
+            "The minimum time is 5 minutes and maximum is 8  minutes.",
+            "Usage of properties is permitted.",
             "Any stunts that can cause life risk are not permitted.",
             "Video must be continuous with appropriate music quality.",
             "No graphic element should be used while editing the video.",
             "The decision of the judges will be final.",
-            "On exceeding the time limit, 5   marks will be reduced for every 10 seconds from the marks obtained by the concerned team.",
+            "On exceeding the time limit, 5 marks will be reduced for every 10 seconds from the marks obtained by the concerned team.",
         ],
 
         //recommended always show true,
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-                ["General","Two members per team (any combination) and one entry per team."],
+                ["General","The group should have a minimum of 4 members and a maximum of 10 members and one entry per team."],
             ],
         
         // reccommended make is true and write down the rest
         judging_criteria_show : true,
         judging_criteria:[
-            "SYNC - 30",
+            "SYNC - 20",
             "ENERGY - 25",
-            "CHOREOGRAPHY - 25",
-            "PROPS AND COSTUMES - 10",
+            "CHOREOGRAPHY - 30",
+            "PROPS AND COSTUMES - 15",
             "EXPRESSIONS - 10",
         ],
 
@@ -1070,8 +1174,8 @@ const Cult_events=[
     {
         name : "Rise -n- shine",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1121,8 +1225,8 @@ const Cult_events=[
     {
         name : "Calico Kultura",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
-        end_date : "14-02-2022",
+        start_date : "07-01-2022",
+        end_date : "07-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -1140,8 +1244,7 @@ const Cult_events=[
             },
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
-        description: ["StudioSeven is Maltas leading A/V and production hub. In 2019, StudioSeven celebrated their 40 year anniversary and contacted Bison Studio in order to help them create an online presence that was in line with their new vision. A website that truly represents what they’re all about", 
-        "From the start of this project, we knew that StudioSeven wanted to stand out. They were not looking for a template approach that would look the same as their competitors. We instantly knew that this was the perfect project for us."],
+        description: ["Calico Kultura gives an ideal opportunity for all the aspiring models to take the center stage and mesmerize everyone with their glamour! An online modelling competition that awaits sizzling performances by you!!"],
         hover_description : "Fashion Modelling",
        
         // have each rule as a element of an array

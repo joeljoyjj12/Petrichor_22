@@ -34,13 +34,14 @@ const Technical_Events_data=[
         ],
         hover_description : "Say hello to the world of virtual robotics! Spar online with Lego bots in a soccer match!",
         extra_link :"https://drive.google.com/file/d/11vzunFzC4ULKyIN3t_FFa11hqoyd_Ex8/view",
+        extra_link2:"https://www.virtualroboticstoolkit.com/documentation/sections/7/articles/113",
         // have each rule as a element of an array
-        rule_book_rules :["Every team has to register online on the official Petrichor website to participate in the competition.",
+        rule_book_rules :["Every team has to register online on the official Petrichor website/D2C to participate in the competition.",
         "A team ID will be allocated to the team on registration which shall be used for future references.",
         "The duration of each match will be 3 minutes.",
         "Teams can make and use their own custom models or use the default models available.",
         "The field will be reset in case the ball is stuck between bots for more than a considerable amount of time.",
-        "A penalty (for e.g., asking the opponent to start first, reducing the goals scored, etc.) will be imposed if the custom model is more than a definite size (width of the bot must be less than or equal to 40% of goal post width), If the Bot blocks the whole Goalpost, then it will lead to disqualification of the team. (Go through this link to find out how to measure distances on a field)",
+        "A penalty (for e.g., asking the opponent to start first, reducing the goals scored, etc.) will be imposed if the custom model is more than a definite size (width of the bot must be less than or equal to 40% of goal post width), If the Bot blocks the whole Goalpost, then it will lead to disqualification of the team. (Go through the link in the description at the top of the page to find out how to measure distances on a field)",
         "In the case of a Draw in knockout stages extra time will be provided, even after extra time if the result is a draw, then we will have 5 penalty shootouts if the result is still a draw, then the team with the highest points will qualify for the next match.",
         "The decision of the organizers or judges shall be treated as final and binding on all.",
         "No responsibility will be held by Petrichor, IIT Palakkad for any late, lost, or misdirected entries.",
@@ -59,6 +60,52 @@ const Technical_Events_data=[
             "The qualified participants will play a semi-final match against a selected opponent (based on points) and the winner of that match will qualify for the finals. The two winners of the semis will compete against each other in the final and the one who wins the final will be crowned as the Robo soccer champion.",
             "If a draw happens in the Knockout stages, extra time will be provided, even after extra time if the result is a draw, then we will have 5 penalty shootouts if the result is still a draw then the team with the highest points will qualify for the next match.",
             "The number of groups may increase based on the number of participants enrolled."],
+            [
+                "Objective:",
+                "Spar online with Lego bots in a soccer match! Customize your dream bot and turn it into an undefeatable champion. Sport your coding skills to perfect it.",
+                "You can participate in this event individually as well as in a team, with not more than two members",
+                "The idea of the game is to use your team’s custom built or default bots (built using LDD or LDraw) to find the ball and connect it to the opposing team’s goal net using compass and IR sensor (basically simulating a normal football game).",
+            ],
+            [
+                "Platform",
+                "It's an VirtualRoboticsToolkit simulation, you need to use Ldraw or Lego Digital Designer to make your own custom bot, and ev3 software for coding the bot.",
+            ],
+            [
+                "Problem Description", 
+                "RoboSoccer aims, where possible, to reflect the game of human soccer. Teams	consisting of autonomous robots are to chase a ball that emits infra-red rays around a WRO size GEN II Soccer field to score more goals than the opposition.",
+                "Use the IR Sensor and Compass Sensor to find the ball and locate the opposing net.",
+                "You will be using LEGO Mindstorms for this.",
+                "You can make your own custom virtual LEGO robot model using Lego Digital Designer or with LDraw Software and can submit the files of your model, or you could choose to go with the default Lego robot model provided by the VirtualRoboticsToolkit software(A software that will be used to simulate the bots for the match) if you choose to use the default model, study the default model carefully by yourself to determine the connection of sensors/motors with port numbers.",
+                "You need EV3 Software to code your own LEGO bot",
+                "You can test out your model/code using the VirtualRoboticsToolkit Software’s Free version( Free Version is available for only 15 days)",
+            ],
+            [
+                "Software's",
+                "It goes without saying that the Virtual Robotics Toolkit is a computationally heavy application.Therefore, you will definitely want to considering installing the Toolkit to a machine that has a little extra horse power to spare.",
+                "EV3 Software(windows)",
+                "Lego Digital Designer(Windows)",
+                "LDraw(Windows)",
+                "VirtualRoboticsToolkit(Windows)",
+                "VirtualRoboticsToolkit(Mac)",
+                "These software’s don’t support Linux based systems",
+                "Software download and compatibility link can be taken from D2C main page or googled. ",
+                "NOTE: You may require the programming blocks from HighTechnic® to use the IR Seeker and Compass Sensors. These programming blocks can be downloaded from this link: https://www.hitechnic.com/downloads",
+                "There will be one on one matches in a round-robin format between teams.",
+                "In group stages, every win will fetch you two points, zero points for losing and one-one points for each team in case of a draw.",
+                "For important matches such as semi-finals etc in case of a draw, one minute extra time will be given, if the result still ends up in a draw, each team will have 5 penalty shootouts one by one.",
+                "If the final result still ends up in a draw, the team with more points in the group stages will be declared as a winner.",
+                "The teams need to provide extra code files for penalty shootouts",
+            ],
+            [
+                "For Submissions",
+                "Make a folder(named after your team) put all of the required files in it, upload this folder in your drive, and share the drive link in the google form that will be shared for submissions.",
+                "Your folder should consist of the following files",
+                "Code files,( including penalty shootout code, the naming convention for the main match code file:-main naming convention for penalty shootout code file:-penalty)",
+                "Model file(if using a custom model)",
+                "Last day to submit is 17th Jan 11:59:00 pm",
+                "For more FAQ's please visit the D2C page which you will reach on clicking Register."
+                ],
+                
         ],
         
         
@@ -77,16 +124,16 @@ const Technical_Events_data=[
     {
         name : "Maze Runner",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "20-01-22",
+        start_date : "20-01-2022",
         end_date : "27-01-2021",
         date_rest:[
             ["Registration starts","07-01-22"],
             ["Registration ends","25-01-22"],
             ["Opportunity start","20-01-22"],
             ["Opportunity ends","05-02-22"],
-            ["Package and problem statement sharing","21/01/22"],
-            ["Submission of code along with the package","03/02/22"],
-            ["Submission of screen recording","05/02/22"],
+            ["Package and problem statement sharing","20-01-22"],
+            ["Submission of code along with the package","04-02-22"],
+            ["Submission of screen recording","05-02-22"],
             ["Team Participation","Max 3 (can be from different organisations)"],
             ["Opportunity open for","Everyone"],
         ],
@@ -155,21 +202,24 @@ const Technical_Events_data=[
             ["Submission Making",
         ],
             [
-                "For the pre-submission (11:59 PM 29/01/2022)",
+                "For the pre-submission (11:59 PM 04-02-2022)",
                 "The modified ROS package containing all the scripts, dependencies/plugins should be compressed into a single folder and submit in the link we'll provide you in the mail on the submission day.",
             ],
             
             [
                 "For the final competition day",
                 "The one-shot screen recording should be uploaded to youtube (don’t forget to keep it ‘unlisted’, this is critical). Then the link should be immediately mailed to (will inform later) and the team should message in the chat of the ongoing zoom meeting acknowledging the same. The mail time will be noted as the overall submission time.",
-                "The ‘submission PDF’ can be submitted via mail (same address as above) by 11:59 PM of the final competition day (i.e. 30/01/2022 tentatively ).",
+                "The ‘submission PDF’ can be submitted via mail/D2C (same address as above) by 11:59 PM of the final competition day (i.e. 05-02-2022 tentatively).",
                 "The ‘submission PDF’ is meant to be a kind of summary of the work done by the participants.",
-                "There is no upper bound for the contents to be present it, but it should contain the following points:-",
+            ],
+            [
+                "Submission PDF must contain",
                 "All the changes made in the given URDF",
                 "Extra plugins or packages used",
                 "Key features of the algorithm used",
                 "The starting method of the bot for each run.",
                 "Timestamps (simulation time) for start and end of each run (this will be cross verified)",
+                "There is no upper bound for contents to be present it, you can have additional contents too.",
             ],
             
             ],
@@ -179,11 +229,18 @@ const Technical_Events_data=[
         pdf_link:"/media/pdf_events/Maze_Runner.pdf",
         
         // reccommended make is true and write down the rest
-        judging_criteria_show : false,
+        judging_criteria_show : true,
+        judging_criteria_extra:[
+            [
+                // "Formula for Evaluation",
+            "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
+            "NOTE: w < x << y < z",
+            ],
+        ],
         // judging_criteria : ["quality of sound produced", " your own twist to the original song"],
             judging_criteria:["Shortlisting will be done on the basis of least Standard-Penalty",
-            "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
-            "{NOTE: w < x << y < z}",
+            // "Standard-Penalty = w*Overall_submission_time + x*Mapping_time + y*Best_run_time + z*Touches",
+            // "**NOTE: w < x << y < z",
             "Overall_submission_time refers to the time taken on the final competition day (out of 30 mins) to make the final submission.",
             "Mapping_time refers to the time taken in the first run, which is responsible for mapping on the final competition day.",
             "Best_run_time refers to the least time taken by the bot to clear the maze in the complete recording, again on the final competition day.",
@@ -194,12 +251,12 @@ const Technical_Events_data=[
             ],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 10,000 ", "PS 5"],
+        prizes_in_ascending_order: ["Rs. 10,000 ", "Rs. 8,000"],
     },
 
 
     {
-        name : "Competitive Programming",
+        name : "Cracking the code",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "29-01-22",
         end_date : "15-01-2022",
@@ -232,8 +289,8 @@ const Technical_Events_data=[
         description: ["Get ready to participate in IIT Pkd's petrichor cp contest. Where your cp and problem-solving skills will be put to test through several mind boggling innovative coding questions.", 
         "Get a chance to compete among the best coders and show off your coding skills and win prizes worth 5k, all through the comfort of your home."
         ],
-        hover_description : "Test your cp and problem-solving skills through several mind boggling and innovative coding questions.",
-       
+        hover_description : "Competitive Programming",
+
         // have each rule as a element of an array
         rule_book_rules :["It’s an individual contest not a team contest",
         "You are not allowed to communicate with other participants, use another person's code for solutions/generators, share ideas of solutions",
@@ -373,7 +430,7 @@ const Technical_Events_data=[
         rule_book_rules :["This is a single participant competition. Each participant must register online using the URL provided below.",
         "Petrichor, IIT Palakkad will not be found responsible for any late or misdirected entries.",
         "Participants are not allowed to take any reference images from the internet. Any type of misconduct will result in disqualification.",
-        "You can proceed with your work once the problem statement has been released. If you have any questions, you can contact us directly via WhatsApp at the numbers listed below, or via mail ID provided below.",
+        "You can proceed with your work once the problem statement has been released. If you have any questions, you can contact us directly via WhatsApp at the numbers listed below.",
         "The file should be submitted in step file format.",
         "Submission link will be provided along with the problem statement",
     ],
@@ -382,7 +439,7 @@ const Technical_Events_data=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["Problem statement","Design a Study Chair. The more creative one will be the winner. You can add as many features you want; those will also add points to your score."],
+            // ["Problem statement","Design a Study Chair. The more creative one will be the winner. You can add as many features you want; those will also add points to your score."],
             ["General","It is an individual event. Participants will have 48 hours from the time the problem statement is revealed to solve it","The design file must follow the format described in the problem statement.", "Any CAD software will do."],
         ],
         
@@ -395,7 +452,7 @@ const Technical_Events_data=[
         judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 8,000 ", "Rs. 6,500"],
+        prizes_in_ascending_order: ["Rs. 6,200 ", "Rs. 5,000","Rs. 3,800"],
     },
 
 
@@ -445,7 +502,7 @@ const Technical_Events_data=[
         //instructure in each array row, the first 
         structure_show:true,
         structure:[
-            ["Problem statement","We will give a building plan consisting of the Ground floor and first floor. Participants have to design a 3-D model of the design given"],
+            // ["Problem statement","We will give a building plan consisting of the Ground floor and first floor. Participants have to design a 3-D model of the design given"],
             ["General","It is an individual event. Participants will have 24 hours from the time the problem statement is revealed to solve it.","The design file must follow the format described in the problem statement. Revit software is preferred for the competition."],
         ],
         
@@ -523,7 +580,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "We have a exciting prized waiting for you",
-        prizes_in_ascending_order: ["Rs. 8,400 ", "RS. 6,600"],
+        prizes_in_ascending_order: ["Rs. 5,000", "RS. 3,500","Rs. 2,500","Rs. 2,000","Rs. 2,000"],
     },
 
 
@@ -531,7 +588,7 @@ const Technical_Events_data=[
 
     
     {
-        name : "Quiz Marathon",
+        name : "Quiz.exe",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "23,29-01-2022",
         end_date : "14-02-2022",
@@ -706,7 +763,7 @@ const Technical_Events_data=[
         // judging_criteria : ["Creativity","Number of objects made","Closeness to reality","Appearance"],
 
         prizes_general_text : "Prize Distribution for both categories",
-        prizes_in_ascending_order: ["Rs. 2,500 ", "R. 2000","Rs. 1500"],
+        prizes_in_ascending_order: ["Rs. 2,500 ", "Rs. 2,000","Rs. 1,500"],
     },
 
 
