@@ -256,7 +256,7 @@ const Technical_Events_data=[
 
 
     {
-        name : "Competitive Programming",
+        name : "Cracking the code",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "29-01-22",
         end_date : "15-01-2022",
@@ -289,8 +289,8 @@ const Technical_Events_data=[
         description: ["Get ready to participate in IIT Pkd's petrichor cp contest. Where your cp and problem-solving skills will be put to test through several mind boggling innovative coding questions.", 
         "Get a chance to compete among the best coders and show off your coding skills and win prizes worth 5k, all through the comfort of your home."
         ],
-        hover_description : "Test your cp and problem-solving skills through several mind boggling and innovative coding questions.",
-       
+        hover_description : "Competitive Programming",
+
         // have each rule as a element of an array
         rule_book_rules :["It’s an individual contest not a team contest",
         "You are not allowed to communicate with other participants, use another person's code for solutions/generators, share ideas of solutions",
@@ -588,7 +588,7 @@ const Technical_Events_data=[
 
     
     {
-        name : "Quiz Marathon",
+        name : "Quiz.exe",
         // jerry check if it is yyyyy-mm-dd or reverse
         start_date : "23,29-01-2022",
         end_date : "14-02-2022",

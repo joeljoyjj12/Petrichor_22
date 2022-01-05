@@ -330,7 +330,7 @@ const Cult_events=[
     {
         name : "Call of Duty Mobile",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
         // date to compete link
         registeration_link : "https://www.google.com/",
@@ -414,7 +414,7 @@ const Cult_events=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/Event_Cultural/Music_Spotlight.jpeg",
+        picture: "/media/Event_Cultural/Music_Spotlight.png",
         organiser:[
             {
                 name : "Joel Sam Mathew",
@@ -579,7 +579,7 @@ const Cult_events=[
     {
         name : "Quizzle",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
         date_rest:[
             ["Registration start","07-01-2022"],
@@ -975,7 +975,7 @@ const Cult_events=[
     {
         name : "Smooth Moves",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2021",
+        start_date : "12-02-2022",
         end_date : "14-02-2022",
         date_rest:
         [
