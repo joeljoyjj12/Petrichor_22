@@ -146,7 +146,8 @@ function Card2({a,b}){
                                 {/* <div className='je_tech_card_hover_description'>{a.hover_description}</div> */}
                                 <div className='je_tech_card_hover_description'>
                                     
-                                        <div className="je_tech_card_hover_date" >{a.start_date} to {a.end_date}</div>
+                                        <div className="je_tech_card_hover_date" >{a.start_date}</div>
+                                        {/* <div className="je_tech_card_hover_date" >{a.start_date} to {a.end_date}</div> */}
                                         {/* <div className="je_tech_card_hover_date" >{a.end_date}</div> */}
                                         <div>{a.hover_description}</div>
 

@@ -24,8 +24,8 @@ import sp_4 from './Images/Supportive heads/sp_4.jpg'
 import sp_5 from './Images/Supportive heads/sp_5.jpg'
 
 import web_1 from './Images/Web/web_1.jpeg'
-import web_2 from './Images/Web/web_3.jpeg'
-import web_3 from './Images/Web/web_3.jpeg'
+import web_2 from './Images/Web/web_3.jpg'
+import web_3 from './Images/Web/web_3.jpg'
 import web_4 from './Images/Web/web_4.jpg'
 
 

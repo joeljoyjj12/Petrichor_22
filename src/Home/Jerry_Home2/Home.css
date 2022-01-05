@@ -662,16 +662,17 @@
     
     .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
         font-size: 15px;
-        top:80px;
+        top:50px;
         left: 18px;
-        transform: translateY(20px)
+        transform: translateY(20px);
     }
     .hm_cont_detail{
-        top: 105px;
+        top: 73px;
         font-size: 14px;
     }
     .hm_cont_desig{
-        top: 130px;
+        top: 96px;
+        line-height: 16px;
     }
 
     .contact_box{
@@ -683,6 +684,16 @@
         font-size: 18px;
         font-weight: 400;
     }
+
+    .test11 video{
+        height:280px;
+        transform: translateY(-1.3vh);
+    }
+    .je_home_line1{
+        transform: translateY(-1.3vh);
+    }
+
+
 
 }
 

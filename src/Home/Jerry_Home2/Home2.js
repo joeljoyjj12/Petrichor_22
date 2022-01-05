@@ -24,8 +24,23 @@ import Yt from "./youtube.png"
 import Ln from "./linkedin.png"
 import Jj from "./video_data/cropped_logo_home.webm"
 import Cult_tech from './Cult_tech.js'
+import Loader from '../../Loader/Loader';
 
-function Home2() {
+function Home2({isover,setIsover}){
+    return(
+        isover?
+        
+        <Home22 />
+        :
+        <Loader 
+            isover={isover}
+            setIsover={setIsover}
+        />
+        
+        )
+}
+
+function Home22() {
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
@@ -215,6 +230,16 @@ function Jje(){
         setW(width2);
         setH(height2);
         window.addEventListener("resize", handleResize);
+
+        let video_tag=document.querySelector(".test11 video");
+        let petri_tag=document.querySelector(".je_home_line1");
+
+        if(window.innerWidth<576)
+        {
+            video_tag.setAttribute("height",250);
+            video_tag.style.transform="translateY(-1.5vh)";
+            petri_tag.style.transform="translateY(-1.2vh)";
+        }
 
     },[])
 

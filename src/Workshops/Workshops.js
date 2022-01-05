@@ -2,12 +2,14 @@ import React from 'react'
 import Bg from './Images/bg_wk_red.jpg'
 // import Bg from './workshop_jerry.jpg'
 // import Bg from './workshop_jerry3.jpg'
-import WorkImg from './workshop.jpg'
+// import WorkImg from './workshop.jpg'
+
 import Aos from "aos";
 import "aos/dist/aos.css"
 import './workshop.css'
 import { useEffect,useRef,useState } from 'react'
 import NET from "vanta/dist/vanta.net.min"
+// import GLOBE from "vanta/dist/vanta.globe.min"
 import * as THREE from "three"
 import Workshops_joel from './Workshops/Workshops_joel';
 

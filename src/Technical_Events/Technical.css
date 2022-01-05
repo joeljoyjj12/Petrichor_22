@@ -20,6 +20,7 @@
     /* background-color: green; */
     top:50%;
     left:50%;
+    text-align: center;
     width: 90%;
     font-weight: 500;
     text-transform: uppercase;
@@ -44,7 +45,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding:70px 50px;
     grid-gap: 50px;
-    background-color: white; 
+    /* background-color: white;  */
+    background-color: rgb(10, 10, 10);
     /* height: 100%;
 
 
@@ -98,6 +100,8 @@
 .je_tech_card{
     height: 350px;
     width: 100%;
+    margin-bottom: 12vh;
+    margin-top: 4vh;
     transition: all 1s ease;
 
     /* overflow: hidden; */
@@ -107,6 +111,7 @@
 .je_tech_card_image_container{
     height: 100%;
     width: 100%;
+    border-radius: 20px;
 
     /* background-color: rgba(0,255,0,0.5); */
     /* position: relative; */
@@ -145,8 +150,11 @@
     /* background-color: green; */
     width: 100%;
     text-align: center;
+    font-family: "Roboto";
+    letter-spacing: 1.5px;
     font-size: 22px;
-    font-weight: 450;
+    font-weight: 600;
+    color: rgb(190, 190, 190);
     padding:10px 0 15px 0;
     text-transform: capitalize;
 }
@@ -157,11 +165,13 @@
     /* background-color: yellowgreen; */
     z-index: 2;
     text-transform: capitalize;
-    font-size: 20px;
+    font-family: "Open Sans";
+    font-size: 19px;
     /* height: 100%; */
 
     text-align: center;
-    color:white;
+    color:#25c06b;
+    font-weight: 500;
     opacity: 0;
     transition: all 0.2s ease;
     width : 90%;
@@ -178,15 +188,21 @@
     opacity: 1;
 }
 
+.je_tech_card_image_container:hover{
+    cursor: grab;
+}
+
 .je_tech_card_image_container:hover .je_tech_card_image{
-    transform: scale(1.1);
-    opacity: 0.8;
+    transform: scale(1.2);
+    opacity: 0.2;
 }
 
 .je_tech_card_hover_date{
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Rubik";
     margin-bottom: 20px;
+    color:red;
 }
 /* 
 .je_tech_card{
@@ -224,5 +240,12 @@
         grid-template-columns: 1fr ;
         padding:70px 50px;
         grid-gap: 80px;
+    }
+}
+
+@media screen and (max-width:576px)
+{
+    .je_tech_banger_title_contaier{
+        font-size: 46px;
     }
 }

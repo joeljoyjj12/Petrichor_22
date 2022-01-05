@@ -22,10 +22,10 @@ function Workshops_joel(){
                     title="energy to mobility : Basics of ic engines"
                     desc="Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user."
                     color="#B2F296"
-                    deadline="15/01/2022"
-                    date="JANUARY 19-27"
+                    deadline="20/01/2022"
+                    date="JANUARY 22-23"
                     speaker="Dr. Pramod Kuntikana"
-                    price="300"
+                    price="650"
                     bg={img1}
                     />
                 </div>
@@ -34,10 +34,10 @@ function Workshops_joel(){
                     title="introduction to wheeled robot modeling and simulation in python"
                     desc="Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user."
                     color="#FFE800"
-                    deadline="15/01/2022"
-                    date="JANUARY 19-27"
+                    deadline="20/01/2022"
+                    date="JANUARY 22-23"
                     speaker="Dr. Vijay Muralidharan"
-                    price="300"
+                    price="650"
                     bg={img2}
                     />
                 </div>
