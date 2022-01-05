@@ -188,7 +188,7 @@ const Cult_events=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/Event_Cultural/BGMI.jpg",
+        picture: "/media/Event_Cultural/BGMI.jpeg",
         organiser:[
             {
                 name : "Kaustubh",
@@ -326,7 +326,7 @@ const Cult_events=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/Event_Cultural/Music_Spotlight.jpg",
+        picture: "/media/Event_Cultural/Music_Spotlight.jpeg",
         organiser:[
             {
                 name : "Joel Sam Mathew",
@@ -1075,7 +1075,7 @@ const Cult_events=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/Event_Cultural/Rise -n- shine.jpg",
+        picture: "/media/Event_Cultural/Rise -n- shine.png",
         organiser:[
             {
                 name : "Kanimozhi",
