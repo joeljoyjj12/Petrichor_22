@@ -37,18 +37,15 @@
     }
 }
 .cd_new_cd{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   width: 100vw;
   height: 100vh;
 }
 
-.cd_video{
-  transform: scale(1.2);
-}
 .ayush_countdown_body{
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url(./comingsoon.png);
+  /* background-image: url(./comingsoon.png); */
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center center;
@@ -58,6 +55,9 @@
   height: 100vw;
 
   margin: 0;
+}
+.mobile_promo_video{
+  object-fit: cover;
 }
 
   .jerry_cd_full{
@@ -127,7 +127,7 @@
   }
 
   @media (max-width: 1000px) {
-    .cd_video{
+    /* .cd_video{
     transform: scale( 2.5);
-  }
+  } */
 }

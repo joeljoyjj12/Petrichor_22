@@ -603,7 +603,7 @@ const Technical_Events_data=[
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
-        picture: "/media/cult_event_pic/Quiz_Marathon.jpg",
+        picture: "/media/cult_event_pic/Quiz_Marathon.jpeg",
         organiser:[
             {
                 name : "Amar Hamdan",

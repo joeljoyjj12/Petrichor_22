@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Aos from "aos";
-import {Link} from 'react-router-dom'
+import {
+    BrowserRouter as Router,
+    Link,
+    useLocation
+  } from "react-router-dom";
 import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
@@ -27,6 +31,10 @@ import Cult_tech from './Cult_tech.js'
 import Loader from '../../Loader/Loader';
 
 function Home2({isover,setIsover}){
+
+    
+
+    
     return(
         isover?
         
@@ -41,6 +49,43 @@ function Home2({isover,setIsover}){
 }
 
 function Home22() {
+
+
+        function useQuery() {
+            return new URLSearchParams(useLocation().search);
+        }
+
+        let query = useQuery();
+        let [a,sA]=useState(0);
+
+        useEffect(()=>{
+            check_go_contact();
+            window.addEventListener("click",(e)=>{
+                if(e.target)
+                {
+                    console.log(e.target.innerHTML);
+                    if(e.target.innerHTML==("Contact Us"))
+                    {
+                        check_go_contact();
+                    }
+                }
+            });
+        },[])               
+
+        function check_go_contact(){
+            let  av=parseInt(query.get("contact"));
+            if(av==1)
+            {
+                    let element_toscrool=document.querySelector(".home_contact");
+                    let vvv=document.documentElement.scrollTop;
+                    let ss=element_toscrool.getBoundingClientRect().top;
+                    ss-=40;
+                    ss+=vvv;
+                    window.scrollTo(0,ss);
+            }
+    
+        }
+
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
@@ -97,10 +142,10 @@ function Home22() {
 
                         <div className="je_home_button_sec je_home_s1_center">
                             <div className='je_home_btn1 je_home_btn'>
-                                <div className="evnt_btn">Events</div>
+                                <div className="evnt_btn" style={{fontFamily:"Rubik",fontWeight:"400",letterSpacing:"1.2px"}}>Events</div>
                             </div>
                             <div className='je_home_btn2 je_home_btn'>
-                                <a href="https://dare2compete.com/festival/petrichor-indian-institute-of-technology-iit-palakkad-8966" target="_blank" style={{color:"white"}}>Register</a>
+                                <Link to="/workshops" style={{color:"inherit",fontFamily:"Rubik",fontWeight:"400",letterSpacing:"1.2px"}}>Workshops</Link>
                             </div>
 
                             {/* <div id="je_home_btn1" className={isbtn1hover?"je_home_s1_btn2_hover je_home_btn":isbtn2hover?"je_home_s1_btn2_hover je_home_btn":"je_home_s1_btn1_hover je_home_btn"}>Events</div> */}
@@ -146,7 +191,7 @@ function Home22() {
                 {/* Contact */}
 
 
-                <div class="home_contact" style={{overflowX:"hidden"}}>
+                <div className="home_contact" style={{overflowX:"hidden"}}>
                     
                     <h1 id="home_heading_contact" data-aos="fade-right"><span style={{color:"rgb(201 23 23)"}}>C</span>ontact Us</h1>
                     <div className="row justify-content-around contact_box ">
@@ -222,8 +267,7 @@ function Jje(){
         let height2 = window.innerHeight;
         let width2 = window.innerWidth;
         
-        console.log(width2);
-        console.log(height2);
+  
 
         let f1=1.6;
         

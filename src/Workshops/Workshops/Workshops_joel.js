@@ -23,7 +23,7 @@ function Workshops_joel(){
                     desc="Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user."
                     color="#B2F296"
                     deadline="20/01/2022"
-                    date="JANUARY 22-23"
+                    date="JANUARY 22, JANUARY 29"
                     speaker="Dr. Pramod Kuntikana"
                     price="650"
                     reg_link="https://dare2compete.com/workshop/energy-to-mobility-basics-of-ic-engines-petrichor-indian-institute-of-technology-iit-palakkad-251848"

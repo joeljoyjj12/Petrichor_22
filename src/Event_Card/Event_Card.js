@@ -25,7 +25,7 @@ function Event_Card() {
         setId(val);
         let v2 =parseInt(query.get("tech"));
         setIstech(v2);
-        console.log("id is "+val + "tech is it "+v2);
+        // console.log("id is "+val + "tech is it "+v2);
 
         if(v2==1)
             valid = id < Technical_Events_data.length ? true : false
@@ -146,7 +146,7 @@ function Main_stuff({id,data,istech}){
                     
             {
                         data.structure.map((a,c)=>{
-                            console.log(a)
+                            // console.log(a)
                             return (
                             <>
                             <div className='je_structure_title'>{a[0]}</div>
@@ -191,7 +191,7 @@ function Main_stuff({id,data,istech}){
             <div className="jj_event_block1_right jj_event_block2_right">
             {data.judging_criteria_extra?
                 data.judging_criteria_extra.map((a,c)=>{
-                    console.log(a)
+                    // console.log(a)
                     return (
                     <>
                     <div className='je_structure_title' style={{textAlign:"center",paddingBottom:"0"}}><strong>{a[0]}</strong></div>

@@ -29,7 +29,6 @@ export default function Bg() {
       var x = e.clientX;
       var y = e.clientY;
       var scrollPos = $(window).scrollTop();
-      console.log(scrollPos);
       var newposX = x - 108;
       var newposY = y - 108 + scrollPos; 
       $(".circle").css("transform","translate3d("+newposX+"px,"+newposY+"px,0px)");
