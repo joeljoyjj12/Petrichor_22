@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
-import Pic from "./assets/pic1.jpg"
+// import Pic from "./assets/pic1.jpg"
 import Technical_Events_data from "../data/Technical_Events_data.js"
 import {
     BrowserRouter as Router,
@@ -9,6 +9,8 @@ import {
   } from "react-router-dom";
   import { Redirect } from 'react-router';
 import White_bg from '../Global_Components/White_bg/White_bg';
+
+import Pic from "./assets/tech_final.jpg"
 function Technical_main() {
     
     useEffect(()=>{
