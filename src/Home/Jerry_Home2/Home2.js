@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Aos from "aos";
-import {Link} from 'react-router-dom'
+import {
+    BrowserRouter as Router,
+    Link,
+    useLocation
+  } from "react-router-dom";
 import "aos/dist/aos.css"
 import background1 from "./background1.JPG"
 import Logo1 from "./Logo1.png"
@@ -27,10 +31,25 @@ import Cult_tech from './Cult_tech.js'
 import Loader from '../../Loader/Loader';
 
 function Home2({isover,setIsover}){
+
+    let [gotocontact,setGotocontact]=useState(false);
+    function useQuery() {
+        return new URLSearchParams(useLocation().search);
+    }
+    
+    let query = useQuery();
+    let [a,sA]=useState(0);
+
+    useEffect(()=>{
+    let  av=parseInt(query.get("contact"));
+    sA(av);
+  
+    },[])
+    
     return(
         isover?
         
-        <Home22 />
+        <Home22 gotocontact={gotocontact} a={a}/>
         :
         <Loader 
             isover={isover}
@@ -40,7 +59,20 @@ function Home2({isover,setIsover}){
         )
 }
 
-function Home22() {
+function Home22({gotocontact,a}) {
+
+    useEffect(()=>{
+        if(a==1){
+            let element_toscrool=document.querySelector(".home_contact");
+            let ss=element_toscrool.getBoundingClientRect().top;
+        console.log("a was"+a+"scroll is "+ss);
+        window.scrollTo(0,ss);
+        }
+        else{
+
+            console.log("a was"+a);
+        }
+    },[])
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
@@ -133,7 +165,7 @@ function Home22() {
                 {/* Contact */}
 
 
-                <div class="home_contact" style={{overflowX:"hidden"}}>
+                <div className="home_contact" style={{overflowX:"hidden"}}>
                     
                     <h1 id="home_heading_contact" data-aos="fade-right"><span style={{color:"rgb(201 23 23)"}}>C</span>ontact Us</h1>
                     <div className="row justify-content-around contact_box ">

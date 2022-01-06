@@ -330,8 +330,13 @@ const Cult_events=[
     {
         name : "Call of Duty Mobile",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2022",
+        start_date : "04-02-2022",
         end_date : "14-02-2022",
+        date_rest:[
+            ["Registration starts","07-01-2022"],
+            ["Registration ends","02-02-2022"],
+            ["Play on ","04-02-2022 and 05-02-2022"],
+        ],
         // date to compete link
         registeration_link : "https://www.google.com/",
         // the pic should be locally uploaded
@@ -579,7 +584,7 @@ const Cult_events=[
     {
         name : "Quizzle",
         // jerry check if it is yyyyy-mm-dd or reverse
-        start_date : "12-02-2022",
+        start_date : "01-02-2022",
         end_date : "14-02-2022",
         date_rest:[
             ["Registration start","07-01-2022"],
@@ -1166,7 +1171,7 @@ const Cult_events=[
         ],
 
         prizes_general_text : "We have exciting prizes awaiting you",
-        prizes_in_ascending_order: ["Rs. 5,000 ", "Rs. 2,500","Rs. 1,500"],
+        prizes_in_ascending_order: ["Rs. 10,000 ", "Rs. 6,000","Rs. 3,000"],
     },
     
 

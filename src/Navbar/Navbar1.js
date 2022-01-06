@@ -103,8 +103,8 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
             {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}
             {/* <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us" className="je_link_simp">About Us</Link></div> */}
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/meet_the_team" className="je_link_simp">Meet the Team</Link></div>
-            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/home_contact" className="je_link_simp">Contact Us</Link></div>
-            <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div>
+            <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/home?contact=1" className="je_link_simp">Contact Us</Link></div>
+            {/* <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div> */}
         </div>
     )
 
