@@ -77,10 +77,11 @@ function Home22() {
             if(av==1)
             {
                     let element_toscrool=document.querySelector(".home_contact");
-                    // let ss=element_toscrool.oFFsetTop;
+                    let vvv=document.documentElement.scrollTop;
                     let ss=element_toscrool.getBoundingClientRect().top;
-                    ss-=30;
-                window.scrollTo(0,ss);
+                    ss-=40;
+                    ss+=vvv;
+                    window.scrollTo(0,ss);
             }
     
         }
