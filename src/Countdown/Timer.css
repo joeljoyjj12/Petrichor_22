@@ -37,7 +37,7 @@
     }
 }
 .cd_new_cd{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   width: 100vw;
   height: 100vh;
 }
@@ -55,6 +55,9 @@
   height: 100vw;
 
   margin: 0;
+}
+.mobile_promo_video{
+  object-fit: cover;
 }
 
   .jerry_cd_full{

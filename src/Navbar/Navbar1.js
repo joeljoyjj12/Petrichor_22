@@ -78,13 +78,15 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
     
     useEffect(()=>{
         window.addEventListener('click',(e)=>{
-            // console.log(e.target.className);
 
             if(e.target && e.target.className){
-            if(e.target.className.includes("je_opened") || e.target.className.includes("hamburger-react"))
-                ;}
+            if(e.target.className.includes("je_opened") || e.target.className.includes("hamburger-react"));
+            else setOpen(false);
+            }
             else
-            setOpen(false);
+            {
+                setOpen(false);
+            }
 
         })
     },[])

@@ -24,7 +24,6 @@ function App() {
   const [isover,setIsover]=useState(false);
   useEffect(()=>{
     window.addEventListener("scroll",()=>{
-      console.log("Hello");
       let scrollTop = window.scrollY;
       let docHeight = document.body.offsetHeight;
       let winHeight = window.innerHeight;

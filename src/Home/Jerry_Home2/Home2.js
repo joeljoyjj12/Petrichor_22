@@ -209,8 +209,7 @@ function Jje(){
         let height2 = window.innerHeight;
         let width2 = window.innerWidth;
         
-        console.log(width2);
-        console.log(height2);
+  
 
         let f1=1.6;
         
