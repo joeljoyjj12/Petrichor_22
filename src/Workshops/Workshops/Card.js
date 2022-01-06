@@ -43,9 +43,9 @@ function Card(props) {
                             Register Before {props.deadline}
                         </div>
 
-                        <Link style={{textDecoration:"none"}} to="/meet_the_team">
-                            <button class="card_button_wk" style={{background:"none",color:`${props.color}`,borderColor:`${props.color}`}}> <span className='neonText'>Register now</span> </button>
-                        </Link>
+                        
+                        <button class="card_button_wk" style={{background:"none",borderColor:`${props.color}`}}> <a href={props.reg_link} style={{color:`${props.color}`}} target="_blank">Register now</a> </button>
+                        
 
 
                     </div>

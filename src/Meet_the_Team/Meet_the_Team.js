@@ -24,7 +24,7 @@ import sp_4 from './Images/Supportive heads/sp_4.jpg'
 import sp_5 from './Images/Supportive heads/sp_5.jpg'
 
 import web_1 from './Images/Web/web_1.jpeg'
-import web_2 from './Images/Web/web_3.jpg'
+import web_2 from './Images/Web/web_2.jpeg'
 import web_3 from './Images/Web/web_3.jpg'
 import web_4 from './Images/Web/web_4.jpg'
 
@@ -201,7 +201,7 @@ function Meet_the_Team() {
                             <div className="core_desig text-center"> Film And Videography Head </div>
                         </div>
                         <div className="col-lg-4 col-md-3 col-4 image_box_core">
-                            <img src={web_3} className='core_img'/>
+                            <img src={web_2} className='core_img'/>
                             <div className='text-center core_p_name'>Shubham Raj</div>
                             <div className="core_desig text-center"> Web Development Head </div>
                         </div>       
@@ -213,7 +213,7 @@ function Meet_the_Team() {
 
              {/* Team 3 */}
 
-             <div className="row core_main core_main_2 justify-content-center">
+             <div className="row core_main core_main_2 core_main_3 justify-content-center">
                 <div className="col-lg-5 core_team_desc_main core_team_desc_2">
                     <div className="container team_3" id="jerry_addon_meet_the_team">
                         <h2 className='core_heading text-center'>WEBSITE</h2>
@@ -228,7 +228,7 @@ function Meet_the_Team() {
                 <div className="col-lg-6 col-md-10 col-11 core_image_main_box">
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-3 col-4 image_box_core">
-                            <img src={web_2} className='core_img'/>
+                            <img src={web_3} className='core_img'/>
                             <div className='text-center core_p_name'>Jerry John Thomas</div>
                         </div>
                         <div className="col-lg-4 col-md-3 col-4 image_box_core">

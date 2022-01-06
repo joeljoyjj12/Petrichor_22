@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
 import Pic from "./assets/pic1.jpg"
+import Aos from "aos";
 import Technical_Events_data from "../data/Technical_Events_data.js"
 import {
     BrowserRouter as Router,
@@ -14,6 +15,8 @@ function Technical_main() {
     useEffect(()=>{
         window.scroll(0,0);
         
+        Aos.init({duration: 1500});
+
         let rr=document.querySelector(".je_tech_hidden_redirect_button1");
         window.addEventListener('keydown',(e)=>{
             if(e.keyCode==65)
@@ -139,7 +142,7 @@ function Card2({a,b}){
         <div 
         // className='je_tech_card_wrapper'
         >
-            <div className={`je_tech_card je_tech_card${b}`} onClick={(e)=>click2(b,e)}>
+            <div className={`je_tech_card je_tech_card${b}`} onClick={(e)=>click2(b,e)} >
                         <div className={`je_tech_card_image_container je_tech_card_image_container${b}`} >
                             <div className={`je_black_bg relative_class relative_class${b}`}>
                                 <img src={a.picture} alt="" className={`je_tech_card_image je_tech_card_image${b}`} />

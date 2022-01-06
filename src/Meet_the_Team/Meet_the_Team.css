@@ -9,7 +9,7 @@
     padding-top: 80px;
     background-color: black;
     width:100vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     font-size: 20px;
     color: white;
@@ -17,6 +17,11 @@
     background-image: url("./Images/bg_1.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+.core_main_3{
+    padding-bottom: 10vh;
+    margin-bottom: 6vh;
 }
 
 .core_img{
@@ -90,7 +95,7 @@
     }
 
     .core_image_main_box{
-        margin-top: 3vh;
+        margin-top: 6vh;
     }
 
     .core_main.core_main_2{
@@ -98,7 +103,16 @@
     }
 
     .core_team_desc_2{
-        transform: translateY(3.5vh);
+        /* transform: translateY(3.5vh); */
+    }
+
+    .core_main.core_main_2.core_main_3{
+        padding-bottom: 10vh;
+        padding-top: 7vh;
+    }
+
+    .core_team_desc_main{
+        transform: translateY(2vh);
     }
 }
 

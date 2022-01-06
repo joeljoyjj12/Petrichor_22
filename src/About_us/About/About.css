@@ -63,7 +63,8 @@
 .abt_para_3{
     margin-top: 12vh;
     font-size: 1.1rem;
-    padding-bottom: 25px;
+    padding-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .abt_after_movie{
@@ -152,11 +153,18 @@
         font-size: 0.73rem;  
         margin-top: 7.5vh;
         letter-spacing: 1px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     .abt_after_movie{
         margin-top: 8vh;
+        padding-top: 5vh;
+        padding-bottom: 1vh;
+        margin-bottom: 4vh;
+    }
+
+    .abt_after_movie.movie_2{
+        margin-top: 2vh;
     }
 
     .abt_us_h1{

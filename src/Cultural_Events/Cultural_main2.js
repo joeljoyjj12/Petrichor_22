@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import "./Technical.css"
 import Pic from "./assets/pic_2.jpg"
+import Aos from "aos"
 // import Events_data from "../data/Events_data.js"
 // import Events_data from "../data/Cultural_Events_data.js"
 import {
@@ -16,6 +17,7 @@ function Cultural_main2() {
     
     useEffect(()=>{
         window.scroll(0,0);
+        Aos.init({duration: 2000});
         
     },[]);
 

@@ -164,9 +164,9 @@
 .je_tech_card_hover_description{
     /* background-color: yellowgreen; */
     z-index: 2;
-    text-transform: capitalize;
-    font-family: "Open Sans";
-    font-size: 19px;
+    text-transform: uppercase;
+    font-family: "Karla";
+    font-size: 18px;
     /* height: 100%; */
 
     text-align: center;

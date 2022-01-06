@@ -65,7 +65,7 @@ function About_joel() {
                 </div>
             </div>
 
-            <div className="abt_after_movie">
+            <div className="abt_after_movie movie_2">
                 <div className="row justify-content-center je_100width">
                     <div className="col-lg-6 col-11 col-md-9">
                         <div className="player-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom">

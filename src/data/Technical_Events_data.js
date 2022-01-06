@@ -13,7 +13,7 @@ const Technical_Events_data=[
             ["Opportunity open for","Everyone"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/competition/robo-soccer-petrichor-indian-institute-of-technology-iit-palakkad-251846/",
         // the pic should be locally uploaded
         picture: "/media/cult_event_pic/Robo_Soccer.jpg",
         organiser:[
@@ -138,7 +138,7 @@ const Technical_Events_data=[
             ["Opportunity open for","Everyone"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/competition/maze-runner-petrichor-indian-institute-of-technology-iit-palakkad-251834/",
         // the pic should be locally uploaded
         picture: "/media/cult_event_pic/Maze_Runner.jpg",
         organiser:[
@@ -270,7 +270,7 @@ const Technical_Events_data=[
             ["Contest Link","28-01-22"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/cracking-the-code-competitive-programming-petrichor-indian-institute-of-technology-iit-palakkad-251844/",
         // the pic should be locally uploaded
         picture: "/media/cult_event_pic/Competitive_Programming.jpg",
         organiser:[
@@ -339,7 +339,7 @@ const Technical_Events_data=[
             ["Opportunity open for","College students"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/ml-predicting-task-petrichor-indian-institute-of-technology-iit-palakkad-251845/",
         // the pic should be locally uploaded
         picture: "/media/cult_event_pic/Machine_Learning_Predicting_Task.png",
         organiser:[
@@ -403,7 +403,7 @@ const Technical_Events_data=[
             ["Opportunity open for","College Students"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/d-sign-petrichor-indian-institute-of-technology-iit-palakkad-252049/",
         // the pic should be locally uploaded
         picture: "/media/cult_event_pic/D_Sign.jpg",
         organiser:[
@@ -488,7 +488,7 @@ const Technical_Events_data=[
         ],
         // first element will be bolded, I think u can only have 2 paras (map)
         description: ["We will have a building elevation competition conducted over the revit platform. We will give a building plan and contestants have to prepare the elevation of the same plan. "],
-        hover_description : "Need a tagline here",
+        hover_description : "Bob the builder",
        
         // have each rule as a element of an array
         rule_book_rules :["This is an individual competition. Each participant must register online using the URL provided below.",

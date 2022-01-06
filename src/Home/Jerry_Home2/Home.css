@@ -12,6 +12,14 @@
     /* background-color: orange; */
 }
 
+.wrap_cult_tech{
+    overflow-y: hidden;
+}
+
+.evnt_btn:hover{
+    cursor: pointer;
+}
+
 .je_home_bkg_pic{
     object-fit: cover;
     /* opacity: 0.7; */
@@ -385,40 +393,44 @@
 .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
     position: absolute;
     font-size: 26px;
-    top:110px;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
-    width: 90%;
     text-align: center;
     color: rgb(192, 13, 13) ;
-    left: 18px;
     z-index: 5;
+
+    margin-bottom: 0 !important;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-6.2vh);
+    width: 90%;
 
     opacity:0;
     
     transition: all 0.45s;
-
-    transform: translateY(100px);
 }
 
 .hm_cont_detail{
-    top: 160px;
+    transform: translate(-50%,100%);
     color: rgb(206, 205, 205);
     font-size: 24px;
+    transform: translate(-50%,0%);
 }
 
 .hm_cont_desig{
-    top:200px;
     font-size: 18px;
     font-family: "Source Sans Pro";
     letter-spacing: 1px;
+    line-height: 16px;
     font-weight: 600;
     color: rgb(148, 148, 148);
+    transform: translate(-50%,6.5vh);
+    
 }
 
 .hm_img_box:hover .hm_cont_detail,.hm_img_box:hover .hm_cont_name,.hm_img_box:hover .hm_cont_desig{
     opacity: 1;
-    transform: translateY(0px);
 }
 
 .hm_img_box:hover .c_img_home{
@@ -569,14 +581,10 @@
     
     .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
         font-size: 18px;
-        top:110px;
-        left: 18px;
     }
     .hm_cont_detail{
-        top: 140px;
     }
     .hm_cont_desig{
-        top: 170px;
     }
     
 
@@ -615,6 +623,10 @@
         padding-right:0px ;
         transform: translate(-30px,-50px);
         font-weight: 800;
+    }
+
+    .je_home_info{
+        transform: translateY(-3vh);
     }
 
     #ayush_content_about{
@@ -660,19 +672,21 @@
         margin-bottom:0px;
     }
     
-    .hm_cont_name, .hm_cont_detail,.hm_cont_desig{
+    .hm_cont_name{
         font-size: 15px;
-        top:50px;
-        left: 18px;
-        transform: translateY(20px);
+        font-weight: 500;    
+        color: rgb(212, 0, 0);
+        transform: translate(-50%,-110%);
     }
     .hm_cont_detail{
-        top: 73px;
         font-size: 14px;
+        font-weight: 500;
     }
     .hm_cont_desig{
-        top: 96px;
         line-height: 16px;
+        font-weight: 600;
+        transform: translate(-50%,3.5vh);
+        font-size: 13px;
     }
 
     .contact_box{

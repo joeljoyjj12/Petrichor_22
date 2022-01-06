@@ -66,6 +66,15 @@ function Home22() {
                 setIsbtn1hover(false);
             
         })
+
+            let evnt_button=document.querySelector(".evnt_btn");
+
+            evnt_button.addEventListener("click",()=>{
+            let element_toscrool=document.querySelector(".cult_tech_box");
+            let ss=element_toscrool.getBoundingClientRect().top;
+            window.scrollTo(0,ss);
+            })
+
         Aos.init({duration: 2000});
     },[])
 
@@ -87,8 +96,12 @@ function Home22() {
                         <div className='je_home_line2 je_home_s1_center'>EXPLORE. EXPERIENCE. EVOLVE</div>
 
                         <div className="je_home_button_sec je_home_s1_center">
-                            <div className='je_home_btn1 je_home_btn'>Events</div>
-                            <div className='je_home_btn2 je_home_btn'>Register</div>
+                            <div className='je_home_btn1 je_home_btn'>
+                                <div className="evnt_btn">Events</div>
+                            </div>
+                            <div className='je_home_btn2 je_home_btn'>
+                                <a href="https://dare2compete.com/festival/petrichor-indian-institute-of-technology-iit-palakkad-8966" target="_blank" style={{color:"white"}}>Register</a>
+                            </div>
 
                             {/* <div id="je_home_btn1" className={isbtn1hover?"je_home_s1_btn2_hover je_home_btn":isbtn2hover?"je_home_s1_btn2_hover je_home_btn":"je_home_s1_btn1_hover je_home_btn"}>Events</div> */}
                             {/* <div id="je_home_btn2" className={isbtn2hover?"je_home_s1_btn1_hover je_home_btn":isbtn1hover?"je_home_s1_btn1_hover je_home_btn":"je_home_s1_btn2_hover je_home_btn"}>Register</div> */}

@@ -5,7 +5,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/creative-cultural-event/soliloquy-monologue-competition-petrichor-indian-institute-of-technology-iit-palakkad-252002/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/soliloquy.jpg",
         organiser:[
@@ -66,7 +66,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/relive-it-reenact-a-movieseries-scene-petrichor-indian-institute-of-technology-iit-palakkad-252064/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Relive_it.jpg",
         organiser:[
@@ -129,7 +129,7 @@ const Cult_events=[
             ["Play on ","04-02-2022 and 05-02-2022"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/valorant-petrichor-indian-institute-of-technology-iit-palakkad-252089/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Valorant.jpg",
         organiser:[
@@ -269,7 +269,7 @@ const Cult_events=[
             ["Play on ","04-02-2022 and 05-02-2022"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/bgmi-petrichor-indian-institute-of-technology-iit-palakkad-252092/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/BGMI.jpeg",
         organiser:[
@@ -333,7 +333,7 @@ const Cult_events=[
         start_date : "12-02-2022",
         end_date : "14-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/call-of-duty-petrichor-indian-institute-of-technology-iit-palakkad-252094/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Call_of_Duty_Mobile.jpg",
         organiser:[
@@ -412,7 +412,7 @@ const Cult_events=[
             ["Play on ","04-02-2022 and 05-02-2022"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/music-spotlight-solo-singing-petrichor-indian-institute-of-technology-iit-palakkad-252095/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Music_Spotlight.png",
         organiser:[
@@ -463,7 +463,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/amplify-solo-instrument-petrichor-indian-institute-of-technology-iit-palakkad-252096/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Amplify.jpg",
         organiser:[
@@ -520,7 +520,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/band-it-band-petrichor-indian-institute-of-technology-iit-palakkad-252097/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Band_it.jpg",
         organiser:[
@@ -590,7 +590,7 @@ const Cult_events=[
             ["General Quiz","05-02-2022"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/quiz/quizzle-petrichor-indian-institute-of-technology-iit-palakkad-252164/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Quizzle.jpg",
         organiser:[
@@ -657,7 +657,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/inkathon-story-writing-petrichor-indian-institute-of-technology-iit-palakkad-252144/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Inkathon.jpg",
         organiser:[
@@ -713,7 +713,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/rhyme-it-freestyle-poetry-petrichor-indian-institute-of-technology-iit-palakkad-252146/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Rhyme_it.jpg",
         organiser:[
@@ -774,7 +774,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/fotografia-theme-based-photography-petrichor-indian-institute-of-technology-iit-palakkad-252151/",
         // the pic should be locally uploaded
         // the i is weird <------------------ check it
         picture: "/media/Event_Cultural/Fotografía.jpg",
@@ -825,7 +825,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/creative-cultural-event/comic-strip-animation-petrichor-indian-institute-of-technology-iit-palakkad-252731/",
         // the pic should be locally uploaded
         // the i is weird <------------------ check it
         picture: "/media/Event_Cultural/Animation.jpg",
@@ -927,7 +927,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/digi-inc-digital-art-petrichor-indian-institute-of-technology-iit-palakkad-252154/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Digi-inc.jpg",
         organiser:[
@@ -984,7 +984,7 @@ const Cult_events=[
             ["Round 2","07-02-2022"],
         ],
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/smooth-moves-solo-dance-petrichor-indian-institute-of-technology-iit-palakkad-252158/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Smooth_Moves.jpg",
         organiser:[
@@ -1053,7 +1053,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/prom-night-duo-dance-petrichor-indian-institute-of-technology-iit-palakkad-251673/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Prom_Night.jpg",
         organiser:[
@@ -1115,7 +1115,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/feet-on-fire-group-dance-competition-petrichor-indian-institute-of-technology-iit-palakkad-252159/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Dance_Wars.jpg",
         organiser:[
@@ -1177,7 +1177,7 @@ const Cult_events=[
         start_date : "07-01-2022",
         end_date : "07-02-2022",
         // date to compete link
-        registeration_link : "https://www.google.com/",
+        registeration_link : "https://dare2compete.com/p/rise-n-shine-ramp-walk-petrichor-indian-institute-of-technology-iit-palakkad-252160/",
         // the pic should be locally uploaded
         picture: "/media/Event_Cultural/Rise -n- shine.png",
         organiser:[
