@@ -63,7 +63,8 @@ function Navbar1() {
                         {d5?<div className="je_navbar_item je_navbar_item_current"><Link to="/proshows" className="je_link_simp">Proshows</Link></div>:null}
                         {d6?<div className="je_navbar_item je_navbar_item_current"><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
                         {d7?<div className="je_navbar_item"><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}
-                        {d8?<div className="je_navbar_item"><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null} 
+                        {/* {d8?<div className="je_navbar_item"><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}  */}
+                        {d8?<div className="je_navbar_item" style={{display:"none"}}><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null} 
                         <div  className="je_navbar_item je_navbar_list nav_hover_open je_opened">
                             <Hamburger  toggled={isOpen} toggle={setOpen} className="nav_hover_open je_opened" data-trigger="hover"/>
                         {isOpen?<div className="je_navbar_hover_list_container nav_hover_open je_opened"><Rupesh isOpen={isOpen} setOpen={setOpen} d1={d1} d2={d2}  d3={d3} d4={d4} d5={d5} d6={d6} d7={d7} d8={d8}/></div>:null}
@@ -100,8 +101,8 @@ function Rupesh({d1,d2,d3,d4,d5,d6,d7,d8,setOpen,isOpen}){
             {d5==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/proshows" className="je_link_simp">Proshows</Link></div>:null}
             {d6==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/sponsors" className="je_link_simp">Sponsors</Link></div>:null}
             {d7==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://www.petrichor-iitpkd.com/ca-portal/" className="je_link_simp">CA Portal</a></div>:null}
-            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}
-            {/* <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/about_us" className="je_link_simp">About Us</Link></div> */}
+            {/* {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null} */}
+            {d8==false?<div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened' style={{display:"none"}}><a target="_blank" href="https://merch.amazon.com/"className="je_link_simp">Merchandise</a></div>:null}
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/meet_the_team" className="je_link_simp">Meet the Team</Link></div>
             <div className='je_navbar_hover_list_item je_navbar_hover_list_underline je_opened'><Link to="/home?contact=1" className="je_link_simp">Contact Us</Link></div>
             {/* <div className='je_navbar_hover_list_item  je_opened'>Subscribe</div> */}

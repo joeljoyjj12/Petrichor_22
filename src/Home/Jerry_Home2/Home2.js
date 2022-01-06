@@ -32,24 +32,13 @@ import Loader from '../../Loader/Loader';
 
 function Home2({isover,setIsover}){
 
-    let [gotocontact,setGotocontact]=useState(false);
-    function useQuery() {
-        return new URLSearchParams(useLocation().search);
-    }
     
-    let query = useQuery();
-    let [a,sA]=useState(0);
 
-    useEffect(()=>{
-    let  av=parseInt(query.get("contact"));
-    sA(av);
-  
-    },[])
     
     return(
         isover?
         
-        <Home22 gotocontact={gotocontact} a={a}/>
+        <Home22 />
         :
         <Loader 
             isover={isover}
@@ -59,20 +48,43 @@ function Home2({isover,setIsover}){
         )
 }
 
-function Home22({gotocontact,a}) {
+function Home22() {
 
-    useEffect(()=>{
-        if(a==1){
-            let element_toscrool=document.querySelector(".home_contact");
-            let ss=element_toscrool.getBoundingClientRect().top;
-        console.log("a was"+a+"scroll is "+ss);
-        window.scrollTo(0,ss);
-        }
-        else{
 
-            console.log("a was"+a);
+        function useQuery() {
+            return new URLSearchParams(useLocation().search);
         }
-    },[])
+
+        let query = useQuery();
+        let [a,sA]=useState(0);
+
+        useEffect(()=>{
+            check_go_contact();
+            window.addEventListener("click",(e)=>{
+                if(e.target)
+                {
+                    console.log(e.target.innerHTML);
+                    if(e.target.innerHTML==("Contact Us"))
+                    {
+                        check_go_contact();
+                    }
+                }
+            });
+        },[])               
+
+        function check_go_contact(){
+            let  av=parseInt(query.get("contact"));
+            if(av==1)
+            {
+                    let element_toscrool=document.querySelector(".home_contact");
+                    // let ss=element_toscrool.oFFsetTop;
+                    let ss=element_toscrool.getBoundingClientRect().top;
+                    ss-=30;
+                window.scrollTo(0,ss);
+            }
+    
+        }
+
 
     const[isbtn1hover,setIsbtn1hover]=useState(false);
     const[isbtn2hover,setIsbtn2hover]=useState(false);
