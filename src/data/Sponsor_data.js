@@ -12,8 +12,8 @@ const Partner=[
     ["/media/sponsors_partners/partners/knowafest.png","https://www.knowafest.com/","Knowafest","130px","180px","Official Hosting Partner"],
     // ["/media/sponsors_partners/partners/ktu.png","https://www.ktustudents.in/","KTU students","130px","180px","Social Media partner"],
     ["/media/sponsors_partners/partners/troll_ktu.jpg","https://www.instagram.com/troll.ktu.official/?hl=en","Troll KTU","130px","180px","Social Media partner"],
-    ["/media/sponsors_partners/partners/pacelab2.PNG","https://pacelab.tech/","Pacelab","130px","190px","Online Promotion Partner"],
-    ["/media/sponsors_partners/partners/tej.jpg","https://www.instagram.com/theengineerjokes/?hl=en","The Engineer Jokes","130px","130px","Internship Partner"],
+    ["/media/sponsors_partners/partners/pacelab2.PNG","https://pacelab.tech/","Pacelab","130px","190px","Internship Partner"],
+    ["/media/sponsors_partners/partners/tej.jpg","https://www.instagram.com/theengineerjokes/?hl=en","The Engineer Jokes","130px","130px","Online Promotion Partner"],
 ]
 
 
