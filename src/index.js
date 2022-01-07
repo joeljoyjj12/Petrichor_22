@@ -9,10 +9,15 @@ import "./fonts/AGENCYR.TTF"
 import "./fonts/CODE_Light.otf"
 import "./fonts/CODE_Bold.otf"
 
+import HttpsRedirect from 'react-https-redirect';
+ 
 ReactDOM.render(
+  <HttpsRedirect>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </HttpsRedirect>
+  ,
   document.getElementById('root')
 );
 
